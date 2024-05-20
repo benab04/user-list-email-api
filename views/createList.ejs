@@ -1,0 +1,72 @@
+<!-- views/createList.ejs -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Create List</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Create a New List</h1>
+      <form action="/lists" method="POST">
+        <div class="form-group">
+          <label for="title">List Title</label>
+          <input
+            type="text"
+            class="form-control"
+            id="title"
+            name="title"
+            required
+          />
+        </div>
+        <h3>Custom Properties</h3>
+        <div id="customProperties">
+          <div class="form-group">
+            <label for="propertyTitle0">Property Title</label>
+            <input
+              type="text"
+              class="form-control"
+              id="propertyTitle0"
+              name="customProperties[0][title]"
+              required
+            />
+            <label for="fallbackValue0">Fallback Value</label>
+            <input
+              type="text"
+              class="form-control"
+              id="fallbackValue0"
+              name="customProperties[0][fallback]"
+              required
+            />
+          </div>
+        </div>
+        <button
+          type="button"
+          class="btn btn-secondary"
+          onclick="addCustomProperty()"
+        >
+          Add Another Property
+        </button>
+        <button type="submit" class="btn btn-primary">Create List</button>
+      </form>
+    </div>
+    <script>
+      let propertyCount = 1;
+      function addCustomProperty() {
+        const div = document.createElement("div");
+        div.className = "form-group";
+        div.innerHTML = `
+        <label for="propertyTitle${propertyCount}">Property Title</label>
+        <input type="text" class="form-control" id="propertyTitle${propertyCount}" name="customProperties[${propertyCount}][title]" required>
+        <label for="fallbackValue${propertyCount}">Fallback Value</label>
+        <input type="text" class="form-control" id="fallbackValue${propertyCount}" name="customProperties[${propertyCount}][fallback]" required>
+      `;
+        document.getElementById("customProperties").appendChild(div);
+        propertyCount++;
+      }
+    </script>
+  </body>
+</html>

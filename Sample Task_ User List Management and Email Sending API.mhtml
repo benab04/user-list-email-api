@@ -1,0 +1,2574 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: https://scoremarks.notion.site/Sample-Task-User-List-Management-and-Email-Sending-API-95730b8da4674359bfcdcda3639b27d1
+Subject: Sample Task: User List Management and Email Sending API
+Date: Mon, 20 May 2024 18:45:06 +0530
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--fKRHyLgkn62Ntfm8KcBrydqEALbV0AKkpAyGGVqM1Z----"
+
+
+------MultipartBoundary--fKRHyLgkn62Ntfm8KcBrydqEALbV0AKkpAyGGVqM1Z----
+Content-Type: text/html
+Content-ID: <frame-BB02F90D806214A7E46235E3E0479D0B@mhtml.blink>
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://scoremarks.notion.site/Sample-Task-User-List-Management-and-Email-Sending-API-95730b8da4674359bfcdcda3639b27d1
+
+<!DOCTYPE html><html class=3D"notion-html" lang=3D"en" style=3D"--full-view=
+port-height: 730px;"><head lang=3D"en"><meta http-equiv=3D"Content-Type" co=
+ntent=3D"text/html; charset=3DUTF-8"><link rel=3D"stylesheet" type=3D"text/=
+css" href=3D"cid:css-1de79dd4-0aa5-4ca4-8639-fbf05ba4e3a5@mhtml.blink" /><l=
+ink rel=3D"stylesheet" type=3D"text/css" href=3D"cid:css-26c6f985-ff2c-42d3=
+-975a-755165eb194b@mhtml.blink" /><link rel=3D"stylesheet" type=3D"text/css=
+" href=3D"cid:css-06384cc8-bc4a-449d-9364-ccde85500ebf@mhtml.blink" /><meta=
+ name=3D"viewport" content=3D"width=3Ddevice-width,height=3Ddevice-height,i=
+nitial-scale=3D1,maximum-scale=3D1,user-scalable=3Dno,viewport-fit=3Dcover"=
+><title>Sample Task: User List Management and Email Sending API</title><met=
+a name=3D"description" content=3D"A new tool that blends your everyday work=
+ apps into one. It's the all-in-one workspace for you and your team"><meta =
+name=3D"twitter:card" content=3D"summary_large_image"><meta name=3D"twitter=
+:site" content=3D"@NotionHQ"><meta name=3D"twitter:title" content=3D"Notion=
+ =E2=80=93 The all-in-one workspace for your notes, tasks, wikis, and datab=
+ases."><meta name=3D"twitter:description" content=3D"A new tool that blends=
+ your everyday work apps into one. It's the all-in-one workspace for you an=
+d your team"><meta name=3D"twitter:url" content=3D"https://www.notion.so"><=
+meta name=3D"twitter:image" content=3D"https://www.notion.so/images/meta/de=
+fault.png"><meta property=3D"og:site_name" content=3D"Notion"><meta propert=
+y=3D"og:type" content=3D"website"><meta property=3D"og:url" content=3D"http=
+s://www.notion.so"><meta property=3D"og:title" content=3D"Notion =E2=80=93 =
+The all-in-one workspace for your notes, tasks, wikis, and databases."><met=
+a property=3D"og:description" content=3D"A new tool that blends your everyd=
+ay work apps into one. It's the all-in-one workspace for you and your team"=
+><meta property=3D"og:image" content=3D"https://www.notion.so/images/meta/d=
+efault.png"><meta property=3D"og:locale" content=3D"en_US"><link rel=3D"sho=
+rtcut icon" type=3D"image/x-icon" href=3D"https://scoremarks.notion.site/im=
+ages/favicon.ico"><link rel=3D"apple-touch-icon" href=3D"https://scoremarks=
+.notion.site/images/logo-ios.png"><meta name=3D"apple-mobile-web-app-capabl=
+e" content=3D"yes"><meta name=3D"apple-itunes-app" content=3D"app-id=3D1232=
+780281"><meta name=3D"format-detection" content=3D"telephone=3Dno"><meta na=
+me=3D"msapplication-tap-highlight" content=3D"no"><link href=3D"https://sco=
+remarks.notion.site/print.f2ad22d6.css" rel=3D"stylesheet" media=3D"print">=
+<link href=3D"https://scoremarks.notion.site/_assets/app-a3f4b8840b83cd87.c=
+ss" rel=3D"stylesheet"></head><body class=3D"notion-body dark" data-new-gr-=
+c-s-check-loaded=3D"14.1173.0" data-gr-ext-installed=3D""><div id=3D"notion=
+-app"><div class=3D"notion-app-inner notion-dark-theme" style=3D"color: rgb=
+a(255, 255, 255, 0.81); fill: currentcolor; line-height: 1.5; font-family: =
+ui-sans-serif, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Hel=
+vetica, &quot;Apple Color Emoji&quot;, Arial, sans-serif, &quot;Segoe UI Em=
+oji&quot;, &quot;Segoe UI Symbol&quot;; -webkit-font-smoothing: auto; backg=
+round-color: rgba(0, 0, 0, 0);"><div style=3D"height: 100%;"><div class=3D"=
+notion-cursor-listener" style=3D"width: 100vw; height: 100%; position: rela=
+tive; display: flex; flex: 1 1 0%; background: rgb(25, 25, 25); cursor: tex=
+t;"><div class=3D"" style=3D"order: 3; display: flex; flex-direction: colum=
+n; width: 100%; overflow: hidden;"><header style=3D"background: rgb(25, 25,=
+ 25); max-width: 100vw; z-index: 100; user-select: none;"><div class=3D"not=
+ion-topbar" style=3D"width: 100%; max-width: 100vw; height: 44px; opacity: =
+1; transition: opacity 700ms ease 0s, color 700ms ease 0s; position: relati=
+ve;"><div style=3D"display: flex; justify-content: space-between; align-ite=
+ms: center; overflow: hidden; height: 44px; padding-left: 12px; padding-rig=
+ht: 10px;"><div class=3D"notranslate shadow-cursor-breadcrumb" style=3D"dis=
+play: flex; align-items: center; line-height: 1.2; font-size: 14px; height:=
+ 100%; flex-grow: 0; margin-right: 8px; min-width: 0px;"><div role=3D"butto=
+n" tabindex=3D"0" style=3D"user-select: none; transition: background 20ms e=
+ase-in 0s; cursor: pointer; display: inline-flex; align-items: center; flex=
+-shrink: 1; white-space: nowrap; height: 24px; border-radius: 4px; font-siz=
+e: 14px; line-height: 1.2; min-width: 0px; padding-left: 6px; padding-right=
+: 6px; color: rgba(255, 255, 255, 0.81);"><span class=3D"notranslate" style=
+=3D"white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-wid=
+th: 240px;">Sample Task: User List Management and Email Sending API</span><=
+/div></div><div style=3D"flex-grow: 1; flex-shrink: 1;"></div><div role=3D"=
+button" tabindex=3D"0" style=3D"user-select: none; transition: background 2=
+0ms ease-in 0s; cursor: pointer; display: inline-flex; align-items: center;=
+ flex-shrink: 0; white-space: nowrap; height: 28px; border-radius: 4px; fon=
+t-size: 14px; line-height: 1.2; min-width: 0px; padding-left: 8px; padding-=
+right: 8px; color: rgba(255, 255, 255, 0.81);"><svg role=3D"graphics-symbol=
+" viewBox=3D"0 0 16 16" class=3D"search" style=3D"width: 14px; height: 14px=
+; display: block; fill: inherit; flex-shrink: 0;"><path d=3D"M.281 6.438c0-=
+.875.164-1.696.492-2.461a6.484 6.484 0 011.375-2.032A6.237 6.237 0 016.64.0=
+78 6.2 6.2 0 019.11.57c.77.328 1.447.787 2.03 1.375a6.374 6.374 0 011.368 2=
+.032c.333.765.5 1.586.5 2.46 0 .688-.107 1.342-.32 1.961a6.28 6.28 0 01-.86=
+8 1.696l3.563 3.578c.11.104.19.226.242.367.057.14.086.29.086.445 0 .22-.05.=
+417-.149.594a1.122 1.122 0 01-1 .57c-.156 0-.307-.028-.453-.086a1.058 1.058=
+ 0 01-.382-.25l-3.586-3.585c-.5.333-1.047.596-1.641.789a6.089 6.089 0 01-1.=
+86.28 6.237 6.237 0 01-2.468-.491 6.4 6.4 0 01-2.024-1.367A6.509 6.509 0 01=
+.773 8.913a6.256 6.256 0 01-.492-2.476zm1.664 0c0 .65.12 1.26.36 1.828a4.77=
+5 4.775 0 001.015 1.5c.433.427.933.763 1.5 1.007a4.548 4.548 0 001.82.368c.=
+652 0 1.261-.123 1.829-.368a4.747 4.747 0 002.508-2.507 4.567 4.567 0 00.36=
+7-1.829c0-.645-.123-1.252-.367-1.82a4.776 4.776 0 00-1.016-1.5A4.578 4.578 =
+0 008.469 2.11a4.567 4.567 0 00-1.828-.367c-.646 0-1.253.123-1.82.367a4.667=
+ 4.667 0 00-1.5 1.008c-.433.432-.772.932-1.016 1.5a4.633 4.633 0 00-.36 1.8=
+2z"></path></svg></div><div role=3D"button" tabindex=3D"0" aria-label=3D"Mo=
+re actions" style=3D"user-select: none; transition: background 20ms ease-in=
+ 0s; cursor: pointer; display: flex; align-items: center; justify-content: =
+center; width: 32px; height: 28px; border-radius: 4px;"><svg role=3D"graphi=
+cs-symbol" viewBox=3D"0 0 16 16" class=3D"ellipsis" style=3D"width: 18px; h=
+eight: 18px; display: block; fill: inherit; flex-shrink: 0;"><path d=3D"M2.=
+887 9.014c.273 0 .52-.064.738-.192.219-.132.394-.307.526-.526.133-.219.199-=
+.46.199-.725 0-.405-.142-.747-.424-1.025a1.41 1.41 0 00-1.04-.417c-.264 0-.=
+505.066-.724.198a1.412 1.412 0 00-.718 1.244c0 .265.064.506.192.725.132.219=
+.307.394.526.526.219.128.46.192.725.192zm5.113 0a1.412 1.412 0 001.244-.718=
+c.132-.219.198-.46.198-.725 0-.405-.14-.747-.423-1.025A1.386 1.386 0 008 6.=
+129c-.264 0-.506.066-.725.198a1.412 1.412 0 00-.718 1.244c0 .265.064.506.19=
+2.725.132.219.308.394.526.526.22.128.46.192.725.192zm5.106 0c.265 0 .506-.0=
+64.725-.192.219-.132.394-.307.526-.526.133-.219.199-.46.199-.725 0-.405-.14=
+2-.747-.424-1.025a1.394 1.394 0 00-1.026-.417 1.474 1.474 0 00-1.265.718c-.=
+127.218-.19.46-.19.724 0 .265.063.506.19.725.133.219.308.394.527.526.223.12=
+8.47.192.738.192z"></path></svg></div><div role=3D"button" tabindex=3D"0" s=
+tyle=3D"user-select: none; transition: background 20ms ease-in 0s; cursor: =
+pointer; display: inline-flex; align-items: center; justify-content: center=
+; white-space: nowrap; border-radius: 4px; height: 32px; padding: 0px 10px;=
+ font-size: 14px; line-height: 1.2; border: 1px solid rgba(255, 255, 255, 0=
+.13); margin-left: 8px;">Built with<svg role=3D"graphics-symbol" viewBox=3D=
+"0 0 120 126" class=3D"notionLogo" style=3D"width: 14px; height: 14px; disp=
+lay: block; fill: inherit; flex-shrink: 0; margin-left: 6px;"><path d=3D"M =
+20.6927 21.9315C 24.5836 25.0924 26.0432 24.8512 33.3492 24.3638L 102.228 2=
+0.2279C 103.689 20.2279 102.474 18.7705 101.987 18.5283L 90.5477 10.2586C 8=
+8.3558 8.55699 85.4356 6.60818 79.8387 7.09563L 13.1433 11.9602C 10.711 12.=
+2014 10.2251 13.4175 11.1939 14.3924L 20.6927 21.9315ZM 24.8281 37.9835L 24=
+.8281 110.456C 24.8281 114.351 26.7745 115.808 31.1553 115.567L 106.853 111=
+.187C 111.236 110.946 111.724 108.267 111.724 105.103L 111.724 33.1169C 111=
+.724 29.958 110.509 28.2544 107.826 28.4976L 28.721 33.1169C 25.8018 33.362=
+2 24.8281 34.8225 24.8281 37.9835ZM 99.5567 41.8711C 100.042 44.0622 99.556=
+7 46.2512 97.3618 46.4974L 93.7143 47.2241L 93.7143 100.728C 90.5477 102.43=
+ 87.6275 103.403 85.1942 103.403C 81.2983 103.403 80.3226 102.186 77.4044 9=
+8.54L 53.5471 61.087L 53.5471 97.3239L 61.0964 99.0275C 61.0964 99.0275 61.=
+0964 103.403 55.0057 103.403L 38.2148 104.377C 37.727 103.403 38.2148 100.9=
+73 39.9179 100.486L 44.2996 99.2717L 44.2996 51.36L 38.2158 50.8725C 37.728=
+ 48.6815 38.9431 45.5225 42.3532 45.2773L 60.3661 44.0631L 85.1942 82.0036L=
+ 85.1942 48.4402L 78.864 47.7136C 78.3781 45.0351 80.3226 43.0902 82.7569 4=
+2.849L 99.5567 41.8711ZM 7.5434 5.39404L 76.9175 0.285276C 85.4366 -0.44540=
+2 87.6285 0.0440428 92.983 3.93368L 115.128 19.4982C 118.782 22.1747 120 22=
+.9034 120 25.8211L 120 111.187C 120 116.537 118.051 119.701 111.237 120.185=
+L 30.6734 125.05C 25.5584 125.294 23.124 124.565 20.4453 121.158L 4.13735 9=
+9.9994C 1.21516 96.1048 0 93.191 0 89.7819L 0 13.903C 0 9.5279 1.94945 5.87=
+85 7.5434 5.39404Z"></path></svg></div></div></div><div style=3D"width: cal=
+c(100% + 0px); user-select: none;"></div></header><main class=3D"notion-fra=
+me" style=3D"flex-grow: 0; flex-shrink: 1; display: flex; flex-direction: c=
+olumn; background: rgb(25, 25, 25); z-index: 1; height: calc(-44px + 100vh)=
+; max-height: 100%; position: relative; width: 1536px;"><div style=3D"displ=
+ay: contents;"><div class=3D"notion-scroller vertical" style=3D"z-index: 1;=
+ display: flex; flex-direction: column; flex-grow: 1; position: relative; a=
+lign-items: center; margin-right: 0px; margin-bottom: 0px; overflow: hidden=
+ auto;"><div style=3D"position: absolute; top: 0px; left: 0px;"><div class=
+=3D"notion-selectable-hover-menu-item"></div></div><div class=3D"whenConten=
+tEditable" data-content-editable-root=3D"true" style=3D"caret-color: rgba(2=
+55, 255, 255, 0.81); width: 100%; display: flex; flex-direction: column; po=
+sition: relative; align-items: center; flex-grow: 1; --whenContentEditable-=
+-WebkitUserModify: read-write-plaintext-only;"><span data-content-editable-=
+root-tiny-selection-trap=3D"true" style=3D"height: 1px; width: 1px; caret-c=
+olor: transparent; margin-top: -1px;"></span><div class=3D"layout" style=3D=
+"padding-bottom: 30vh;"><div class=3D"layout-full"><div contenteditable=3D"=
+false" class=3D"pseudoSelection" data-content-editable-void=3D"true" style=
+=3D"user-select: none; --pseudoSelection--background: transparent; width: 1=
+00%; display: flex; flex-direction: column; align-items: center; flex-shrin=
+k: 0; flex-grow: 0; z-index: 2;"></div></div><div class=3D"layout-content">=
+<div style=3D"width: 100%; display: flex; flex-direction: column; align-ite=
+ms: center; flex-shrink: 0; flex-grow: 0;"><div style=3D"max-width: 100%; p=
+adding-left: calc(0px + env(safe-area-inset-left)); width: 100%;"><div cont=
+enteditable=3D"false" class=3D"pseudoSelection" data-content-editable-void=
+=3D"true" style=3D"user-select: none; --pseudoSelection--background: transp=
+arent; pointer-events: none;"><div class=3D"notion-page-controls" style=3D"=
+display: flex; justify-content: flex-start; flex-wrap: wrap; margin-top: 80=
+px; margin-bottom: 4px; margin-left: -1px; color: rgba(255, 255, 255, 0.282=
+); font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, &quot;Seg=
+oe UI&quot;, Helvetica, &quot;Apple Color Emoji&quot;, Arial, sans-serif, &=
+quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;; pointer-events: aut=
+o;"></div></div><div style=3D"padding-right: calc(0px + env(safe-area-inset=
+-right));"><div><div data-block-id=3D"95730b8d-a467-4359-bfcd-cda3639b27d1"=
+ class=3D"notion-selectable notion-page-block" style=3D"color: rgba(255, 25=
+5, 255, 0.81); font-weight: 700; line-height: 1.2; font-size: 40px; font-fa=
+mily: ui-sans-serif, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot=
+;, Helvetica, &quot;Apple Color Emoji&quot;, Arial, sans-serif, &quot;Segoe=
+ UI Emoji&quot;, &quot;Segoe UI Symbol&quot;; cursor: text; display: flex; =
+align-items: center;"><h1 spellcheck=3D"true" placeholder=3D"Untitled" data=
+-content-editable-leaf=3D"true" contenteditable=3D"false" style=3D"max-widt=
+h: 100%; width: 100%; white-space: pre-wrap; word-break: break-word; caret-=
+color: rgba(255, 255, 255, 0.81); padding-top: 3px; padding-left: 2px; padd=
+ing-right: 2px; font-size: 1em; font-weight: inherit; margin: 0px;"><span s=
+tyle=3D"text-decoration:none;color:inherit" data-token-index=3D"0" class=3D=
+"notion-enable-hover">Sample Task: User List Management and Email Sending A=
+PI</span></h1></div><div style=3D"margin-left: 4px;"></div></div></div></di=
+v></div></div><div class=3D"layout-content" style=3D"min-height: 170px; pad=
+ding-top: 5px;"><div class=3D"notion-page-content" style=3D"flex-shrink: 0;=
+ flex-grow: 1; max-width: 100%; display: flex; align-items: flex-start; fle=
+x-direction: column; font-size: 16px; line-height: 1.5; width: 100%; z-inde=
+x: 4; padding-bottom: 0px; padding-left: 0px; padding-right: 0px;"><div dat=
+a-block-id=3D"e3c221e9-66a4-4f90-b2b3-7862ab3c4b8c" class=3D"notion-selecta=
+ble notion-sub_header-block" style=3D"width: 100%; max-width: 1334px; margi=
+n-top: 1.4em; margin-bottom: 1px;"><div style=3D"display: flex; width: 100%=
+; color: inherit; fill: inherit;"><h3 spellcheck=3D"true" placeholder=3D"He=
+ading 2" data-content-editable-leaf=3D"true" contenteditable=3D"false" styl=
+e=3D"max-width: 100%; width: 100%; white-space: pre-wrap; word-break: break=
+-word; caret-color: rgba(255, 255, 255, 0.81); padding: 3px 2px; font-famil=
+y: ui-sans-serif, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, =
+Helvetica, &quot;Apple Color Emoji&quot;, Arial, sans-serif, &quot;Segoe UI=
+ Emoji&quot;, &quot;Segoe UI Symbol&quot;; font-weight: 600; font-size: 1.5=
+em; line-height: 1.3; margin: 0px;"><span style=3D"font-weight:600" data-to=
+ken-index=3D"0" class=3D"notion-enable-hover">Objective:</span></h3><div st=
+yle=3D"position: relative; left: 0px;"></div></div></div><div data-block-id=
+=3D"c9c09080-7187-4467-9da5-07a677d1aa36" class=3D"notion-selectable notion=
+-text-block" style=3D"width: 100%; max-width: 1334px; margin-top: 1px; marg=
+in-bottom: 1px;"><div style=3D"color: inherit; fill: inherit;"><div style=
+=3D"display: flex;"><div spellcheck=3D"true" placeholder=3D" " data-content=
+-editable-leaf=3D"true" contenteditable=3D"false" style=3D"max-width: 100%;=
+ width: 100%; white-space: pre-wrap; word-break: break-word; caret-color: r=
+gba(255, 255, 255, 0.81); padding: 3px 2px;">Design and implement a RESTful=
+ API for managing a list of users with customizable properties and sending =
+emails to the users.</div><div style=3D"position: relative; left: 0px;"></d=
+iv></div></div></div><div data-block-id=3D"c76631cc-315b-4a8c-b007-00e80628=
+a9e2" class=3D"notion-selectable notion-sub_header-block" style=3D"width: 1=
+00%; max-width: 1334px; margin-top: 1.4em; margin-bottom: 1px;"><div style=
+=3D"display: flex; width: 100%; color: inherit; fill: inherit;"><h3 spellch=
+eck=3D"true" placeholder=3D"Heading 2" data-content-editable-leaf=3D"true" =
+contenteditable=3D"false" style=3D"max-width: 100%; width: 100%; white-spac=
+e: pre-wrap; word-break: break-word; caret-color: rgba(255, 255, 255, 0.81)=
+; padding: 3px 2px; font-family: ui-sans-serif, -apple-system, BlinkMacSyst=
+emFont, &quot;Segoe UI&quot;, Helvetica, &quot;Apple Color Emoji&quot;, Ari=
+al, sans-serif, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;; fo=
+nt-weight: 600; font-size: 1.5em; line-height: 1.3; margin: 0px;"><span sty=
+le=3D"font-weight:600" data-token-index=3D"0" class=3D"notion-enable-hover"=
+>Requirements:</span></h3><div style=3D"position: relative; left: 0px;"></d=
+iv></div></div><div data-block-id=3D"1ef54cc7-fd5c-49af-ac4d-d9f57e4ba7c4" =
+class=3D"notion-selectable notion-numbered_list-block" style=3D"width: 100%=
+; max-width: 1334px; margin-top: 1px; margin-bottom: 1px;"><div style=3D"di=
+splay: flex; align-items: flex-start; width: 100%; padding-left: 2px; color=
+: inherit; fill: inherit;"><div contenteditable=3D"false" class=3D"pseudoSe=
+lection" data-content-editable-void=3D"true" data-text-edit-side=3D"start" =
+style=3D"user-select: none; --pseudoSelection--background: transparent; mar=
+gin-right: 2px; width: unset; display: flex; align-items: center; justify-c=
+ontent: center; flex-grow: 0; flex-shrink: 0; min-height: calc(1.5em + 6px)=
+;"><span class=3D"pseudoBefore" style=3D"--pseudoBefore--content: &quot;1.&=
+quot;; width: 24px; text-align: center; white-space: nowrap;"></span></div>=
+<div style=3D"flex: 1 1 0px; min-width: 1px; display: flex; flex-direction:=
+ column;"><div style=3D"display: flex;"><div spellcheck=3D"true" placeholde=
+r=3D"List" data-content-editable-leaf=3D"true" contenteditable=3D"false" st=
+yle=3D"max-width: 100%; width: 100%; white-space: pre-wrap; word-break: bre=
+ak-word; caret-color: rgba(255, 255, 255, 0.81); padding: 3px 2px; text-ali=
+gn: left;"><span style=3D"font-weight:600" data-token-index=3D"0" class=3D"=
+notion-enable-hover">List Creation</span>: Admin can create a list with a t=
+itle and custom properties. Custom properties have a title and a default/fa=
+llback value.</div><div style=3D"position: relative; left: 0px;"></div></di=
+v></div></div></div><div data-block-id=3D"5e325785-2209-4035-bbcc-d140d3ff1=
+c57" class=3D"notion-selectable notion-numbered_list-block" style=3D"width:=
+ 100%; max-width: 1334px; margin-top: 1px; margin-bottom: 1px;"><div style=
+=3D"display: flex; align-items: flex-start; width: 100%; padding-left: 2px;=
+ color: inherit; fill: inherit;"><div contenteditable=3D"false" class=3D"ps=
+eudoSelection" data-content-editable-void=3D"true" data-text-edit-side=3D"s=
+tart" style=3D"user-select: none; --pseudoSelection--background: transparen=
+t; margin-right: 2px; width: unset; display: flex; align-items: center; jus=
+tify-content: center; flex-grow: 0; flex-shrink: 0; min-height: calc(1.5em =
++ 6px);"><span class=3D"pseudoBefore" style=3D"--pseudoBefore--content: &qu=
+ot;2.&quot;; width: 24px; text-align: center; white-space: nowrap;"></span>=
+</div><div style=3D"flex: 1 1 0px; min-width: 1px; display: flex; flex-dire=
+ction: column;"><div style=3D"display: flex;"><div spellcheck=3D"true" plac=
+eholder=3D"List" data-content-editable-leaf=3D"true" contenteditable=3D"fal=
+se" style=3D"max-width: 100%; width: 100%; white-space: pre-wrap; word-brea=
+k: break-word; caret-color: rgba(255, 255, 255, 0.81); padding: 3px 2px; te=
+xt-align: left;"><span style=3D"font-weight:600" data-token-index=3D"0" cla=
+ss=3D"notion-enable-hover">User Addition</span>: Admin can add users to the=
+ list via CSV upload. The application should efficiently handle CSVs with 1=
+0,000+ records.</div><div style=3D"position: relative; left: 0px;"></div></=
+div></div></div></div><div data-block-id=3D"5232a163-93df-4d1d-b82b-38ba297=
+e0f10" class=3D"notion-selectable notion-numbered_list-block" style=3D"widt=
+h: 100%; max-width: 1334px; margin-top: 1px; margin-bottom: 1px;"><div styl=
+e=3D"display: flex; align-items: flex-start; width: 100%; padding-left: 2px=
+; color: inherit; fill: inherit;"><div contenteditable=3D"false" class=3D"p=
+seudoSelection" data-content-editable-void=3D"true" data-text-edit-side=3D"=
+start" style=3D"user-select: none; --pseudoSelection--background: transpare=
+nt; margin-right: 2px; width: unset; display: flex; align-items: center; ju=
+stify-content: center; flex-grow: 0; flex-shrink: 0; min-height: calc(1.5em=
+ + 6px);"><span class=3D"pseudoBefore" style=3D"--pseudoBefore--content: &q=
+uot;3.&quot;; width: 24px; text-align: center; white-space: nowrap;"></span=
+></div><div style=3D"flex: 1 1 0px; min-width: 1px; display: flex; flex-dir=
+ection: column;"><div style=3D"display: flex;"><div spellcheck=3D"true" pla=
+ceholder=3D"List" data-content-editable-leaf=3D"true" contenteditable=3D"fa=
+lse" style=3D"max-width: 100%; width: 100%; white-space: pre-wrap; word-bre=
+ak: break-word; caret-color: rgba(255, 255, 255, 0.81); padding: 3px 2px; t=
+ext-align: left;"><span style=3D"font-weight:600" data-token-index=3D"0" cl=
+ass=3D"notion-enable-hover">CSV Format</span>: The CSV's first row will hav=
+e header values. 'name' and 'email' are required fields for a user, and 'em=
+ail' should be unique. Custom properties can be set for a user by defining =
+headers matching the custom properties title in the CSV. If no value is def=
+ined, use the fallback value.</div><div style=3D"position: relative; left: =
+0px;"></div></div><div data-block-id=3D"7f267622-02b1-4a62-a5e7-b2daa429c71=
+5" class=3D"notion-selectable notion-text-block" style=3D"width: 100%; max-=
+width: 100%; margin-top: 2px; margin-bottom: 1px;"><div style=3D"color: inh=
+erit; fill: inherit;"><div style=3D"display: flex;"><div spellcheck=3D"true=
+" placeholder=3D" " data-content-editable-leaf=3D"true" contenteditable=3D"=
+false" style=3D"max-width: 100%; width: 100%; white-space: pre-wrap; word-b=
+reak: break-word; caret-color: rgba(255, 255, 255, 0.81); padding: 3px 2px;=
+"><span style=3D"font-weight:600" data-token-index=3D"0" class=3D"notion-en=
+able-hover">Sample CSV Format:</span></div><div style=3D"position: relative=
+; left: 0px;"></div></div></div></div><div data-block-id=3D"0a4b9ee4-6816-4=
+34a-9c72-2c28741ab7df" class=3D"notion-selectable notion-text-block" style=
+=3D"width: 100%; max-width: 100%; margin-top: 1px; margin-bottom: 1px;"><di=
+v style=3D"color: inherit; fill: inherit;"><div style=3D"display: flex;"><d=
+iv spellcheck=3D"true" placeholder=3D" " data-content-editable-leaf=3D"true=
+" contenteditable=3D"false" style=3D"max-width: 100%; width: 100%; white-sp=
+ace: pre-wrap; word-break: break-word; caret-color: rgba(255, 255, 255, 0.8=
+1); padding: 3px 2px;"><span style=3D"font-family:&quot;SFMono-Regular&quot=
+;, Menlo, Consolas, &quot;PT Mono&quot;, &quot;Liberation Mono&quot;, Couri=
+er, monospace;line-height:normal;background:rgba(135,131,120,.15);color:#EB=
+5757;border-radius:4px;font-size:85%;padding:0.2em 0.4em" data-token-index=
+=3D"0" spellcheck=3D"false" class=3D"notion-enable-hover">city</span> is a =
+custom property</div><div style=3D"position: relative; left: 0px;"></div></=
+div></div></div><div data-block-id=3D"0150e26d-b9f6-4ab4-a55d-c0663fcfc3a4"=
+ class=3D"notion-selectable notion-text-block" style=3D"width: 100%; max-wi=
+dth: 100%; margin-top: 1px; margin-bottom: 1px;"><div style=3D"color: inher=
+it; fill: inherit;"><div style=3D"display: flex;"><div spellcheck=3D"true" =
+placeholder=3D" " data-content-editable-leaf=3D"true" contenteditable=3D"fa=
+lse" style=3D"max-width: 100%; width: 100%; white-space: pre-wrap; word-bre=
+ak: break-word; caret-color: rgba(255, 255, 255, 0.81); padding: 3px 2px;">=
+Since, the second record doesn=E2=80=99t have the city value defined in the=
+ csv, the fallback value present in the list should be used for this record=
+.</div><div style=3D"position: relative; left: 0px;"></div></div></div></di=
+v><div data-block-id=3D"20e15c84-7544-4695-8348-14e05d1fb214" class=3D"noti=
+on-selectable notion-table-block" style=3D"width: 100%; max-width: 100%; ma=
+rgin-top: 1px; margin-bottom: 0px;"><div contenteditable=3D"false" data-con=
+tent-editable-void=3D"true" style=3D"color: inherit; fill: inherit; positio=
+n: relative; display: flex;"><div class=3D"notion-scroller horizontal" styl=
+e=3D"z-index: 1; flex-grow: 1; overflow: auto hidden; margin-right: 0px; ma=
+rgin-bottom: 0px;"><div class=3D"notion-table-content" style=3D"padding-lef=
+t: 0px; padding-right: 0px;"><div data-block-id=3D"20e15c84-7544-4695-8348-=
+14e05d1fb214" class=3D"notion-selectable notion-table-block" style=3D"width=
+: 100%; position: relative; align-self: center; max-width: 100%;"><div styl=
+e=3D"display: flex;"><div style=3D"padding-top: 8px; padding-bottom: 18px; =
+padding-right: 18px;"><div data-block-id=3D"20e15c84-7544-4695-8348-14e05d1=
+fb214" class=3D"notion-selectable notion-table-block notion-table-tbody-sel=
+ectable" style=3D"position: relative;"><div><table><tbody><tr class=3D"noti=
+on-table-row"><td style=3D"color: inherit; fill: inherit; border: 1px solid=
+ rgb(47, 47, 47); position: relative; vertical-align: top; text-align: star=
+t; min-width: 120px; max-width: 240px; min-height: 32px;"><div class=3D"not=
+ion-table-cell"><div class=3D"notion-table-cell-text" spellcheck=3D"true" p=
+laceholder=3D" " data-content-editable-leaf=3D"true" contenteditable=3D"fal=
+se" style=3D"max-width: 100%; width: 100%; white-space: pre-wrap; word-brea=
+k: break-word; caret-color: rgba(255, 255, 255, 0.81); padding: 7px 9px; ba=
+ckground-color: transparent; font-size: 14px; line-height: 20px;">name</div=
+></div></td><td style=3D"color: inherit; fill: inherit; border: 1px solid r=
+gb(47, 47, 47); position: relative; vertical-align: top; text-align: start;=
+ min-width: 120px; max-width: 240px; min-height: 32px;"><div class=3D"notio=
+n-table-cell"><div class=3D"notion-table-cell-text" spellcheck=3D"true" pla=
+ceholder=3D" " data-content-editable-leaf=3D"true" contenteditable=3D"false=
+" style=3D"max-width: 100%; width: 100%; white-space: pre-wrap; word-break:=
+ break-word; caret-color: rgba(255, 255, 255, 0.81); padding: 7px 9px; back=
+ground-color: transparent; font-size: 14px; line-height: 20px;">email</div>=
+</div></td><td style=3D"color: inherit; fill: inherit; border: 1px solid rg=
+b(47, 47, 47); position: relative; vertical-align: top; text-align: start; =
+min-width: 120px; max-width: 240px; min-height: 32px;"><div class=3D"notion=
+-table-cell"><div class=3D"notion-table-cell-text" spellcheck=3D"true" plac=
+eholder=3D" " data-content-editable-leaf=3D"true" contenteditable=3D"false"=
+ style=3D"max-width: 100%; width: 100%; white-space: pre-wrap; word-break: =
+break-word; caret-color: rgba(255, 255, 255, 0.81); padding: 7px 9px; backg=
+round-color: transparent; font-size: 14px; line-height: 20px;">city</div></=
+div></td></tr><tr class=3D"notion-table-row"><td style=3D"color: inherit; f=
+ill: inherit; border: 1px solid rgb(47, 47, 47); position: relative; vertic=
+al-align: top; text-align: start; min-width: 120px; max-width: 240px; min-h=
+eight: 32px;"><div class=3D"notion-table-cell"><div class=3D"notion-table-c=
+ell-text" spellcheck=3D"true" placeholder=3D" " data-content-editable-leaf=
+=3D"true" contenteditable=3D"false" style=3D"max-width: 100%; width: 100%; =
+white-space: pre-wrap; word-break: break-word; caret-color: rgba(255, 255, =
+255, 0.81); padding: 7px 9px; background-color: transparent; font-size: 14p=
+x; line-height: 20px;">Johne Doe</div></div></td><td style=3D"color: inheri=
+t; fill: inherit; border: 1px solid rgb(47, 47, 47); position: relative; ve=
+rtical-align: top; text-align: start; min-width: 120px; max-width: 240px; m=
+in-height: 32px;"><div class=3D"notion-table-cell"><div class=3D"notion-tab=
+le-cell-text" spellcheck=3D"true" placeholder=3D" " data-content-editable-l=
+eaf=3D"true" contenteditable=3D"false" style=3D"max-width: 100%; width: 100=
+%; white-space: pre-wrap; word-break: break-word; caret-color: rgba(255, 25=
+5, 255, 0.81); padding: 7px 9px; background-color: transparent; font-size: =
+14px; line-height: 20px;">john.doe@email.com</div></div></td><td style=3D"c=
+olor: inherit; fill: inherit; border: 1px solid rgb(47, 47, 47); position: =
+relative; vertical-align: top; text-align: start; min-width: 120px; max-wid=
+th: 240px; min-height: 32px;"><div class=3D"notion-table-cell"><div class=
+=3D"notion-table-cell-text" spellcheck=3D"true" placeholder=3D" " data-cont=
+ent-editable-leaf=3D"true" contenteditable=3D"false" style=3D"max-width: 10=
+0%; width: 100%; white-space: pre-wrap; word-break: break-word; caret-color=
+: rgba(255, 255, 255, 0.81); padding: 7px 9px; background-color: transparen=
+t; font-size: 14px; line-height: 20px;">Bengaluru</div></div></td></tr><tr =
+class=3D"notion-table-row"><td style=3D"color: inherit; fill: inherit; bord=
+er: 1px solid rgb(47, 47, 47); position: relative; vertical-align: top; tex=
+t-align: start; min-width: 120px; max-width: 240px; min-height: 32px;"><div=
+ class=3D"notion-table-cell"><div class=3D"notion-table-cell-text" spellche=
+ck=3D"true" placeholder=3D" " data-content-editable-leaf=3D"true" contented=
+itable=3D"false" style=3D"max-width: 100%; width: 100%; white-space: pre-wr=
+ap; word-break: break-word; caret-color: rgba(255, 255, 255, 0.81); padding=
+: 7px 9px; background-color: transparent; font-size: 14px; line-height: 20p=
+x;">Jane Doe</div></div></td><td style=3D"color: inherit; fill: inherit; bo=
+rder: 1px solid rgb(47, 47, 47); position: relative; vertical-align: top; t=
+ext-align: start; min-width: 120px; max-width: 240px; min-height: 32px;"><d=
+iv class=3D"notion-table-cell"><div class=3D"notion-table-cell-text" spellc=
+heck=3D"true" placeholder=3D" " data-content-editable-leaf=3D"true" content=
+editable=3D"false" style=3D"max-width: 100%; width: 100%; white-space: pre-=
+wrap; word-break: break-word; caret-color: rgba(255, 255, 255, 0.81); paddi=
+ng: 7px 9px; background-color: transparent; font-size: 14px; line-height: 2=
+0px;">jane.doe@email.com</div></div></td><td style=3D"color: inherit; fill:=
+ inherit; border: 1px solid rgb(47, 47, 47); position: relative; vertical-a=
+lign: top; text-align: start; min-width: 120px; max-width: 240px; min-heigh=
+t: 32px;"><div class=3D"notion-table-cell"><div class=3D"notion-table-cell-=
+text" spellcheck=3D"true" placeholder=3D" " data-content-editable-leaf=3D"t=
+rue" contenteditable=3D"false" style=3D"max-width: 100%; width: 100%; white=
+-space: pre-wrap; word-break: break-word; caret-color: rgba(255, 255, 255, =
+0.81); padding: 7px 9px; background-color: transparent; font-size: 14px; li=
+ne-height: 20px; min-height: 1em; color: rgba(255, 255, 255, 0.81); -webkit=
+-text-fill-color: rgba(255, 255, 255, 0.282);"></div></div></td></tr></tbod=
+y></table></div></div></div></div></div></div></div><div style=3D"position:=
+ relative; left: 0px;"></div></div></div></div></div></div><div data-block-=
+id=3D"208b8669-f03b-4d82-9a8b-cc603e4c898a" class=3D"notion-selectable noti=
+on-numbered_list-block" style=3D"width: 100%; max-width: 1334px; margin-top=
+: 1px; margin-bottom: 1px;"><div style=3D"display: flex; align-items: flex-=
+start; width: 100%; padding-left: 2px; color: inherit; fill: inherit;"><div=
+ contenteditable=3D"false" class=3D"pseudoSelection" data-content-editable-=
+void=3D"true" data-text-edit-side=3D"start" style=3D"user-select: none; --p=
+seudoSelection--background: transparent; margin-right: 2px; width: unset; d=
+isplay: flex; align-items: center; justify-content: center; flex-grow: 0; f=
+lex-shrink: 0; min-height: calc(1.5em + 6px);"><span class=3D"pseudoBefore"=
+ style=3D"--pseudoBefore--content: &quot;4.&quot;; width: 24px; text-align:=
+ center; white-space: nowrap;"></span></div><div style=3D"flex: 1 1 0px; mi=
+n-width: 1px; display: flex; flex-direction: column;"><div style=3D"display=
+: flex;"><div spellcheck=3D"true" placeholder=3D"List" data-content-editabl=
+e-leaf=3D"true" contenteditable=3D"false" style=3D"max-width: 100%; width: =
+100%; white-space: pre-wrap; word-break: break-word; caret-color: rgba(255,=
+ 255, 255, 0.81); padding: 3px 2px; text-align: left;"><span style=3D"font-=
+weight:600" data-token-index=3D"0" class=3D"notion-enable-hover">Unique Ema=
+ils</span>: No two users with the same email can be present in a list.</div=
+><div style=3D"position: relative; left: 0px;"></div></div></div></div></di=
+v><div data-block-id=3D"fbc70cd1-2999-4eea-94f5-e4e2d6670725" class=3D"noti=
+on-selectable notion-numbered_list-block" style=3D"width: 100%; max-width: =
+1334px; margin-top: 1px; margin-bottom: 1px;"><div style=3D"display: flex; =
+align-items: flex-start; width: 100%; padding-left: 2px; color: inherit; fi=
+ll: inherit;"><div contenteditable=3D"false" class=3D"pseudoSelection" data=
+-content-editable-void=3D"true" data-text-edit-side=3D"start" style=3D"user=
+-select: none; --pseudoSelection--background: transparent; margin-right: 2p=
+x; width: unset; display: flex; align-items: center; justify-content: cente=
+r; flex-grow: 0; flex-shrink: 0; min-height: calc(1.5em + 6px);"><span clas=
+s=3D"pseudoBefore" style=3D"--pseudoBefore--content: &quot;5.&quot;; width:=
+ 24px; text-align: center; white-space: nowrap;"></span></div><div style=3D=
+"flex: 1 1 0px; min-width: 1px; display: flex; flex-direction: column;"><di=
+v style=3D"display: flex;"><div spellcheck=3D"true" placeholder=3D"List" da=
+ta-content-editable-leaf=3D"true" contenteditable=3D"false" style=3D"max-wi=
+dth: 100%; width: 100%; white-space: pre-wrap; word-break: break-word; care=
+t-color: rgba(255, 255, 255, 0.81); padding: 3px 2px; text-align: left;"><s=
+pan style=3D"font-weight:600" data-token-index=3D"0" class=3D"notion-enable=
+-hover">Error Handling</span>: If some users are not added due to errors, r=
+eturn the CSV with the list and the error. The response must mention the co=
+unt of users successfully added, count of users not added, and the current =
+total count in the list.</div><div style=3D"position: relative; left: 0px;"=
+></div></div></div></div></div><div data-block-id=3D"205d3218-936f-48d1-80a=
+a-40a822a6d70d" class=3D"notion-selectable notion-numbered_list-block" styl=
+e=3D"width: 100%; max-width: 1334px; margin-top: 1px; margin-bottom: 1px;">=
+<div style=3D"display: flex; align-items: flex-start; width: 100%; padding-=
+left: 2px; color: inherit; fill: inherit;"><div contenteditable=3D"false" c=
+lass=3D"pseudoSelection" data-content-editable-void=3D"true" data-text-edit=
+-side=3D"start" style=3D"user-select: none; --pseudoSelection--background: =
+transparent; margin-right: 2px; width: unset; display: flex; align-items: c=
+enter; justify-content: center; flex-grow: 0; flex-shrink: 0; min-height: c=
+alc(1.5em + 6px);"><span class=3D"pseudoBefore" style=3D"--pseudoBefore--co=
+ntent: &quot;6.&quot;; width: 24px; text-align: center; white-space: nowrap=
+;"></span></div><div style=3D"flex: 1 1 0px; min-width: 1px; display: flex;=
+ flex-direction: column;"><div style=3D"display: flex;"><div spellcheck=3D"=
+true" placeholder=3D"List" data-content-editable-leaf=3D"true" contentedita=
+ble=3D"false" style=3D"max-width: 100%; width: 100%; white-space: pre-wrap;=
+ word-break: break-word; caret-color: rgba(255, 255, 255, 0.81); padding: 3=
+px 2px; text-align: left;"><span style=3D"font-weight:600" data-token-index=
+=3D"0" class=3D"notion-enable-hover">Bonus Features:</span></div><div style=
+=3D"position: relative; left: 0px;"></div></div><div data-block-id=3D"ad353=
+5ee-0b55-4d2f-b346-cb819af558ed" class=3D"notion-selectable notion-quote-bl=
+ock" style=3D"width: 100%; max-width: 100%; margin-top: 4px; margin-bottom:=
+ 4px;"><blockquote style=3D"margin: 0px; font-size: 1em; padding: 3px 2px; =
+color: inherit; fill: inherit; display: flex;"><div style=3D"border-left: 3=
+px solid currentcolor; padding-left: 14px; padding-right: 14px; width: 100%=
+;"><div spellcheck=3D"true" placeholder=3D"Empty quote" data-content-editab=
+le-leaf=3D"true" contenteditable=3D"false" style=3D"max-width: 100%; width:=
+ 100%; white-space: pre-wrap; word-break: break-word; caret-color: rgba(255=
+, 255, 255, 0.81); padding-left: 2px; padding-right: 2px;">These additional=
+ features are optional. Not implementing them will not affect the evaluatio=
+n of your submission. However, including these features can enhance your su=
+bmission and give it an advantage over other candidates. You are not requir=
+ed to develop all the bonus features; feel free to incorporate as many as y=
+ou like.</div></div><div style=3D"position: relative; left: 0px;"></div></b=
+lockquote></div><div data-block-id=3D"264d98fd-4475-4ba7-a5ea-4886df8df345"=
+ class=3D"notion-selectable notion-numbered_list-block" style=3D"width: 100=
+%; max-width: 100%; margin-top: 1px; margin-bottom: 1px;"><div style=3D"dis=
+play: flex; align-items: flex-start; width: 100%; padding-left: 2px; color:=
+ inherit; fill: inherit;"><div contenteditable=3D"false" class=3D"pseudoSel=
+ection" data-content-editable-void=3D"true" data-text-edit-side=3D"start" s=
+tyle=3D"user-select: none; --pseudoSelection--background: transparent; marg=
+in-right: 2px; width: unset; display: flex; align-items: center; justify-co=
+ntent: center; flex-grow: 0; flex-shrink: 0; min-height: calc(1.5em + 6px);=
+"><span class=3D"pseudoBefore" style=3D"--pseudoBefore--content: &quot;a.&q=
+uot;; width: 24px; text-align: center; white-space: nowrap;"></span></div><=
+div style=3D"flex: 1 1 0px; min-width: 1px; display: flex; flex-direction: =
+column;"><div style=3D"display: flex;"><div spellcheck=3D"true" placeholder=
+=3D"List" data-content-editable-leaf=3D"true" contenteditable=3D"false" sty=
+le=3D"max-width: 100%; width: 100%; white-space: pre-wrap; word-break: brea=
+k-word; caret-color: rgba(255, 255, 255, 0.81); padding: 3px 2px; text-alig=
+n: left;">Admin can send an email to the complete list.</div><div style=3D"=
+position: relative; left: 0px;"></div></div></div></div></div><div data-blo=
+ck-id=3D"70dd2f43-4512-4401-8480-4e774a676bf4" class=3D"notion-selectable n=
+otion-numbered_list-block" style=3D"width: 100%; max-width: 100%; margin-to=
+p: 1px; margin-bottom: 1px;"><div style=3D"display: flex; align-items: flex=
+-start; width: 100%; padding-left: 2px; color: inherit; fill: inherit;"><di=
+v contenteditable=3D"false" class=3D"pseudoSelection" data-content-editable=
+-void=3D"true" data-text-edit-side=3D"start" style=3D"user-select: none; --=
+pseudoSelection--background: transparent; margin-right: 2px; width: unset; =
+display: flex; align-items: center; justify-content: center; flex-grow: 0; =
+flex-shrink: 0; min-height: calc(1.5em + 6px);"><span class=3D"pseudoBefore=
+" style=3D"--pseudoBefore--content: &quot;b.&quot;; width: 24px; text-align=
+: center; white-space: nowrap;"></span></div><div style=3D"flex: 1 1 0px; m=
+in-width: 1px; display: flex; flex-direction: column;"><div style=3D"displa=
+y: flex;"><div spellcheck=3D"true" placeholder=3D"List" data-content-editab=
+le-leaf=3D"true" contenteditable=3D"false" style=3D"max-width: 100%; width:=
+ 100%; white-space: pre-wrap; word-break: break-word; caret-color: rgba(255=
+, 255, 255, 0.81); padding: 3px 2px; text-align: left;">Custom properties c=
+an be included as placeholders in the email body, to be replaced when the e=
+mail is sent. The format for placeholders is <span style=3D"font-family:&qu=
+ot;SFMono-Regular&quot;, Menlo, Consolas, &quot;PT Mono&quot;, &quot;Libera=
+tion Mono&quot;, Courier, monospace;line-height:normal;background:rgba(135,=
+131,120,.15);color:#EB5757;border-radius:4px;font-size:85%;padding:0.2em 0.=
+4em" data-token-index=3D"1" spellcheck=3D"false" class=3D"notion-enable-hov=
+er">[name_of_the_property]</span></div><div style=3D"position: relative; le=
+ft: 0px;"></div></div><div data-block-id=3D"f67fd5e9-a86f-4b23-9946-e8e2742=
+d31b5" class=3D"notion-selectable notion-text-block" style=3D"width: 100%; =
+max-width: 100%; margin-top: 2px; margin-bottom: 1px;"><div style=3D"color:=
+ inherit; fill: inherit;"><div style=3D"display: flex;"><div spellcheck=3D"=
+true" placeholder=3D" " data-content-editable-leaf=3D"true" contenteditable=
+=3D"false" style=3D"max-width: 100%; width: 100%; white-space: pre-wrap; wo=
+rd-break: break-word; caret-color: rgba(255, 255, 255, 0.81); padding: 3px =
+2px;">For e.g. If the email body looks like this:</div><div style=3D"positi=
+on: relative; left: 0px;"></div></div></div></div><div data-block-id=3D"9f9=
+3d391-a532-41b7-a3b3-f0f78ba93388" class=3D"notion-selectable notion-code-b=
+lock" style=3D"width: 100%; max-width: 100%; margin-top: 4px; margin-bottom=
+: 4px;"><div style=3D"display: flex;"><div contenteditable=3D"false" data-c=
+ontent-editable-void=3D"true" role=3D"figure" aria-labelledby=3D":r6:" styl=
+e=3D"flex-grow: 1; border-radius: 4px; text-align: left; position: relative=
+; background: rgba(255, 255, 255, 0.03); min-width: 0px; width: 100%;"><div=
+ style=3D"position: absolute; top: 8px; left: 8px; z-index: 1; color: rgba(=
+255, 255, 255, 0.443); display: flex; align-items: center; justify-content:=
+ flex-end; opacity: 0; transition: opacity 300ms ease-in 0s;"><div aria-dis=
+abled=3D"true" role=3D"button" tabindex=3D"-1" style=3D"user-select: none; =
+transition: background 20ms ease-in 0s; cursor: default; display: inline-fl=
+ex; align-items: center; white-space: nowrap; height: 20px; border-radius: =
+4px; font-size: 12px; line-height: 1.2; padding-left: 5px; padding-right: 5=
+px; color: rgba(255, 255, 255, 0.443); margin-right: 5px;">Markdown</div></=
+div><div style=3D"position: absolute; top: 3px; right: 1px; z-index: 1; col=
+or: rgba(255, 255, 255, 0.443); display: flex; align-items: center; justify=
+-content: flex-end; height: 25px; font-size: 11.5px; opacity: 0; transition=
+: opacity 300ms ease-in 0s;"><div style=3D"color: rgba(255, 255, 255, 0.443=
+); display: flex; align-items: center; justify-content: center; font-size: =
+12px; margin-top: 4px; margin-right: 4px;"><div role=3D"button" tabindex=3D=
+"0" style=3D"user-select: none; transition: background 20ms ease-in 0s; cur=
+sor: pointer; display: inline-flex; align-items: center; white-space: nowra=
+p; height: 25px; border-radius: 4px 0px 0px 4px; font-size: 11.5px; line-he=
+ight: 1.2; padding: 4px 6px; color: rgba(255, 255, 255, 0.81); background: =
+rgb(37, 37, 37); font-weight: 400;"><svg role=3D"graphics-symbol" viewBox=
+=3D"0 0 14 16" class=3D"copy" style=3D"width: 16px; height: 16px; display: =
+block; fill: inherit; flex-shrink: 0; padding-right: 4px;"><path d=3D"M2.40=
+4 15.322h5.701c1.26 0 1.887-.662 1.887-1.927V12.38h1.154c1.254 0 1.91-.662 =
+1.91-1.928V5.555c0-.774-.158-1.266-.626-1.74L9.512.837C9.066.387 8.545.21 7=
+.865.21H5.463c-1.254 0-1.91.662-1.91 1.928v1.084H2.404c-1.254 0-1.91.668-1.=
+91 1.933v8.239c0 1.265.656 1.927 1.91 1.927zm7.588-6.62c0-.792-.1-1.161-.59=
+2-1.665L6.225 3.814c-.452-.462-.844-.58-1.5-.591V2.215c0-.533.28-.832.843-.=
+832h2.38v2.883c0 .726.386 1.113 1.107 1.113h2.83v4.998c0 .539-.276.832-.844=
+.832H9.992V8.701zm-.79-4.29c-.206 0-.288-.088-.288-.287V1.594l2.771 2.818H9=
+.201zM2.503 14.15c-.563 0-.844-.293-.844-.832V5.232c0-.539.281-.837.85-.837=
+h1.91v3.187c0 .85.416 1.26 1.26 1.26h3.14v4.476c0 .54-.28.832-.843.832H2.50=
+4zM5.79 7.816c-.24 0-.346-.105-.346-.345V4.547l3.223 3.27H5.791z"></path></=
+svg>Copy</div></div></div><div><div class=3D"line-numbers notion-code-block=
+" style=3D"display: flex;"><div spellcheck=3D"false" autocorrect=3D"off" au=
+tocapitalize=3D"off" placeholder=3D" " data-content-editable-leaf=3D"true" =
+contenteditable=3D"false" style=3D"flex-grow: 1; flex-shrink: 1; text-align=
+: left; font-family: SFMono-Regular, Menlo, Consolas, &quot;PT Mono&quot;, =
+&quot;Liberation Mono&quot;, Courier, monospace; font-size: 85%; tab-size: =
+2; padding: 34px 16px 32px 32px; min-height: 1em; color: rgba(255, 255, 255=
+, 0.81); white-space: pre-wrap; word-break: break-all; min-width: 0px;"><sp=
+an class=3D"" data-token-index=3D"0">Hey [name]!
+
+Thank you for signing up with your email [email]. We have received your cit=
+y as [city].
+
+Team MathonGo.</span><span>
+</span></div></div></div><div style=3D"background: rgb(25, 25, 25); padding=
+-right: 105px;"></div></div><div style=3D"position: relative; left: 0px;"><=
+/div>=E2=80=8B</div></div><div data-block-id=3D"6a5ea257-d6be-4db7-9e59-6ba=
+60c713780" class=3D"notion-selectable notion-text-block" style=3D"width: 10=
+0%; max-width: 100%; margin-top: 1px; margin-bottom: 1px;"><div style=3D"co=
+lor: inherit; fill: inherit;"><div style=3D"display: flex;"><div spellcheck=
+=3D"true" placeholder=3D" " data-content-editable-leaf=3D"true" contentedit=
+able=3D"false" style=3D"max-width: 100%; width: 100%; white-space: pre-wrap=
+; word-break: break-word; caret-color: rgba(255, 255, 255, 0.81); padding: =
+3px 2px;">The final email received by John Doe will be:</div><div style=3D"=
+position: relative; left: 0px;"></div></div></div></div><div data-block-id=
+=3D"dedfdb27-a51b-4b79-b467-690dd46da60e" class=3D"notion-selectable notion=
+-code-block" style=3D"width: 100%; max-width: 100%; margin-top: 4px; margin=
+-bottom: 0px;"><div style=3D"display: flex;"><div contenteditable=3D"false"=
+ data-content-editable-void=3D"true" role=3D"figure" aria-labelledby=3D":r7=
+:" style=3D"flex-grow: 1; border-radius: 4px; text-align: left; position: r=
+elative; background: rgba(255, 255, 255, 0.03); min-width: 0px; width: 100%=
+;"><div style=3D"position: absolute; top: 8px; left: 8px; z-index: 1; color=
+: rgba(255, 255, 255, 0.443); display: flex; align-items: center; justify-c=
+ontent: flex-end; opacity: 0; transition: opacity 300ms ease-in 0s;"><div a=
+ria-disabled=3D"true" role=3D"button" tabindex=3D"-1" style=3D"user-select:=
+ none; transition: background 20ms ease-in 0s; cursor: default; display: in=
+line-flex; align-items: center; white-space: nowrap; height: 20px; border-r=
+adius: 4px; font-size: 12px; line-height: 1.2; padding-left: 5px; padding-r=
+ight: 5px; color: rgba(255, 255, 255, 0.443); margin-right: 5px;">Markdown<=
+/div></div><div style=3D"position: absolute; top: 3px; right: 1px; z-index:=
+ 1; color: rgba(255, 255, 255, 0.443); display: flex; align-items: center; =
+justify-content: flex-end; height: 25px; font-size: 11.5px; opacity: 0; tra=
+nsition: opacity 300ms ease-in 0s;"><div style=3D"color: rgba(255, 255, 255=
+, 0.443); display: flex; align-items: center; justify-content: center; font=
+-size: 12px; margin-top: 4px; margin-right: 4px;"><div role=3D"button" tabi=
+ndex=3D"0" style=3D"user-select: none; transition: background 20ms ease-in =
+0s; cursor: pointer; display: inline-flex; align-items: center; white-space=
+: nowrap; height: 25px; border-radius: 4px 0px 0px 4px; font-size: 11.5px; =
+line-height: 1.2; padding: 4px 6px; color: rgba(255, 255, 255, 0.81); backg=
+round: rgb(37, 37, 37); font-weight: 400;"><svg role=3D"graphics-symbol" vi=
+ewBox=3D"0 0 14 16" class=3D"copy" style=3D"width: 16px; height: 16px; disp=
+lay: block; fill: inherit; flex-shrink: 0; padding-right: 4px;"><path d=3D"=
+M2.404 15.322h5.701c1.26 0 1.887-.662 1.887-1.927V12.38h1.154c1.254 0 1.91-=
+.662 1.91-1.928V5.555c0-.774-.158-1.266-.626-1.74L9.512.837C9.066.387 8.545=
+.21 7.865.21H5.463c-1.254 0-1.91.662-1.91 1.928v1.084H2.404c-1.254 0-1.91.6=
+68-1.91 1.933v8.239c0 1.265.656 1.927 1.91 1.927zm7.588-6.62c0-.792-.1-1.16=
+1-.592-1.665L6.225 3.814c-.452-.462-.844-.58-1.5-.591V2.215c0-.533.28-.832.=
+843-.832h2.38v2.883c0 .726.386 1.113 1.107 1.113h2.83v4.998c0 .539-.276.832=
+-.844.832H9.992V8.701zm-.79-4.29c-.206 0-.288-.088-.288-.287V1.594l2.771 2.=
+818H9.201zM2.503 14.15c-.563 0-.844-.293-.844-.832V5.232c0-.539.281-.837.85=
+-.837h1.91v3.187c0 .85.416 1.26 1.26 1.26h3.14v4.476c0 .54-.28.832-.843.832=
+H2.504zM5.79 7.816c-.24 0-.346-.105-.346-.345V4.547l3.223 3.27H5.791z"></pa=
+th></svg>Copy</div></div></div><div><div class=3D"line-numbers notion-code-=
+block" style=3D"display: flex;"><div spellcheck=3D"false" autocorrect=3D"of=
+f" autocapitalize=3D"off" placeholder=3D" " data-content-editable-leaf=3D"t=
+rue" contenteditable=3D"false" style=3D"flex-grow: 1; flex-shrink: 1; text-=
+align: left; font-family: SFMono-Regular, Menlo, Consolas, &quot;PT Mono&qu=
+ot;, &quot;Liberation Mono&quot;, Courier, monospace; font-size: 85%; tab-s=
+ize: 2; padding: 34px 16px 32px 32px; min-height: 1em; color: rgba(255, 255=
+, 255, 0.81); white-space: pre-wrap; word-break: break-all; min-width: 0px;=
+"><span class=3D"" data-token-index=3D"0">Hey John Doe!
+
+Thank you for signing up with your email john.doe@email.com. We have receiv=
+ed your city as Bengaluru.
+
+Team MathonGo.</span><span>
+</span></div></div></div><div style=3D"background: rgb(25, 25, 25); padding=
+-right: 105px;"></div></div><div style=3D"position: relative; left: 0px;"><=
+/div>=E2=80=8B</div></div></div></div></div><div data-block-id=3D"6c77b315-=
+ad4f-4b25-b367-8c5e17246be1" class=3D"notion-selectable notion-numbered_lis=
+t-block" style=3D"width: 100%; max-width: 100%; margin-top: 1px; margin-bot=
+tom: 0px;"><div style=3D"display: flex; align-items: flex-start; width: 100=
+%; padding-left: 2px; color: inherit; fill: inherit;"><div contenteditable=
+=3D"false" class=3D"pseudoSelection" data-content-editable-void=3D"true" da=
+ta-text-edit-side=3D"start" style=3D"user-select: none; --pseudoSelection--=
+background: transparent; margin-right: 2px; width: unset; display: flex; al=
+ign-items: center; justify-content: center; flex-grow: 0; flex-shrink: 0; m=
+in-height: calc(1.5em + 6px);"><span class=3D"pseudoBefore" style=3D"--pseu=
+doBefore--content: &quot;c.&quot;; width: 24px; text-align: center; white-s=
+pace: nowrap;"></span></div><div style=3D"flex: 1 1 0px; min-width: 1px; di=
+splay: flex; flex-direction: column;"><div style=3D"display: flex;"><div sp=
+ellcheck=3D"true" placeholder=3D"List" data-content-editable-leaf=3D"true" =
+contenteditable=3D"false" style=3D"max-width: 100%; width: 100%; white-spac=
+e: pre-wrap; word-break: break-word; caret-color: rgba(255, 255, 255, 0.81)=
+; padding: 3px 2px; text-align: left;">The email will contain an unsubscrib=
+e link. Clicking it will unsubscribe the user from the list i.e., when admi=
+n sends email to this specific list, the respective user should no longer r=
+eceive the email.</div><div style=3D"position: relative; left: 0px;"></div>=
+</div></div></div></div></div></div></div><div data-block-id=3D"2a5823d5-39=
+3d-4e70-86ea-cf8429d43b62" class=3D"notion-selectable notion-sub_header-blo=
+ck" style=3D"width: 100%; max-width: 1334px; margin-top: 1.4em; margin-bott=
+om: 1px;"><div style=3D"display: flex; width: 100%; color: inherit; fill: i=
+nherit;"><h3 spellcheck=3D"true" placeholder=3D"Heading 2" data-content-edi=
+table-leaf=3D"true" contenteditable=3D"false" style=3D"max-width: 100%; wid=
+th: 100%; white-space: pre-wrap; word-break: break-word; caret-color: rgba(=
+255, 255, 255, 0.81); padding: 3px 2px; font-family: ui-sans-serif, -apple-=
+system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Helvetica, &quot;Apple Co=
+lor Emoji&quot;, Arial, sans-serif, &quot;Segoe UI Emoji&quot;, &quot;Segoe=
+ UI Symbol&quot;; font-weight: 600; font-size: 1.5em; line-height: 1.3; mar=
+gin: 0px;">Tech Stack:</h3><div style=3D"position: relative; left: 0px;"></=
+div></div></div><div data-block-id=3D"e6ff6006-1bc8-45eb-a92a-7dd9a13ee220"=
+ class=3D"notion-selectable notion-bulleted_list-block" style=3D"width: 100=
+%; max-width: 1334px; margin-top: 1px; margin-bottom: 1px;"><div style=3D"d=
+isplay: flex; align-items: flex-start; width: 100%; padding-left: 2px; colo=
+r: inherit; fill: inherit;"><div contenteditable=3D"false" class=3D"pseudoS=
+election" data-content-editable-void=3D"true" data-text-edit-side=3D"start"=
+ style=3D"user-select: none; --pseudoSelection--background: transparent; ma=
+rgin-right: 2px; width: 24px; display: flex; align-items: center; justify-c=
+ontent: center; flex-grow: 0; flex-shrink: 0; min-height: calc(1.5em + 6px)=
+;"><div class=3D"pseudoBefore" style=3D"font-size: 1.5em; line-height: 1; m=
+argin-bottom: 0px; --pseudoBefore--fontFamily: Arial; --pseudoBefore--conte=
+nt: &quot;=E2=80=A2&quot;;"></div></div><div style=3D"flex: 1 1 0px; min-wi=
+dth: 1px; display: flex; flex-direction: column;"><div style=3D"display: fl=
+ex;"><div spellcheck=3D"true" placeholder=3D"List" data-content-editable-le=
+af=3D"true" contenteditable=3D"false" style=3D"max-width: 100%; width: 100%=
+; white-space: pre-wrap; word-break: break-word; caret-color: rgba(255, 255=
+, 255, 0.81); padding: 3px 2px; text-align: left;">Node JS (with JS &amp; n=
+ot TS)</div><div style=3D"position: relative; left: 0px;"></div></div></div=
+></div></div><div data-block-id=3D"406368bd-d290-4218-b797-d14c7e5c1d13" cl=
+ass=3D"notion-selectable notion-bulleted_list-block" style=3D"width: 100%; =
+max-width: 1334px; margin-top: 1px; margin-bottom: 1px;"><div style=3D"disp=
+lay: flex; align-items: flex-start; width: 100%; padding-left: 2px; color: =
+inherit; fill: inherit;"><div contenteditable=3D"false" class=3D"pseudoSele=
+ction" data-content-editable-void=3D"true" data-text-edit-side=3D"start" st=
+yle=3D"user-select: none; --pseudoSelection--background: transparent; margi=
+n-right: 2px; width: 24px; display: flex; align-items: center; justify-cont=
+ent: center; flex-grow: 0; flex-shrink: 0; min-height: calc(1.5em + 6px);">=
+<div class=3D"pseudoBefore" style=3D"font-size: 1.5em; line-height: 1; marg=
+in-bottom: 0px; --pseudoBefore--fontFamily: Arial; --pseudoBefore--content:=
+ &quot;=E2=80=A2&quot;;"></div></div><div style=3D"flex: 1 1 0px; min-width=
+: 1px; display: flex; flex-direction: column;"><div style=3D"display: flex;=
+"><div spellcheck=3D"true" placeholder=3D"List" data-content-editable-leaf=
+=3D"true" contenteditable=3D"false" style=3D"max-width: 100%; width: 100%; =
+white-space: pre-wrap; word-break: break-word; caret-color: rgba(255, 255, =
+255, 0.81); padding: 3px 2px; text-align: left;">Express JS</div><div style=
+=3D"position: relative; left: 0px;"></div></div></div></div></div><div data=
+-block-id=3D"368c4b9f-1a55-4889-8d69-8b469a983258" class=3D"notion-selectab=
+le notion-bulleted_list-block" style=3D"width: 100%; max-width: 1334px; mar=
+gin-top: 1px; margin-bottom: 1px;"><div style=3D"display: flex; align-items=
+: flex-start; width: 100%; padding-left: 2px; color: inherit; fill: inherit=
+;"><div contenteditable=3D"false" class=3D"pseudoSelection" data-content-ed=
+itable-void=3D"true" data-text-edit-side=3D"start" style=3D"user-select: no=
+ne; --pseudoSelection--background: transparent; margin-right: 2px; width: 2=
+4px; display: flex; align-items: center; justify-content: center; flex-grow=
+: 0; flex-shrink: 0; min-height: calc(1.5em + 6px);"><div class=3D"pseudoBe=
+fore" style=3D"font-size: 1.5em; line-height: 1; margin-bottom: 0px; --pseu=
+doBefore--fontFamily: Arial; --pseudoBefore--content: &quot;=E2=80=A2&quot;=
+;"></div></div><div style=3D"flex: 1 1 0px; min-width: 1px; display: flex; =
+flex-direction: column;"><div style=3D"display: flex;"><div spellcheck=3D"t=
+rue" placeholder=3D"List" data-content-editable-leaf=3D"true" contenteditab=
+le=3D"false" style=3D"max-width: 100%; width: 100%; white-space: pre-wrap; =
+word-break: break-word; caret-color: rgba(255, 255, 255, 0.81); padding: 3p=
+x 2px; text-align: left;">MongoDB</div><div style=3D"position: relative; le=
+ft: 0px;"></div></div></div></div></div><div data-block-id=3D"f7770913-a943=
+-4c1f-97e3-23acb9d1e2da" class=3D"notion-selectable notion-bulleted_list-bl=
+ock" style=3D"width: 100%; max-width: 1334px; margin-top: 1px; margin-botto=
+m: 1px;"><div style=3D"display: flex; align-items: flex-start; width: 100%;=
+ padding-left: 2px; color: inherit; fill: inherit;"><div contenteditable=3D=
+"false" class=3D"pseudoSelection" data-content-editable-void=3D"true" data-=
+text-edit-side=3D"start" style=3D"user-select: none; --pseudoSelection--bac=
+kground: transparent; margin-right: 2px; width: 24px; display: flex; align-=
+items: center; justify-content: center; flex-grow: 0; flex-shrink: 0; min-h=
+eight: calc(1.5em + 6px);"><div class=3D"pseudoBefore" style=3D"font-size: =
+1.5em; line-height: 1; margin-bottom: 0px; --pseudoBefore--fontFamily: Aria=
+l; --pseudoBefore--content: &quot;=E2=80=A2&quot;;"></div></div><div style=
+=3D"flex: 1 1 0px; min-width: 1px; display: flex; flex-direction: column;">=
+<div style=3D"display: flex;"><div spellcheck=3D"true" placeholder=3D"List"=
+ data-content-editable-leaf=3D"true" contenteditable=3D"false" style=3D"max=
+-width: 100%; width: 100%; white-space: pre-wrap; word-break: break-word; c=
+aret-color: rgba(255, 255, 255, 0.81); padding: 3px 2px; text-align: left;"=
+>[Optional] Any Message Queue (for robustness and scalability)</div><div st=
+yle=3D"position: relative; left: 0px;"></div></div></div></div></div><div d=
+ata-block-id=3D"5a4cbe94-2456-42ba-afee-37cfb299f611" class=3D"notion-selec=
+table notion-sub_header-block" style=3D"width: 100%; max-width: 1334px; mar=
+gin-top: 1.4em; margin-bottom: 1px;"><div style=3D"display: flex; width: 10=
+0%; color: inherit; fill: inherit;"><h3 spellcheck=3D"true" placeholder=3D"=
+Heading 2" data-content-editable-leaf=3D"true" contenteditable=3D"false" st=
+yle=3D"max-width: 100%; width: 100%; white-space: pre-wrap; word-break: bre=
+ak-word; caret-color: rgba(255, 255, 255, 0.81); padding: 3px 2px; font-fam=
+ily: ui-sans-serif, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;=
+, Helvetica, &quot;Apple Color Emoji&quot;, Arial, sans-serif, &quot;Segoe =
+UI Emoji&quot;, &quot;Segoe UI Symbol&quot;; font-weight: 600; font-size: 1=
+.5em; line-height: 1.3; margin: 0px;">Submission</h3><div style=3D"position=
+: relative; left: 0px;"></div></div></div><div data-block-id=3D"9872f67e-1b=
+9f-4d2d-9606-b02572b88ce4" class=3D"notion-selectable notion-bulleted_list-=
+block" style=3D"width: 100%; max-width: 1334px; margin-top: 1px; margin-bot=
+tom: 1px;"><div style=3D"display: flex; align-items: flex-start; width: 100=
+%; padding-left: 2px; color: inherit; fill: inherit;"><div contenteditable=
+=3D"false" class=3D"pseudoSelection" data-content-editable-void=3D"true" da=
+ta-text-edit-side=3D"start" style=3D"user-select: none; --pseudoSelection--=
+background: transparent; margin-right: 2px; width: 24px; display: flex; ali=
+gn-items: center; justify-content: center; flex-grow: 0; flex-shrink: 0; mi=
+n-height: calc(1.5em + 6px);"><div class=3D"pseudoBefore" style=3D"font-siz=
+e: 1.5em; line-height: 1; margin-bottom: 0px; --pseudoBefore--fontFamily: A=
+rial; --pseudoBefore--content: &quot;=E2=80=A2&quot;;"></div></div><div sty=
+le=3D"flex: 1 1 0px; min-width: 1px; display: flex; flex-direction: column;=
+"><div style=3D"display: flex;"><div spellcheck=3D"true" placeholder=3D"Lis=
+t" data-content-editable-leaf=3D"true" contenteditable=3D"false" style=3D"m=
+ax-width: 100%; width: 100%; white-space: pre-wrap; word-break: break-word;=
+ caret-color: rgba(255, 255, 255, 0.81); padding: 3px 2px; text-align: left=
+;">Put the code in a public GitHub repo.</div><div style=3D"position: relat=
+ive; left: 0px;"></div></div></div></div></div><div data-block-id=3D"6b58f2=
+90-413a-40c1-959b-b3071f497118" class=3D"notion-selectable notion-bulleted_=
+list-block" style=3D"width: 100%; max-width: 1334px; margin-top: 1px; margi=
+n-bottom: 1px;"><div style=3D"display: flex; align-items: flex-start; width=
+: 100%; padding-left: 2px; color: inherit; fill: inherit;"><div contentedit=
+able=3D"false" class=3D"pseudoSelection" data-content-editable-void=3D"true=
+" data-text-edit-side=3D"start" style=3D"user-select: none; --pseudoSelecti=
+on--background: transparent; margin-right: 2px; width: 24px; display: flex;=
+ align-items: center; justify-content: center; flex-grow: 0; flex-shrink: 0=
+; min-height: calc(1.5em + 6px);"><div class=3D"pseudoBefore" style=3D"font=
+-size: 1.5em; line-height: 1; margin-bottom: 0px; --pseudoBefore--fontFamil=
+y: Arial; --pseudoBefore--content: &quot;=E2=80=A2&quot;;"></div></div><div=
+ style=3D"flex: 1 1 0px; min-width: 1px; display: flex; flex-direction: col=
+umn;"><div style=3D"display: flex;"><div spellcheck=3D"true" placeholder=3D=
+"List" data-content-editable-leaf=3D"true" contenteditable=3D"false" style=
+=3D"max-width: 100%; width: 100%; white-space: pre-wrap; word-break: break-=
+word; caret-color: rgba(255, 255, 255, 0.81); padding: 3px 2px; text-align:=
+ left;">Deploy the code to any cloud provider.</div><div style=3D"position:=
+ relative; left: 0px;"></div></div></div></div></div><div data-block-id=3D"=
+0dad7c24-4335-4d62-8f58-08d2fe4a99b9" class=3D"notion-selectable notion-bul=
+leted_list-block" style=3D"width: 100%; max-width: 1334px; margin-top: 1px;=
+ margin-bottom: 1px;"><div style=3D"display: flex; align-items: flex-start;=
+ width: 100%; padding-left: 2px; color: inherit; fill: inherit;"><div conte=
+nteditable=3D"false" class=3D"pseudoSelection" data-content-editable-void=
+=3D"true" data-text-edit-side=3D"start" style=3D"user-select: none; --pseud=
+oSelection--background: transparent; margin-right: 2px; width: 24px; displa=
+y: flex; align-items: center; justify-content: center; flex-grow: 0; flex-s=
+hrink: 0; min-height: calc(1.5em + 6px);"><div class=3D"pseudoBefore" style=
+=3D"font-size: 1.5em; line-height: 1; margin-bottom: 0px; --pseudoBefore--f=
+ontFamily: Arial; --pseudoBefore--content: &quot;=E2=80=A2&quot;;"></div></=
+div><div style=3D"flex: 1 1 0px; min-width: 1px; display: flex; flex-direct=
+ion: column;"><div style=3D"display: flex;"><div spellcheck=3D"true" placeh=
+older=3D"List" data-content-editable-leaf=3D"true" contenteditable=3D"false=
+" style=3D"max-width: 100%; width: 100%; white-space: pre-wrap; word-break:=
+ break-word; caret-color: rgba(255, 255, 255, 0.81); padding: 3px 2px; text=
+-align: left;">Document the code using Postman with examples. Set the envir=
+onment data so that the API can be tested on Postman.</div><div style=3D"po=
+sition: relative; left: 0px;"></div></div></div></div></div><div data-block=
+-id=3D"01de00fd-6671-4c68-9df3-6828f42512c4" class=3D"notion-selectable not=
+ion-bulleted_list-block" style=3D"width: 100%; max-width: 1334px; margin-to=
+p: 1px; margin-bottom: 1px;"><div style=3D"display: flex; align-items: flex=
+-start; width: 100%; padding-left: 2px; color: inherit; fill: inherit;"><di=
+v contenteditable=3D"false" class=3D"pseudoSelection" data-content-editable=
+-void=3D"true" data-text-edit-side=3D"start" style=3D"user-select: none; --=
+pseudoSelection--background: transparent; margin-right: 2px; width: 24px; d=
+isplay: flex; align-items: center; justify-content: center; flex-grow: 0; f=
+lex-shrink: 0; min-height: calc(1.5em + 6px);"><div class=3D"pseudoBefore" =
+style=3D"font-size: 1.5em; line-height: 1; margin-bottom: 0px; --pseudoBefo=
+re--fontFamily: Arial; --pseudoBefore--content: &quot;=E2=80=A2&quot;;"></d=
+iv></div><div style=3D"flex: 1 1 0px; min-width: 1px; display: flex; flex-d=
+irection: column;"><div style=3D"display: flex;"><div spellcheck=3D"true" p=
+laceholder=3D"List" data-content-editable-leaf=3D"true" contenteditable=3D"=
+false" style=3D"max-width: 100%; width: 100%; white-space: pre-wrap; word-b=
+reak: break-word; caret-color: rgba(255, 255, 255, 0.81); padding: 3px 2px;=
+ text-align: left;">Submit the details in the provided <a href=3D"https://d=
+ocs.google.com/forms/d/e/1FAIpQLSd1o0-YfWG3P8nz1KY6y0EtfUOw4qKx2Fs4NM18yNCK=
+cW0Fqw/viewform?usp=3Dsf_link" style=3D"cursor:pointer;color:inherit;word-w=
+rap:break-word;text-decoration:inherit" class=3D"notion-link-token notion-f=
+ocusable-token notion-enable-hover" rel=3D"noopener noreferrer" data-token-=
+index=3D"1" tabindex=3D"0"><span style=3D"border-bottom:0.05em solid;border=
+-color:rgba(255, 255, 255, 0.283);opacity:0.7" class=3D"link-annotation-01d=
+e00fd-6671-4c68-9df3-6828f42512c4-1308401514">Google form</span></a></div><=
+div style=3D"position: relative; left: 0px;"></div></div></div></div></div>=
+<div data-block-id=3D"ed710936-c4e8-4ea8-afa2-221637785d55" class=3D"notion=
+-selectable notion-sub_header-block" style=3D"width: 100%; max-width: 1334p=
+x; margin-top: 1.4em; margin-bottom: 1px;"><div style=3D"display: flex; wid=
+th: 100%; color: inherit; fill: inherit;"><h3 spellcheck=3D"true" placehold=
+er=3D"Heading 2" data-content-editable-leaf=3D"true" contenteditable=3D"fal=
+se" style=3D"max-width: 100%; width: 100%; white-space: pre-wrap; word-brea=
+k: break-word; caret-color: rgba(255, 255, 255, 0.81); padding: 3px 2px; fo=
+nt-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, &quot;Segoe UI=
+&quot;, Helvetica, &quot;Apple Color Emoji&quot;, Arial, sans-serif, &quot;=
+Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;; font-weight: 600; font-s=
+ize: 1.5em; line-height: 1.3; margin: 0px;">Deadline</h3><div style=3D"posi=
+tion: relative; left: 0px;"></div></div></div><div data-block-id=3D"37fe23f=
+d-c143-403c-9dba-67abc3c0032d" class=3D"notion-selectable notion-text-block=
+" style=3D"width: 100%; max-width: 1334px; margin-top: 1px; margin-bottom: =
+1px;"><div style=3D"color: inherit; fill: inherit;"><div style=3D"display: =
+flex;"><div spellcheck=3D"true" placeholder=3D" " data-content-editable-lea=
+f=3D"true" contenteditable=3D"false" style=3D"max-width: 100%; width: 100%;=
+ white-space: pre-wrap; word-break: break-word; caret-color: rgba(255, 255,=
+ 255, 0.81); padding: 3px 2px;">06:00 PM, 20 May 2024 (Monday)</div><div st=
+yle=3D"position: relative; left: 0px;"></div></div></div></div><div data-bl=
+ock-id=3D"54818309-c7cf-4aea-9d3a-54a1f8d58b0c" class=3D"notion-selectable =
+notion-text-block" style=3D"width: 100%; max-width: 1334px; margin-top: 1px=
+; margin-bottom: 1px;"><div style=3D"color: inherit; fill: inherit;"><div s=
+tyle=3D"display: flex;"><div spellcheck=3D"true" placeholder=3D" " data-con=
+tent-editable-leaf=3D"true" contenteditable=3D"false" style=3D"max-width: 1=
+00%; width: 100%; white-space: pre-wrap; word-break: break-word; caret-colo=
+r: rgba(255, 255, 255, 0.81); padding: 3px 2px;"><span style=3D"font-style:=
+italic" data-token-index=3D"0" class=3D"notion-enable-hover">Priority will =
+be given to early submissions.</span></div><div style=3D"position: relative=
+; left: 0px;"></div></div></div></div><div data-block-id=3D"58a1a295-041d-4=
+713-a387-2b3ace3acbb7" class=3D"notion-selectable notion-sub_header-block" =
+style=3D"width: 100%; max-width: 1334px; margin-top: 1.4em; margin-bottom: =
+1px;"><div style=3D"display: flex; width: 100%; color: inherit; fill: inher=
+it;"><h3 spellcheck=3D"true" placeholder=3D"Heading 2" data-content-editabl=
+e-leaf=3D"true" contenteditable=3D"false" style=3D"max-width: 100%; width: =
+100%; white-space: pre-wrap; word-break: break-word; caret-color: rgba(255,=
+ 255, 255, 0.81); padding: 3px 2px; font-family: ui-sans-serif, -apple-syst=
+em, BlinkMacSystemFont, &quot;Segoe UI&quot;, Helvetica, &quot;Apple Color =
+Emoji&quot;, Arial, sans-serif, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI =
+Symbol&quot;; font-weight: 600; font-size: 1.5em; line-height: 1.3; margin:=
+ 0px;">Judgment Parameters</h3><div style=3D"position: relative; left: 0px;=
+"></div></div></div><div data-block-id=3D"8eaf5ad3-29e8-4920-afb7-664691345=
+54d" class=3D"notion-selectable notion-bulleted_list-block" style=3D"width:=
+ 100%; max-width: 1334px; margin-top: 1px; margin-bottom: 1px;"><div style=
+=3D"display: flex; align-items: flex-start; width: 100%; padding-left: 2px;=
+ color: inherit; fill: inherit;"><div contenteditable=3D"false" class=3D"ps=
+eudoSelection" data-content-editable-void=3D"true" data-text-edit-side=3D"s=
+tart" style=3D"user-select: none; --pseudoSelection--background: transparen=
+t; margin-right: 2px; width: 24px; display: flex; align-items: center; just=
+ify-content: center; flex-grow: 0; flex-shrink: 0; min-height: calc(1.5em +=
+ 6px);"><div class=3D"pseudoBefore" style=3D"font-size: 1.5em; line-height:=
+ 1; margin-bottom: 0px; --pseudoBefore--fontFamily: Arial; --pseudoBefore--=
+content: &quot;=E2=80=A2&quot;;"></div></div><div style=3D"flex: 1 1 0px; m=
+in-width: 1px; display: flex; flex-direction: column;"><div style=3D"displa=
+y: flex;"><div spellcheck=3D"true" placeholder=3D"List" data-content-editab=
+le-leaf=3D"true" contenteditable=3D"false" style=3D"max-width: 100%; width:=
+ 100%; white-space: pre-wrap; word-break: break-word; caret-color: rgba(255=
+, 255, 255, 0.81); padding: 3px 2px; text-align: left;">Code structuring &a=
+mp; documentation</div><div style=3D"position: relative; left: 0px;"></div>=
+</div></div></div></div><div data-block-id=3D"0ff84ebf-d64f-4cfb-9e40-87e17=
+cf7fbc0" class=3D"notion-selectable notion-bulleted_list-block" style=3D"wi=
+dth: 100%; max-width: 1334px; margin-top: 1px; margin-bottom: 1px;"><div st=
+yle=3D"display: flex; align-items: flex-start; width: 100%; padding-left: 2=
+px; color: inherit; fill: inherit;"><div contenteditable=3D"false" class=3D=
+"pseudoSelection" data-content-editable-void=3D"true" data-text-edit-side=
+=3D"start" style=3D"user-select: none; --pseudoSelection--background: trans=
+parent; margin-right: 2px; width: 24px; display: flex; align-items: center;=
+ justify-content: center; flex-grow: 0; flex-shrink: 0; min-height: calc(1.=
+5em + 6px);"><div class=3D"pseudoBefore" style=3D"font-size: 1.5em; line-he=
+ight: 1; margin-bottom: 0px; --pseudoBefore--fontFamily: Arial; --pseudoBef=
+ore--content: &quot;=E2=80=A2&quot;;"></div></div><div style=3D"flex: 1 1 0=
+px; min-width: 1px; display: flex; flex-direction: column;"><div style=3D"d=
+isplay: flex;"><div spellcheck=3D"true" placeholder=3D"List" data-content-e=
+ditable-leaf=3D"true" contenteditable=3D"false" style=3D"max-width: 100%; w=
+idth: 100%; white-space: pre-wrap; word-break: break-word; caret-color: rgb=
+a(255, 255, 255, 0.81); padding: 3px 2px; text-align: left;">Schema design<=
+/div><div style=3D"position: relative; left: 0px;"></div></div></div></div>=
+</div><div data-block-id=3D"e1234268-453d-4c81-81e9-c58883958be4" class=3D"=
+notion-selectable notion-bulleted_list-block" style=3D"width: 100%; max-wid=
+th: 1334px; margin-top: 1px; margin-bottom: 1px;"><div style=3D"display: fl=
+ex; align-items: flex-start; width: 100%; padding-left: 2px; color: inherit=
+; fill: inherit;"><div contenteditable=3D"false" class=3D"pseudoSelection" =
+data-content-editable-void=3D"true" data-text-edit-side=3D"start" style=3D"=
+user-select: none; --pseudoSelection--background: transparent; margin-right=
+: 2px; width: 24px; display: flex; align-items: center; justify-content: ce=
+nter; flex-grow: 0; flex-shrink: 0; min-height: calc(1.5em + 6px);"><div cl=
+ass=3D"pseudoBefore" style=3D"font-size: 1.5em; line-height: 1; margin-bott=
+om: 0px; --pseudoBefore--fontFamily: Arial; --pseudoBefore--content: &quot;=
+=E2=80=A2&quot;;"></div></div><div style=3D"flex: 1 1 0px; min-width: 1px; =
+display: flex; flex-direction: column;"><div style=3D"display: flex;"><div =
+spellcheck=3D"true" placeholder=3D"List" data-content-editable-leaf=3D"true=
+" contenteditable=3D"false" style=3D"max-width: 100%; width: 100%; white-sp=
+ace: pre-wrap; word-break: break-word; caret-color: rgba(255, 255, 255, 0.8=
+1); padding: 3px 2px; text-align: left;">API design &amp; documentation</di=
+v><div style=3D"position: relative; left: 0px;"></div></div></div></div></d=
+iv><div data-block-id=3D"df6cad94-0b8d-4020-a32a-9268385f9954" class=3D"not=
+ion-selectable notion-bulleted_list-block" style=3D"width: 100%; max-width:=
+ 1334px; margin-top: 1px; margin-bottom: 1px;"><div style=3D"display: flex;=
+ align-items: flex-start; width: 100%; padding-left: 2px; color: inherit; f=
+ill: inherit;"><div contenteditable=3D"false" class=3D"pseudoSelection" dat=
+a-content-editable-void=3D"true" data-text-edit-side=3D"start" style=3D"use=
+r-select: none; --pseudoSelection--background: transparent; margin-right: 2=
+px; width: 24px; display: flex; align-items: center; justify-content: cente=
+r; flex-grow: 0; flex-shrink: 0; min-height: calc(1.5em + 6px);"><div class=
+=3D"pseudoBefore" style=3D"font-size: 1.5em; line-height: 1; margin-bottom:=
+ 0px; --pseudoBefore--fontFamily: Arial; --pseudoBefore--content: &quot;=E2=
+=80=A2&quot;;"></div></div><div style=3D"flex: 1 1 0px; min-width: 1px; dis=
+play: flex; flex-direction: column;"><div style=3D"display: flex;"><div spe=
+llcheck=3D"true" placeholder=3D"List" data-content-editable-leaf=3D"true" c=
+ontenteditable=3D"false" style=3D"max-width: 100%; width: 100%; white-space=
+: pre-wrap; word-break: break-word; caret-color: rgba(255, 255, 255, 0.81);=
+ padding: 3px 2px; text-align: left;">Scalability of APIs</div><div style=
+=3D"position: relative; left: 0px;"></div></div></div></div></div><div data=
+-block-id=3D"fb66f10f-255b-4f28-b091-4b51be59e7ab" class=3D"notion-selectab=
+le notion-bulleted_list-block" style=3D"width: 100%; max-width: 1334px; mar=
+gin-top: 1px; margin-bottom: 1px;"><div style=3D"display: flex; align-items=
+: flex-start; width: 100%; padding-left: 2px; color: inherit; fill: inherit=
+;"><div contenteditable=3D"false" class=3D"pseudoSelection" data-content-ed=
+itable-void=3D"true" data-text-edit-side=3D"start" style=3D"user-select: no=
+ne; --pseudoSelection--background: transparent; margin-right: 2px; width: 2=
+4px; display: flex; align-items: center; justify-content: center; flex-grow=
+: 0; flex-shrink: 0; min-height: calc(1.5em + 6px);"><div class=3D"pseudoBe=
+fore" style=3D"font-size: 1.5em; line-height: 1; margin-bottom: 0px; --pseu=
+doBefore--fontFamily: Arial; --pseudoBefore--content: &quot;=E2=80=A2&quot;=
+;"></div></div><div style=3D"flex: 1 1 0px; min-width: 1px; display: flex; =
+flex-direction: column;"><div style=3D"display: flex;"><div spellcheck=3D"t=
+rue" placeholder=3D"List" data-content-editable-leaf=3D"true" contenteditab=
+le=3D"false" style=3D"max-width: 100%; width: 100%; white-space: pre-wrap; =
+word-break: break-word; caret-color: rgba(255, 255, 255, 0.81); padding: 3p=
+x 2px; text-align: left;">Handling of various states &amp; edge-cases</div>=
+<div style=3D"position: relative; left: 0px;"></div></div></div></div></div=
+><div data-block-id=3D"3e3d88a4-1269-4a9c-9056-c6b7d311ed5a" class=3D"notio=
+n-selectable notion-sub_header-block" style=3D"width: 100%; max-width: 1334=
+px; margin-top: 1.4em; margin-bottom: 1px;"><div style=3D"display: flex; wi=
+dth: 100%; color: inherit; fill: inherit;"><h3 spellcheck=3D"true" placehol=
+der=3D"Heading 2" data-content-editable-leaf=3D"true" contenteditable=3D"fa=
+lse" style=3D"max-width: 100%; width: 100%; white-space: pre-wrap; word-bre=
+ak: break-word; caret-color: rgba(255, 255, 255, 0.81); padding: 3px 2px; f=
+ont-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, &quot;Segoe U=
+I&quot;, Helvetica, &quot;Apple Color Emoji&quot;, Arial, sans-serif, &quot=
+;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;; font-weight: 600; font-=
+size: 1.5em; line-height: 1.3; margin: 0px;">Result</h3><div style=3D"posit=
+ion: relative; left: 0px;"></div></div></div><div data-block-id=3D"92a146ae=
+-36a1-48c8-b13e-1c2af61ef110" class=3D"notion-selectable notion-text-block"=
+ style=3D"width: 100%; max-width: 1334px; margin-top: 1px; margin-bottom: 1=
+px;"><div style=3D"color: inherit; fill: inherit;"><div style=3D"display: f=
+lex;"><div spellcheck=3D"true" placeholder=3D" " data-content-editable-leaf=
+=3D"true" contenteditable=3D"false" style=3D"max-width: 100%; width: 100%; =
+white-space: pre-wrap; word-break: break-word; caret-color: rgba(255, 255, =
+255, 0.81); padding: 3px 2px;">The result will be declared over email withi=
+n 7 days of completion of deadline over email.</div><div style=3D"position:=
+ relative; left: 0px;"></div></div></div></div><div data-block-id=3D"dba829=
+49-a071-4cb7-bff3-e8c3930c23df" class=3D"notion-selectable notion-text-bloc=
+k" style=3D"width: 100%; max-width: 1334px; margin-top: 1px; margin-bottom:=
+ 0px;"><div style=3D"color: inherit; fill: inherit;"><div style=3D"display:=
+ flex;"><div spellcheck=3D"true" placeholder=3D" " data-content-editable-le=
+af=3D"true" contenteditable=3D"false" style=3D"max-width: 100%; width: 100%=
+; white-space: pre-wrap; word-break: break-word; caret-color: rgba(255, 255=
+, 255, 0.81); padding: 3px 2px; min-height: 1em; color: rgba(255, 255, 255,=
+ 0.81); -webkit-text-fill-color: rgba(255, 255, 255, 0.282);"></div><div st=
+yle=3D"position: relative; left: 0px;"></div></div></div></div></div></div>=
+</div><span data-content-editable-root-tiny-selection-trap=3D"true" style=
+=3D"height: 1px; width: 1px; caret-color: transparent;"></span></div><div c=
+lass=3D"notion-presence-container" style=3D"position: absolute; top: 0px; l=
+eft: 0px; z-index: 89;"><div></div></div></div></div></main></div><div role=
+=3D"region" aria-label=3D"Side Peek" aria-hidden=3D"true" class=3D"notion-p=
+eek-renderer" style=3D"position: fixed; top: 0px; right: 0px; bottom: 0px; =
+width: 768px; z-index: 109; transform: translateX(768px) translateZ(0px);">=
+</div></div></div><div class=3D"notion-overlay-container notion-default-ove=
+rlay-container" style=3D"position: fixed; inset: 0px; z-index: 999; pointer=
+-events: none; overflow: hidden;"><div style=3D"position: relative; z-index=
+: 0;"></div></div></div></div><iframe sandbox=3D"allow-scripts allow-same-o=
+rigin" style=3D"position: absolute; opacity: 0; width: 1px; height: 1px; to=
+p: 0; left: 0; border: none; display: block; z-index: -1;" aria-hidden=3D"t=
+rue" tabindex=3D"-1" referrerpolicy=3D"no-referrer" src=3D"cid:frame-DA91EC=
+3E459954E9EBCE75C474BA3037@mhtml.blink"></iframe></body><chatgpt-sidebar da=
+ta-gpts-theme=3D"dark"><template shadowmode=3D"open"><div class=3D"chat-gpt=
+-quick-query-container"><div class=3D"css-1mfrqcv ant-app"><div dir=3D"ltr"=
+ class=3D"quick-action-container absolute top-0 left-0 text-[--gpts-primary=
+-text-color] leading-[1.5] z-[--gpts-topmost-zindex]"></div><div dir=3D"ltr=
+" class=3D"disable-translator-fab"><div class=3D"chatgpt-quick-query-float"=
+><div class=3D"relative" style=3D"transform: translate3d(0px, 0px, 0px);"><=
+div class=3D"pagetoolbar-container"><div class=3D"page-reader-container ani=
+mate-fade-in"><button class=3D"w-[--btn-size] h-[--btn-size] flex justify-c=
+enter items-center cursor-pointer p-0 rounded-full border-none outline-none=
+ bg-transparent hover:bg-primary4 text-black-text2 hover:text-primary5 tran=
+sition-colors"><div class=3D"relative flex"><svg xmlns=3D"http://www.w3.org=
+/2000/svg" width=3D"18" height=3D"18" viewBox=3D"0 0 16 16" fill=3D"none"><=
+g clip-path=3D"url(#clip0_21825_972590.05134194608468179)"><path fill-rule=
+=3D"evenodd" clip-rule=3D"evenodd" d=3D"M1.33464 1.97559C0.966446 1.97559 0=
+.667969 2.27406 0.667969 2.64225V12.6423C0.667969 13.0104 0.966446 13.3089 =
+1.33464 13.3089H6.0013C6.35492 13.3089 6.69406 13.4494 6.94411 13.6994C7.19=
+416 13.9495 7.33464 14.2886 7.33464 14.6423C7.33464 15.0104 7.63311 15.3089=
+ 8.0013 15.3089C8.36949 15.3089 8.66797 15.0104 8.66797 14.6423C8.66797 14.=
+2886 8.80844 13.9495 9.05849 13.6994C9.30854 13.4494 9.64768 13.3089 10.001=
+3 13.3089H14.668C15.0362 13.3089 15.3346 13.0104 15.3346 12.6423V2.64225C15=
+.3346 2.27406 15.0362 1.97559 14.668 1.97559H10.668C9.78391 1.97559 8.93607=
+ 2.32678 8.31095 2.9519C8.19876 3.06408 8.0954 3.18344 8.0013 3.3089C7.9072=
+1 3.18344 7.80384 3.06408 7.69166 2.9519C7.06654 2.32678 6.21869 1.97559 5.=
+33464 1.97559H1.33464ZM7.33464 12.3328V5.30892C7.33464 4.77849 7.12392 4.26=
+978 6.74885 3.89471C6.37378 3.51963 5.86507 3.30892 5.33464 3.30892H2.0013V=
+11.9756H6.0013C6.47346 11.9756 6.9327 12.1008 7.33464 12.3328ZM8.66797 12.3=
+328C9.06991 12.1008 9.52915 11.9756 10.0013 11.9756H14.0013V3.30892H10.668C=
+10.1375 3.30892 9.62883 3.51963 9.25376 3.89471C8.87868 4.26978 8.66797 4.7=
+7849 8.66797 5.30892V12.3328Z" fill=3D"currentColor"></path><path d=3D"M10.=
+168 9.31087C9.79978 9.31087 9.5013 9.60935 9.5013 9.97754C9.5013 10.3457 9.=
+79978 10.6442 10.168 10.6442H12.5013C12.8695 10.6442 13.168 10.3457 13.168 =
+9.97754C13.168 9.60935 12.8695 9.31087 12.5013 9.31087H10.168Z" fill=3D"cur=
+rentColor"></path><path d=3D"M10.168 6.97754C9.79978 6.97754 9.5013 7.27602=
+ 9.5013 7.64421C9.5013 8.0124 9.79978 8.31087 10.168 8.31087H12.5013C12.869=
+5 8.31087 13.168 8.0124 13.168 7.64421C13.168 7.27602 12.8695 6.97754 12.50=
+13 6.97754H10.168Z" fill=3D"currentColor"></path><path d=3D"M10.168 4.64421=
+C9.79978 4.64421 9.5013 4.94268 9.5013 5.31087C9.5013 5.67906 9.79978 5.977=
+54 10.168 5.97754H12.5013C12.8695 5.97754 13.168 5.67906 13.168 5.31087C13.=
+168 4.94268 12.8695 4.64421 12.5013 4.64421H10.168Z" fill=3D"currentColor">=
+</path></g><defs><clipPath id=3D"clip0_21825_972590.05134194608468179"><rec=
+t width=3D"16" height=3D"16" fill=3D"white" transform=3D"translate(0.000976=
+562)"></rect></clipPath></defs></svg></div></button></div></div><div role=
+=3D"button" class=3D"float-btn" style=3D"touch-action: none;"><div class=3D=
+"flex h-full"><img class=3D"w-6 h-6 pointer-events-none" src=3D"chrome-exte=
+nsion://difoiogjjojoaoomphldepapgpbgkhkb/assets/logo-OYJ34ERC.png" alt=3D"l=
+ogo icon"></div><span class=3D"ant-dropdown-trigger close-btn"><svg width=
+=3D"8" height=3D"10" viewBox=3D"0 0 9 9" fill=3D"none" xmlns=3D"http://www.=
+w3.org/2000/svg" hanging=3D"8"><path d=3D"M7.83725 1.30615L1.30664 7.83676M=
+1.30664 1.30615L7.83725 7.83676" stroke=3D"currentColor" stroke-width=3D"1.=
+2" stroke-linecap=3D"round" stroke-linejoin=3D"round"></path></svg></span><=
+/div></div></div><div class=3D"chat-gpt-query-model-wrapper outline-none ac=
+tive:outline-none focus:outline-none " tabindex=3D"1"><div class=3D"chat-gp=
+t-query-model text-base min-w-[440px] max-sm:min-w-[90vw]"><div class=3D"fl=
+ip-y"><div></div></div><div class=3D"absolute -left-1 z-[1001] h-full w-2">=
+<div class=3D"h-full w-1/4 m-auto cursor-ew-resize"></div></div><button cla=
+ss=3D"size-10 absolute z-[-1] bottom-[10px] flex-center p-0 outline-none bo=
+rder-none text-title bg-bg2 cursor-pointer hover:text-primary transition-co=
+lors -left-[38px] rounded-tl-full rounded-bl-full" style=3D"transform: tran=
+slate3d(0px, 0px, 0px); box-shadow: rgba(0, 0, 0, 0.04) -12px 0px 32px 0px,=
+ rgba(0, 0, 0, 0.08) -8px 0px 16px 0px, rgba(0, 0, 0, 0.12) -4px 0px 8px 0p=
+x;"><svg aria-hidden=3D"true" focusable=3D"false" role=3D"img" class=3D"ml-=
+1" viewBox=3D"0 0 16 16" width=3D"20" height=3D"20" fill=3D"currentColor" s=
+tyle=3D"display: inline-block; user-select: none; vertical-align: text-bott=
+om; overflow: visible;"><path d=3D"M3.72 3.72a.75.75 0 0 1 1.06 0L8 6.94l3.=
+22-3.22a.749.749 0 0 1 1.275.326.749.749 0 0 1-.215.734L9.06 8l3.22 3.22a.7=
+49.749 0 0 1-.326 1.275.749.749 0 0 1-.734-.215L8 9.06l-3.22 3.22a.751.751 =
+0 0 1-1.042-.018.751.751 0 0 1-.018-1.042L6.94 8 3.72 4.78a.75.75 0 0 1 0-1=
+.06Z"></path></svg></button></div></div></div><div class=3D"fixed inset-0 p=
+ointer-events-none z-[--gpts-topmost-zindex] overflow-hidden"><div class=3D=
+"grid auto-cols-max auto-rows-max p-[16px]" style=3D"width: 0px; height: 0p=
+x; place-content: start; transform: none;"><div class=3D"grid cursor-pointe=
+r group grid-rows-[1fr] relative hover:grid-cols-[1fr] max-w-max max-h-max =
+hover:delay-0 grid-cols-[0fr] delay-150" style=3D"transition-property: grid=
+-template-columns; transition-timing-function: ease-in-out; transition-dura=
+tion: 150ms; opacity: 0; visibility: hidden; pointer-events: none;"><div cl=
+ass=3D"min-w-[32px] min-h-[32px] rounded-[6px] px-[9px] gap-[9px] max-w-max=
+ backdrop-blur-sm overflow-hidden flex-align text-white bg-black/65" style=
+=3D"grid-area: 1 / 1;"><img src=3D"chrome-extension://difoiogjjojoaoomphlde=
+papgpbgkhkb/assets/logo-OYJ34ERC.png" alt=3D"Logo" class=3D"size-[14px] gra=
+yscale brightness-[10]"><div class=3D"flex-align gap-[4px]"><div class=3D"w=
+hitespace-nowrap shrink-0">AI Tools</div></div></div><span class=3D"ant-dro=
+pdown-trigger absolute -top-[7px] -right-[7px] opacity-0 size-[14px] flex-c=
+enter bg-[#8B8F91] text-white rounded-full transition-opacity group-hover:o=
+pacity-100 group-hover:delay-150 opacity-0 delay-0"><svg aria-hidden=3D"tru=
+e" focusable=3D"false" role=3D"img" class=3D"octicon octicon-x" viewBox=3D"=
+0 0 12 12" width=3D"10" height=3D"10" fill=3D"currentColor" style=3D"displa=
+y: inline-block; user-select: none; vertical-align: text-bottom; overflow: =
+visible;"><path d=3D"M2.22 2.22a.749.749 0 0 1 1.06 0L6 4.939 8.72 2.22a.74=
+9.749 0 1 1 1.06 1.06L7.061 6 9.78 8.72a.749.749 0 1 1-1.06 1.06L6 7.061 3.=
+28 9.78a.749.749 0 1 1-1.06-1.06L4.939 6 2.22 3.28a.749.749 0 0 1 0-1.06Z">=
+</path></svg></span></div></div></div></div></div><meta name=3D"sider-selec=
+tion-tags" content=3D"disable-translator-fab"></template></chatgpt-sidebar>=
+<grammarly-desktop-integration data-grammarly-shadow-root=3D"true"><templat=
+e shadowmode=3D"open"><div aria-label=3D"grammarly-integration" role=3D"gro=
+up" tabindex=3D"-1" class=3D"grammarly-desktop-integration" data-content=3D=
+"{&quot;mode&quot;:&quot;limited&quot;,&quot;isActive&quot;:false,&quot;isU=
+serDisabled&quot;:false}"></div></template></grammarly-desktop-integration>=
+<chatgpt-sidebar-popups data-gpts-theme=3D"dark"><template shadowmode=3D"op=
+en"><div class=3D"chat-gpt-quick-query-container" style=3D"position: relati=
+ve; z-index: 2147483647;"><div class=3D"css-1mfrqcv ant-app"><div><span></s=
+pan><span class=3D"ant-dropdown-trigger"></span></div></div></div></templat=
+e></chatgpt-sidebar-popups></html>
+------MultipartBoundary--fKRHyLgkn62Ntfm8KcBrydqEALbV0AKkpAyGGVqM1Z----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-1de79dd4-0aa5-4ca4-8639-fbf05ba4e3a5@mhtml.blink
+
+@charset "utf-8";
+
+body { background: rgb(255, 255, 255); }
+
+body.dark { background: rgb(25, 25, 25); }
+
+@keyframes startup-shimmer-animation {=20
+  0% { transform: translateX(-100%) translateZ(0px); }
+  100% { transform: translateX(100%) translateZ(0px); }
+}
+
+@keyframes startup-shimmer-fade-in {=20
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@keyframes startup-spinner-rotate {=20
+  0% { transform: rotate(0deg) translateZ(0px); }
+  100% { transform: rotate(360deg) translateZ(0px); }
+}
+
+#initial-loading-spinner { position: fixed; height: 100vh; width: 100vw; z-=
+index: -1; display: none; align-items: center; justify-content: center; opa=
+city: 0.5; }
+
+#initial-loading-spinner svg { height: 24px; width: 24px; animation: 1s lin=
+ear 0s infinite normal none running startup-spinner-rotate; transform-origi=
+n: center center; pointer-events: none; }
+
+#skeleton { background: rgb(255, 255, 255); position: fixed; height: 100vh;=
+ width: 100vw; z-index: -1; display: none; overflow: hidden; }
+
+#initial-loading-spinner.show, #skeleton.show { display: flex; }
+
+body.dark #skeleton { background: rgb(25, 25, 25); }
+
+.notion-front-page #skeleton, .notion-mobile #skeleton { display: none; }
+
+#skeleton-sidebar { background-color: rgb(251, 251, 250); box-shadow: rgba(=
+0, 0, 0, 0.024) -1px 0px 0px 0px inset; display: flex; width: 240px; flex-d=
+irection: column; padding: 12px 14px; overflow: hidden; }
+
+body.dark #skeleton-sidebar { background-color: rgb(32, 32, 32); box-shadow=
+: rgba(255, 255, 255, 0.05) -1px 0px 0px 0px inset; }
+
+#skeleton.isElectron #skeleton-sidebar { padding-top: 46px; }
+
+#skeleton .row { display: flex; margin-bottom: 8px; align-items: center; }
+
+#skeleton .row.fadein { animation: 1s ease-in 0s 1 normal both running star=
+tup-shimmer-fade-in; }
+
+#skeleton .chevron { width: 12px; height: 12px; display: block; margin-righ=
+t: 4px; fill: rgba(227, 226, 224, 0.5); }
+
+body.dark #skeleton .chevron { fill: rgb(47, 47, 47); }
+
+.startup-shimmer { background: rgba(227, 226, 224, 0.5); overflow: hidden; =
+position: relative; }
+
+body.dark .startup-shimmer { background: rgb(47, 47, 47); }
+
+.startup-shimmer::before { content: ""; position: absolute; height: 100%; w=
+idth: 100%; z-index: 1; animation: 1s linear 0s infinite normal none runnin=
+g startup-shimmer-animation; background: linear-gradient(90deg, rgba(0, 0, =
+0, 0) 0px, rgba(0, 0, 0, 0.03) 50%, rgba(0, 0, 0, 0) 100%); }
+
+body.dark .startup-shimmer::before { background: linear-gradient(90deg, tra=
+nsparent 0px, rgba(86, 86, 86, 0.1) 50%, transparent 100%); }
+
+#skeleton .icon { width: 20px; height: 20px; border-radius: 4px; }
+
+#skeleton .text { height: 10px; border-radius: 10px; }
+
+#skeleton .draggable { app-region: drag; position: absolute; top: 0px; left=
+: 0px; width: 100%; height: 36px; display: none; }
+
+#skeleton.isElectron .draggable { display: block; }
+------MultipartBoundary--fKRHyLgkn62Ntfm8KcBrydqEALbV0AKkpAyGGVqM1Z----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-26c6f985-ff2c-42d3-975a-755165eb194b@mhtml.blink
+
+@charset "utf-8";
+
+::-webkit-scrollbar { width: 10px; height: 10px; }
+
+::-webkit-scrollbar { background: transparent; }
+
+::-webkit-scrollbar-track { background: rgba(202, 204, 206, 0.04); }
+
+::-webkit-scrollbar-thumb { background: rgb(71, 76, 80); }
+
+::-webkit-scrollbar-thumb:hover { background: rgba(202, 204, 206, 0.3); }
+------MultipartBoundary--fKRHyLgkn62Ntfm8KcBrydqEALbV0AKkpAyGGVqM1Z----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-06384cc8-bc4a-449d-9364-ccde85500ebf@mhtml.blink
+
+@charset "utf-8";
+
+.assistant-grouped-edit-chat-container .assistant-grouped-edit-insert { bac=
+kground: initial !important; border-bottom: initial !important; color: rgba=
+(255, 255, 255, 0.81) !important; }
+
+.assistant-grouped-edit-chat-container .assistant-grouped-edit-remove { bac=
+kground: initial !important; border-bottom: initial !important; color: rgba=
+(255, 255, 255, 0.13) !important; }
+------MultipartBoundary--fKRHyLgkn62Ntfm8KcBrydqEALbV0AKkpAyGGVqM1Z----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://scoremarks.notion.site/print.f2ad22d6.css
+
+@charset "utf-8";
+
+html, body, #notion-app { -webkit-print-color-adjust: exact; height: auto !=
+important; overflow: auto !important; font-size: 14px !important; padding: =
+0px !important; margin: 0px !important; }
+
+.notion-ai-button, .notion-help-button, .notion-print-ignore, .notion-overl=
+ay-container, .notion-sidebar-container, .notion-presence-container, .notio=
+n-topbar, .notion-topbar-export-popup, .notion-selectable-halo, .notion-hel=
+p-button, .notion-page-controls { display: none !important; }
+
+.notion-frame { -webkit-print-color-adjust: exact; width: 100% !important; =
+height: auto !important; border: none !important; padding: 0px !important; =
+margin: 0px !important; }
+
+.notion-scroller { height: auto !important; width: 100% !important; max-hei=
+ght: none !important; max-width: none !important; overflow: visible !import=
+ant; padding: 0px !important; margin: 0px !important; display: block !impor=
+tant; }
+
+html { height: auto !important; overflow: auto !important; font-size: 14px =
+!important; }
+
+.notion-invoice { height: auto !important; }
+
+.notion-code-block > div { white-space: normal !important; }
+
+.notion-selectable { break-inside: avoid; position: relative; overflow: ini=
+tial; min-height: 0px; max-width: none !important; }
+
+.notion-page-content { position: relative; overflow: initial; min-height: 0=
+px; display: block !important; width: 100% !important; }
+
+@page { size: auto; margin: 20mm 0px; }
+
+.notion-table-content { padding: 0px !important; }
+------MultipartBoundary--fKRHyLgkn62Ntfm8KcBrydqEALbV0AKkpAyGGVqM1Z----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://scoremarks.notion.site/_assets/app-a3f4b8840b83cd87.css
+
+@charset "utf-8";
+
+@font-face { font-family: Lyon-Text; font-style: normal; font-weight: 400; =
+src: url("/_assets/lyon-text-regular-3be84b20b1d9ff1e3456b0a220ae449b.woff"=
+) format("woff"); }
+
+@font-face { font-family: Lyon-Text; font-style: italic; font-weight: 400; =
+src: url("/_assets/lyon-text-regular-italic-437d32a42fc5b8268bb4a1e0cc8b363=
+f.woff") format("woff"); }
+
+@font-face { font-family: Lyon-Text; font-style: normal; font-weight: 600; =
+src: url("/_assets/lyon-text-semibold-acb7f110189034ff6a1afa4b730be0ed.woff=
+") format("woff"); }
+
+@font-face { font-family: Lyon-Text; font-style: italic; font-weight: 600; =
+src: url("/_assets/lyon-text-semibold-italic-1f81a2f93060f05edd7f078ac91f25=
+e6.woff") format("woff"); }
+
+@font-face { font-family: iawriter-mono; font-style: normal; font-weight: 4=
+00; src: url("/_assets/iawriter-mono-regular-4b73d071988a4f1cd2283524716ad9=
+70.woff") format("woff"); }
+
+@font-face { font-family: iawriter-mono; font-style: italic; font-weight: 4=
+00; src: url("/_assets/iawriter-mono-italic-d5d3224c1377168e261efc6aa0ce89c=
+6.woff") format("woff"); }
+
+@font-face { font-family: iawriter-mono; font-style: normal; font-weight: 6=
+00; src: url("/_assets/iawriter-mono-bold-eb96a5e539892d26cf8b0cb2367e3580.=
+woff") format("woff"); }
+
+@font-face { font-family: iawriter-mono; font-style: italic; font-weight: 6=
+00; src: url("/_assets/iawriter-mono-bold-italic-743b231fa82483406c79a00fa1=
+f12fe8.woff") format("woff"); }
+
+@font-face { font-family: inter; font-style: normal; font-weight: 400; src:=
+ url("/_assets/inter-ui-regular-3ae6a7d3890c33d857fc00bd2e4c4820.woff") for=
+mat("woff"); }
+
+@font-face { font-family: inter; font-style: normal; font-weight: 500; src:=
+ url("/_assets/inter-ui-medium-95b8a98959d1af9ab432d7ffe295ef94.woff") form=
+at("woff"); }
+
+@font-face { font-family: inter; font-style: normal; font-weight: 600; src:=
+ url("/_assets/inter-ui-semibold-19b57197b819695d334b9961ee41910e.woff") fo=
+rmat("woff"); }
+
+@font-face { font-family: inter; font-style: normal; font-weight: 700; src:=
+ url("/_assets/inter-ui-bold-001893789f7f342b520f29ac8af7d6ca.woff") format=
+("woff"); }
+
+@font-face { font-family: permanent-marker; font-style: normal; font-weight=
+: 400; src: url("/_assets/permanent-marker-a6d62939e7c920a184ddddcf4149e62c=
+.woff") format("woff"); }
+
+.notion-frame .katex-display .katex { padding-right: 32px; }
+
+.notion-frame .katex > .katex-html { white-space: normal; }
+
+.notion-frame .katex-display .base { margin-bottom: 2px; margin-top: 2px; }
+
+.notion-frame .notion-text-equation-token .katex { line-height: 1; }
+
+html { text-size-adjust: 100%; font-family: sans-serif; }
+
+body { margin: 0px; }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, =
+menu, nav, section, summary { display: block; }
+
+audio, canvas, progress, video { display: inline-block; vertical-align: bas=
+eline; }
+
+audio:not([controls]) { display: none; height: 0px; }
+
+[hidden], template { display: none; }
+
+a { background-color: transparent; }
+
+a:active, a:hover { outline: 0px; }
+
+abbr[title] { border-bottom: 1px dotted; }
+
+b, strong { font-weight: 700; }
+
+dfn { font-style: italic; }
+
+h1 { font-size: 2em; margin: 0.67em 0px; }
+
+mark { background: rgb(255, 255, 0); color: rgb(0, 0, 0); }
+
+small { font-size: 80%; }
+
+sub, sup { font-size: 75%; line-height: 0; position: relative; vertical-ali=
+gn: baseline; }
+
+sup { top: -0.5em; }
+
+sub { bottom: -0.25em; }
+
+img { border: 0px; }
+
+figure { margin: 1em 40px; }
+
+hr { box-sizing: content-box; height: 0px; }
+
+code, kbd, pre, samp { font-family: inherit; }
+
+button, input, optgroup, select, textarea { color: inherit; font: inherit; =
+margin: 0px; }
+
+button { overflow: visible; }
+
+button, select { text-transform: none; }
+
+button, html input[type=3D"button"], input[type=3D"reset"], input[type=3D"s=
+ubmit"] { appearance: button; cursor: pointer; }
+
+button[disabled], html input[disabled] { cursor: default; }
+
+input[type=3D"checkbox"], input[type=3D"radio"] { box-sizing: border-box; p=
+adding: 0px; }
+
+input[type=3D"number"]::-webkit-inner-spin-button, input[type=3D"number"]::=
+-webkit-outer-spin-button { height: auto; }
+
+input[type=3D"search"] { appearance: textfield; box-sizing: content-box; }
+
+input[type=3D"search"]::-webkit-search-cancel-button, input[type=3D"search"=
+]::-webkit-search-decoration { appearance: none; }
+
+fieldset { border: 1px solid silver; margin: 0px 2px; padding: 0.35em 0.625=
+em 0.75em; }
+
+legend { border: 0px; padding: 0px; }
+
+textarea { overflow: auto; }
+
+optgroup { font-weight: 700; }
+
+table { border-collapse: collapse; border-spacing: 0px; }
+
+td, th { padding: 0px; }
+
+.notion-link { transition: all 0.1s ease-in 0s; }
+
+.notion-link:hover { color: rgb(235, 87, 87) !important; }
+
+.notion-link-ai-version { transition: all 0.1s ease-in 0s; }
+
+.notion-link-ai-version:hover { color: rgb(202, 89, 255) !important; }
+
+.notion-link-blue:hover { color: rgb(35, 131, 226) !important; }
+
+.notion-ai-icon { transition: all 0.1s ease-in 0s; }
+
+.notion-ai-icon:hover { filter: brightness(1.3); }
+
+.notion-mobile-tapping { opacity: 0.6; }
+
+.notion-reminder.notion-enable-hover:hover { text-decoration: underline; }
+
+.notion-token-remove-button:hover { opacity: 0.8; }
+
+.notion-notion-external-object, .notion-page-mention-token { box-shadow: rg=
+ba(148, 148, 148, 0) 0px 0px 0px 3px; }
+
+.notion-external-object-token.notion-enable-hover:hover, .notion-page-menti=
+on-token.notion-enable-hover:hover { background: rgba(148, 148, 148, 0.15);=
+ border-radius: 1px; box-shadow: rgba(148, 148, 148, 0.15) 0px 0px 0px 3px;=
+ cursor: pointer !important; }
+
+.notion-external-object-token::selection, .notion-page-mention-token::selec=
+tion { background: rgba(35, 131, 226, 0.14); }
+
+.notion-citation-mention-token { background-color: rgb(172, 171, 169); colo=
+r: rgb(255, 255, 255); }
+
+.notion-dark-theme .notion-citation-mention-token { background-color: rgb(5=
+1, 51, 51); color: rgb(255, 255, 255); }
+
+.notion-citation-mention-token.notion-enable-hover:hover { background-color=
+: rgb(35, 131, 226); }
+
+.notion-focusable-within:focus-within { box-shadow: rgba(35, 131, 226, 0.57=
+) 0px 0px 0px 1px inset, rgba(35, 131, 226, 0.35) 0px 0px 0px 2px !importan=
+t; }
+
+.notion-focusable-token:focus-visible { box-shadow: rgba(35, 131, 226, 0.57=
+) 0px 0px 0px 1px inset, rgba(35, 131, 226, 0.35) 0px 0px 0px 2px !importan=
+t; }
+
+.notion-cursor-default { cursor: default; }
+
+.notion-cursor-pointer { cursor: pointer; }
+
+.notion-sidebar-container, .notion-topbar { cursor: default; }
+
+.notion-disable-local-cursor .notion-cursor-default, .notion-disable-local-=
+cursor .notion-cursor-pointer, .notion-disable-local-cursor .notion-sidebar=
+-container, .notion-disable-local-cursor .notion-topbar { cursor: inherit; =
+}
+
+.notion-disable-webkit-user-select, .notion-disable-webkit-user-select * { =
+user-select: none; }
+
+#notion-app a { cursor: inherit; }
+
+.notion-fadein { animation: 0.33s ease-in 0s 1 normal none running fadein; =
+}
+
+.notion-fadein-fast { animation: 0.23s ease-in 0s 1 normal none running fad=
+ein; }
+
+.notion-fadein-slow { animation: 0.6s ease-in 0s 1 normal none running fade=
+in; }
+
+@keyframes fadein {=20
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.line-numbers .line-numbers-rows { border-right: none !important; }
+
+.line-numbers-rows > span::before { color: rgb(204, 204, 204) !important; }
+
+.notion-desktop-drag-area { app-region: drag; }
+
+.notion-desktop-drag-area [role=3D"button"], .notion-desktop-drag-area [rol=
+e=3D"link"], .notion-desktop-drag-area input { app-region: no-drag; }
+
+.notion-mobile * { -webkit-tap-highlight-color: transparent; }
+
+.notion-subpixel-antialiasing-off * { -webkit-font-smoothing: antialiased; =
+}
+
+#notion-app, body.notion-body, html.notion-html { background-color: transpa=
+rent; height: 100vh; overflow: hidden; position: relative; }
+
+.notion-app-inner { height: 100%; }
+
+html.notion-mobile:not(.notion-front-page) div:not([contenteditable]) { use=
+r-select: none; }
+
+html.notion-mobile:not(.notion-front-page) body:not(.notion-disable-webkit-=
+user-select) [contenteditable] { user-select: text; }
+
+html.notion-front-page, html.notion-front-page #notion-app, html.notion-fro=
+nt-page body { background: rgb(255, 254, 252); overflow: initial; }
+
+html.notion-front-page body.disable-scroll { overflow: hidden; }
+
+html.notion-front-page .notion-app-inner { height: auto; }
+
+:root { --full-viewport-height: 100vh; }
+
+[contenteditable]:empty::after { content: attr(placeholder); }
+
+#intercom-container { z-index: 1000 !important; }
+
+.token.operator.operator { background: transparent; }
+
+#box-app-container > div { align-items: center; background: rgba(255, 255, =
+255, 0.5); display: flex; height: 100vh; justify-content: center; position:=
+ absolute; top: 0px; width: 100vw; z-index: 1000; }
+
+#box-app-container .be-app-element { background: rgb(255, 255, 255); box-sh=
+adow: rgba(0, 0, 0, 0.25) 0px 1px 4px; height: calc(100% - 150px); max-heig=
+ht: 620px; max-width: 1150px; width: calc(100% - 150px); }
+
+@keyframes snackbar-slide-in-top {=20
+  0% { opacity: 0; transform: translateY(-50px); }
+  100% { opacity: 1; transform: translateY(0px); }
+}
+
+@keyframes snackbar-slide-in-bottom {=20
+  0% { opacity: 0; transform: translateY(50px); }
+  100% { opacity: 1; transform: translateY(0px); }
+}
+
+.loading-spinner { animation: 1s linear 0s infinite normal none running rot=
+ate; display: block; height: 1em; opacity: 0.5; pointer-events: none; trans=
+form-origin: center center; width: 1em; }
+
+@-webkit-keyframes rotate {=20
+  0% { transform: rotate(0deg) translateZ(0px); }
+  100% { transform: rotate(1turn) translateZ(0px); }
+}
+
+@keyframes rotate {=20
+  0% { transform: rotate(0deg) translateZ(0px); }
+  100% { transform: rotate(1turn) translateZ(0px); }
+}
+
+.loading-dots { align-items: center; display: flex; gap: 2px; height: 16px;=
+ justify-content: center; width: 16px; }
+
+.loading-dot { animation-direction: alternate; animation-duration: 0.5s; an=
+imation-iteration-count: infinite; animation-name: dotdance; animation-timi=
+ng-function: cubic-bezier(0.11, 0, 0.5, 0); background-color: rgb(167, 130,=
+ 195); border-radius: 100%; height: 4px; opacity: 0.6; width: 4px; }
+
+.loading-dots .loading-dot:first-child { animation-delay: 0.2s; }
+
+.loading-dots .loading-dot:nth-child(2) { animation-delay: 0.4s; }
+
+.loading-dots .loading-dot:nth-child(3) { animation-delay: 0.6s; }
+
+@keyframes dotdance {=20
+  0% { opacity: 0.6; transform: translateY(0px); }
+  100% { opacity: 0.9; transform: translateY(2px); }
+}
+
+.sync-spinner { animation: 2.5s linear 0s infinite normal none running rota=
+te; display: block; pointer-events: none; transform-origin: center center; =
+}
+
+.notion-shimmer { overflow: hidden; position: relative; z-index: 0; }
+
+.notion-shimmer::before { animation: 1s linear 0s infinite normal none runn=
+ing shimmer; content: ""; height: 100%; position: absolute; width: 100%; z-=
+index: 1; }
+
+.notion-light-theme .notion-shimmer::before { background: linear-gradient(9=
+0deg, transparent, rgba(0, 0, 0, 0.03) 50%, transparent); }
+
+.notion-dark-theme .notion-shimmer::before { background: linear-gradient(90=
+deg, rgba(86, 86, 86, 0), rgba(86, 86, 86, 0.1) 50%, rgba(86, 86, 86, 0)); =
+}
+
+@keyframes shimmer {=20
+  0% { transform: translateX(-100%); }
+  100% { transform: translateX(100%); }
+}
+
+@keyframes shimmer-calendar-transition {=20
+  0% { opacity: 0.4; }
+  100% { opacity: 1; }
+}
+
+.notion-shimmer-calendar-transition { animation-duration: 0.7s; animation-i=
+teration-count: 1; animation-name: shimmer-calendar-transition; animation-t=
+iming-function: ease-in-out; }
+
+@keyframes text-shimmer-fade-in {=20
+  0% { opacity: 0.1; }
+  25% { opacity: 0.4; }
+  30% { opacity: 0.4; }
+  55% { opacity: 0.1; }
+  100% { opacity: 0.1; }
+}
+
+.notion-shimmer-text { animation-duration: 3s; animation-iteration-count: i=
+nfinite; animation-name: text-shimmer-fade-in; animation-timing-function: e=
+ase-in-out; opacity: 0.1; }
+
+.animation-delay-1 { animation-delay: 0s; }
+
+.animation-delay-2 { animation-delay: 0.2s; }
+
+.animation-delay-3 { animation-delay: 0.4s; }
+
+.animation-delay-4 { animation-delay: 0.6s; }
+
+.animation-delay-5 { animation-delay: 0.8s; }
+
+.animation-delay-6 { animation-delay: 1s; }
+
+.animation-delay-7 { animation-delay: 1.2s; }
+
+@keyframes shimmer-timeline-transition {=20
+  0% { opacity: 0.5; }
+  100% { opacity: 1; }
+}
+
+.notion-shimmer-timeline-transition { animation-duration: 0.5s; animation-i=
+teration-count: 1; animation-name: shimmer-timeline-transition; animation-t=
+iming-function: ease-in-out; }
+
+@keyframes shimmer-timeline-fade-in {=20
+  0% { opacity: 0.15; }
+  40% { opacity: 0.5; }
+  50% { opacity: 0.5; }
+  60% { opacity: 0.5; }
+  100% { opacity: 0.15; }
+}
+
+.notion-shimmer-timeline { animation-duration: 2.5s; animation-iteration-co=
+unt: infinite; animation-name: shimmer-timeline-fade-in; animation-timing-f=
+unction: ease-in-out; opacity: 0.15; }
+
+.column-chart-loading svg line { stroke-dasharray: 300, 300; stroke-dashoff=
+set: -10; animation: 2s cubic-bezier(0.45, 0, 0.55, 1) 0.2s infinite revers=
+e none running grow; opacity: 0.3; }
+
+@keyframes grow {=20
+  0% { stroke-dasharray: 300, 300; stroke-dashoffset: -10; opacity: 0.3; }
+  50% { stroke-dasharray: 300, 300; stroke-dashoffset: 0; opacity: 1; }
+  100% { stroke-dasharray: 300, 300; stroke-dashoffset: -10; opacity: 0.3; =
+}
+}
+
+.column-chart-loading svg line.column-loader-1 { animation-delay: 0s; }
+
+.column-chart-loading svg line.column-loader-2 { animation-delay: 0.1s; }
+
+.column-chart-loading svg line.column-loader-3 { animation-delay: 0.2s; }
+
+.column-chart-loading svg line.column-loader-4 { animation-delay: 0.3s; }
+
+.column-chart-loading svg line.column-loader-5 { animation-delay: 0.4s; }
+
+.line-chart-loading svg { stroke-dasharray: 0, 300; stroke-dashoffset: -150=
+; animation: 2.5s linear 0s infinite reverse none running dash; opacity: 0.=
+3; }
+
+@keyframes dash {=20
+  0% { stroke-dasharray: 0, 300; stroke-dashoffset: -150; opacity: 0.3; }
+  50% { stroke-dasharray: 300, 300; stroke-dashoffset: 0; opacity: 1; }
+  100% { stroke-dasharray: 0, 300; stroke-dashoffset: 0; opacity: 0.3; }
+}
+
+.donut-chart-loading svg circle.outer-loader { animation: 2s cubic-bezier(0=
+.45, 0, 0.55, 1) 0s infinite reverse none running pulse-outer; opacity: 0.3=
+; }
+
+.donut-chart-loading svg circle.inner-loader { animation: 2s cubic-bezier(0=
+.45, 0, 0.55, 1) 0.5s infinite reverse none running pulse-inner; opacity: 0=
+.3; }
+
+@keyframes pulse-outer {=20
+  0% { r: 24; opacity: 0.3; }
+  50% { r: 25; opacity: 0.8; }
+  100% { r: 24; opacity: 0.3; }
+}
+
+@keyframes pulse-inner {=20
+  0% { r: 12; opacity: 0.3; }
+  50% { r: 14; opacity: 0.8; }
+  100% { r: 12; opacity: 0.3; }
+}
+
+.highcharts-legend-item > span { max-width: 200px; }
+
+:root { --safe-area-inset-top: env(safe-area-inset-top,0px); --safe-area-in=
+set-right: env(safe-area-inset-right,0px); --safe-area-inset-left: env(safe=
+-area-inset-left,0px); --safe-area-inset-bottom: env(safe-area-inset-bottom=
+,0px); }
+
+input[type=3D"range"] { appearance: none; background: transparent; }
+
+input[type=3D"range"]::-webkit-slider-thumb { appearance: none; background:=
+ var(--inputRangeThumb--background); border: .5px solid var(--inputRangeThu=
+mb--borderColor); border-radius: 50%; box-shadow: rgba(0, 0, 0, 0.25) 0px 1=
+px 4px; cursor: pointer; height: 14px; margin-top: -4px; width: 14px; }
+
+input[type=3D"range"]::-webkit-slider-runnable-track { appearance: none; ba=
+ckground: var(--inputRangeTrack--color); border-radius: 10px; cursor: point=
+er; height: 6px; width: 100%; }
+
+.notion-quote { position: relative; }
+
+.notion-quote::before { content: "=E2=80=9C"; left: -0.5em; opacity: 0.6; p=
+osition: absolute; }
+
+.notion-quote::after { content: "=E2=80=9D"; margin-left: 0.1em; opacity: 0=
+.6; }
+
+@media only screen and (max-width: 1020px) {
+  .br-desktop { display: none; }
+}
+
+.pretty-json-container .variable-value > * > * { cursor: pointer !important=
+; }
+
+.editor-force-select { user-select: auto !important; }
+
+.width-max-content { width: -webkit-max-content; }
+
+.hidden { display: none !important; }
+
+input.input-hide-arrows::-webkit-inner-spin-button, input.input-hide-arrows=
+::-webkit-outer-spin-button { appearance: none; margin: 0px; }
+
+input[type=3D"number"].input-hide-arrows { }
+
+@keyframes leftOrRight {=20
+  0% { left: -50%; }
+  100% { left: 250%; }
+}
+
+.pseudoAfter::after { background: var(--pseudoAfter--background); border: v=
+ar(--pseudoAfter--border); color: var(--pseudoAfter--color); content: var(-=
+-pseudoAfter--content); display: var(--pseudoAfter--display); height: var(-=
+-pseudoAfter--height); width: var(--pseudoAfter--width); }
+
+.pseudoBefore::before { background: var(--pseudoBefore--background); border=
+: var(--pseudoBefore--border); color: var(--pseudoBefore--color); content: =
+var(--pseudoBefore--content); font-family: var(--pseudoBefore--fontFamily);=
+ height: var(--pseudoBefore--height); width: var(--pseudoBefore--width); di=
+splay: var(--pseudoBefore--display) !important; }
+
+.pseudoHover:hover { background: var(--pseudoHover--background); }
+
+.pseudoActive:active { background: var(--pseudoActive--background); }
+
+.pseudoSelection ::selection, .pseudoSelection::selection { -webkit-text-fi=
+ll-color: var(--pseudoSelection--WebkitTextFillColor); background: var(--ps=
+eudoSelection--background); color: var(--pseudoSelection--color); text-shad=
+ow: var(--pseudoSelection--textShadow); }
+
+.whenContentEditable[contenteditable=3D"true"] { -webkit-user-modify: var(-=
+-whenContentEditable--WebkitUserModify); caret-color: var(--whenContentEdit=
+able--caretColor); }
+
+[data-content-editable-selecting=3D"true"] .whenRootSelecting { display: va=
+r(--whenRootSelecting--display) !important; }
+
+.whenFocusedEditable[contenteditable=3D"true"]:focus, [contenteditable=3D"t=
+rue"]:focus-within .whenFocusedEditable { -webkit-user-modify: var(--whenFo=
+cusedEditable--WebkitUserModify) !important; user-select: var(--whenFocused=
+Editable--userSelect) !important; }
+
+[data-content-editable-composing=3D"true"] .pseudoAfterWhenComposing::after=
+ { display: var(--pseudoAfterWhenComposing--display) !important; }
+
+.autolayout-fill-width { width: 100%; }
+
+.autolayout-fill-height { height: 100%; }
+
+.autolayout-col > .autolayout-fill-width { align-self: stretch; width: unse=
+t; }
+
+.autolayout-col > .autolayout-fill-height { flex: 1 0 0px; height: unset; }
+
+.autolayout-row > .autolayout-fill-width { flex: 1 1 0px; width: unset; }
+
+.autolayout-row > .autolayout-fill-height { align-self: stretch; height: un=
+set; }
+
+.autolayout-col { display: flex; flex-direction: column; position: relative=
+; }
+
+.autolayout-col.autolayout-start, .autolayout-col.autolayout-top-left { ali=
+gn-items: flex-start; }
+
+.autolayout-col.autolayout-top-center { align-items: center; }
+
+.autolayout-col.autolayout-end, .autolayout-col.autolayout-top-right { alig=
+n-items: flex-end; }
+
+.autolayout-col.autolayout-center-left { align-items: flex-start; justify-c=
+ontent: center; }
+
+.autolayout-col.autolayout-center { align-items: center; justify-content: c=
+enter; }
+
+.autolayout-col.autolayout-center-right { align-items: flex-end; justify-co=
+ntent: center; }
+
+.autolayout-col.autolayout-bottom-left { align-items: flex-start; justify-c=
+ontent: flex-end; }
+
+.autolayout-col.autolayout-bottom-center { align-items: center; justify-con=
+tent: flex-end; }
+
+.autolayout-col.autolayout-bottom-right { align-items: flex-end; justify-co=
+ntent: flex-end; }
+
+.autolayout-col.autolayout-space { justify-content: space-between; }
+
+.autolayout-row { display: flex; flex-direction: row; position: relative; }
+
+.autolayout-row.autolayout-start, .autolayout-row.autolayout-top-left { ali=
+gn-items: flex-start; }
+
+.autolayout-row.autolayout-top-center { align-items: flex-start; justify-co=
+ntent: center; }
+
+.autolayout-row.autolayout-top-right { align-items: flex-start; justify-con=
+tent: flex-end; }
+
+.autolayout-row.autolayout-center-left { align-items: center; }
+
+.autolayout-row.autolayout-center { align-items: center; justify-content: c=
+enter; }
+
+.autolayout-row.autolayout-center-right { align-items: center; justify-cont=
+ent: flex-end; }
+
+.autolayout-row.autolayout-bottom-left, .autolayout-row.autolayout-end { al=
+ign-items: flex-end; }
+
+.autolayout-row.autolayout-bottom-center { align-items: flex-end; justify-c=
+ontent: center; }
+
+.autolayout-row.autolayout-bottom-right { align-items: flex-end; justify-co=
+ntent: flex-end; }
+
+.autolayout-row.autolayout-space { justify-content: space-between; }
+
+.layout { --content-width: minmax(auto,708px); --margin-width: minmax(96px,=
+1fr); display: grid; grid-template-columns: [full-start] var(--margin-left-=
+width,var(--margin-width)) [content-start] var(--content-width) [content-en=
+d] var(--margin-right-width,var(--margin-width)) [full-end]; width: 100%; }
+
+.layout.layout-wide { --content-width: 1fr; --margin-width: 96px; }
+
+.layout.layout-wide-right-margin-expanded { --content-width: 1fr; --margin-=
+left-width: 96px; --margin-right-width: 468px; }
+
+.layout.layout-side-peek { --content-width: 1fr; --margin-width: 58px; }
+
+.layout.layout-center-peek { --content-width: 1fr; --margin-width: 126px; }
+
+.layout.layout-phone { --content-width: 1fr; --margin-width: 24px; }
+
+.layout.layout-tablet {
+  --content-width: 1fr; --margin-width: 96px;
+  @media (min-width: 900px) { --content-width: 708px; --margin-width: 1fr; =
+}
+}
+
+.layout.layout-home { --content-width: minmax(auto,900px); --margin-width: =
+minmax(56px,1fr); }
+
+.layout.layout-chat { --content-width: minmax(auto,100%); --margin-left-wid=
+th: minmax(auto,1fr); --margin-right-width: 0; }
+
+.layout.layout-home-phone { --content-width: 1fr; --margin-width: 0px; }
+
+.home-content::before { background: rgba(0, 0, 0, 0.02); content: " "; filt=
+er: blur(24px); position: absolute; }
+
+.layout.layout-template-preview { --content-width: minmax(auto,900px); --ma=
+rgin-width: minmax(20px,1fr); }
+
+.layout-content { gap: inherit; grid-column: content; }
+
+.layout-full { gap: inherit; grid-column: full; }
+
+.layout-margin-left { gap: inherit; grid-column: full-start / content-start=
+; }
+
+.layout-margin-right { gap: inherit; grid-column: content-end / full-end; }
+
+.layout-nested-grid { align-items: self-start; display: grid; gap: inherit;=
+ grid-column: full; grid-template-columns: inherit; }
+
+.layout-margin-scrollable { gap: inherit; overflow-x: scroll; overscroll-be=
+havior-x: contain; scroll-snap-type: x; scrollbar-width: none; }
+
+.layout-content { min-width: 0px; }
+
+.layout-margin-scrollable > * { min-width: auto; }
+
+.layout-column { --min-column-width: 0; display: grid; gap: inherit; grid-c=
+olumn: content; grid-template-columns: repeat(auto-fit,minmax(var(--min-col=
+umn-width),1fr)); }
+
+.layout-content-with-divider { border-bottom: 1px solid rgba(55, 53, 47, 0.=
+09); margin-bottom: 8px; }
+
+body.dark .layout-content-with-divider { border-bottom: 1px solid rgba(255,=
+ 255, 255, 0.094); }
+
+.layout-editor { padding-top: 5px; }
+
+.automation-list-item { min-width: 50px; }
+
+.automation-list-item > * { border-radius: 6px; width: 100%; }
+
+.automation-list-item:not(.automation-list-item-narrow) { padding-bottom: 8=
+px; }
+
+.automation-list-item-narrow > * { border-radius: 0px; }
+
+.automation-list-item-narrow:first-child > * { border-start-end-radius: 6px=
+; border-start-start-radius: 6px; }
+
+.automation-list-item-narrow:last-child > * { border-end-end-radius: 6px; b=
+order-end-start-radius: 6px; }
+
+.automation-list-item-narrow + .automation-list-item-narrow { margin-block-=
+start: -1px; }
+
+.automation-list-item-drag-handle, .automation-list-item-icon { left: 0px; =
+position: absolute; top: 0px; transition: opacity 0.1s ease 0s; }
+
+.automation-list-item-icon { opacity: 1; }
+
+.automation-list-item-drag-handle { cursor: grab; opacity: 0; }
+
+.automation-list-item-base-step:not(.automation-list-item-base-step--disabl=
+ed):hover .automation-list-item-icon { opacity: 0; }
+
+.automation-list-item-base-step:not(.automation-list-item-base-step--disabl=
+ed):hover .automation-list-item-drag-handle { opacity: 1; }
+
+.automation-list-item-drag-handle:active { cursor: grabbing; }
+
+@keyframes selectedOutlineScale {=20
+  0%, 100% { outline: rgb(255, 205, 56) solid 2px; }
+  50% { outline-width: 5px; }
+}
+
+@keyframes pulseBackgroundScaleLight {=20
+  0%, 100% { outline: rgba(35, 131, 226, 0.35) solid 2px; }
+  50% { outline-width: 6px; }
+}
+
+@keyframes pulseBackgroundScaleDark {=20
+  0%, 100% { outline: rgba(35, 131, 226, 0.57) solid 2px; }
+  50% { outline-width: 8px; }
+}
+
+.pulse-highlight-light { animation: 1s ease-in-out 0s infinite normal none =
+running pulseBackgroundScaleLight; }
+
+.pulse-highlight-dark { animation: 1s ease-in-out 0s infinite normal none r=
+unning pulseBackgroundScaleDark; }
+
+.in-page-find-selected-highlight-match { animation: 0.15s ease-in-out 0s 1 =
+normal none running selectedOutlineScale; }
+
+.temporary-dictation-annotation { opacity: 0.3; }
+
+@keyframes slideInFromLeft {=20
+  0% { opacity: 0; transform: translateX(-4px); }
+  100% { opacity: 1; transform: translateX(0px); }
+}
+
+.tx-agate-10-regular { font-weight: 400; }
+
+.tx-agate-10-medium, .tx-agate-10-regular { font-size: 10px; letter-spacing=
+: 0.12px; line-height: 13px; }
+
+.tx-agate-10-medium { font-weight: 510; }
+
+.tx-body-12-med { font-size: 12px; font-weight: 500; }
+
+.tx-body-12-reg { font-size: 12px; font-weight: 400; line-height: 15px; }
+
+.tx-body-13-med { font-size: 13px; font-weight: 510; line-height: 16px; }
+
+.tx-body-13-reg { font-size: 13px; font-weight: 400; line-height: 16px; }
+
+.tx-body-13-semi { font-size: 13px; font-weight: 590; line-height: 16px; }
+
+.tx-body-14-med { font-size: 14px; font-weight: 510; line-height: 18px; }
+
+.tx-body-14-reg { font-size: 14px; font-weight: 400; line-height: 18px; }
+
+.tx-body-14-semi { font-size: 14px; font-weight: 590; line-height: 18px; }
+
+.tx-caption-12-reg { font-size: 12px; font-weight: 400; line-height: 16px; =
+}
+
+.tx-caption-12-med { font-size: 12px; font-weight: 500; line-height: 16px; =
+}
+
+.tx-caption-12-semi { font-size: 12px; font-weight: 590; line-height: 15px;=
+ }
+
+.tx-heading-17-med { font-size: 17px; font-weight: 500; line-height: 22px; =
+}
+
+.tx-heading-17-reg { font-size: 17px; font-weight: 400; line-height: 22px; =
+}
+
+.tx-heading-17-semi { font-size: 17px; font-weight: 590; line-height: 22px;=
+ }
+
+.tx-micro-10-med { font-size: 10px; font-weight: 500; line-height: 13px; }
+
+.tx-micro-10-reg { font-size: 10px; font-weight: 400; line-height: 13px; }
+
+.tx-micro-10-semi { font-size: 10px; font-weight: 590; line-height: 13px; }
+
+.tx-ios-callout-16-reg { font-size: 16px; font-weight: 400; line-height: 21=
+px; }
+
+.tx-ios-caption-12-reg { font-size: 12px; font-weight: 400; line-height: 16=
+px; }
+
+.tx-ios-subhead-15-med-c { font-size: 15px; font-weight: 510; letter-spacin=
+g: -0.24px; line-height: normal; }
+
+.tx-ios-title-3-bold { font-size: 20px; font-weight: 700; line-height: 25px=
+; }
+
+.tx-page-content-h3 { font-size: 20px; font-weight: 600; line-height: 150%;=
+ }
+
+.tx-uititle-medium-20-semibold { font-size: 20px; font-style: normal; font-=
+weight: 590; line-height: 25px; }
+
+.tx-title-22-bold { font-weight: 700; letter-spacing: -0.264px; }
+
+.tx-title-22-bold, .tx-title-22-semi { font-size: 22px; font-style: normal;=
+ line-height: 26px; }
+
+.tx-title-22-semi { font-weight: 590; letter-spacing: -0.1px; }
+
+.tx-title-24-bold { font-size: 24px; font-style: normal; font-weight: 700; =
+letter-spacing: 0.208px; line-height: 28px; }
+
+.tx-title-26-bold { font-size: 26px; font-style: normal; font-weight: 700; =
+line-height: 32px; }
+
+.tx-uiheader-17-semi { font-size: 17px; font-style: normal; font-weight: 59=
+0; line-height: 22px; }
+
+.tx-uititle-26-bold { font-size: 26px; font-style: normal; font-weight: 700=
+; line-height: 32px; }
+
+.tx-uiregular-14-med { font-weight: 500; }
+
+.tx-uiregular-14-med, .tx-uiregular-14-reg { font-size: 14px; font-style: n=
+ormal; line-height: 18px; }
+
+.tx-uiregular-14-reg { font-weight: 400; }
+
+.tx-uiregular-14-semi { font-size: 14px; font-style: normal; font-weight: 5=
+90; line-height: 18px; }
+
+.tx-uismall-12-med { font-weight: 500; }
+
+.tx-uismall-12-med, .tx-uismall-12-reg { font-size: 12px; font-style: norma=
+l; line-height: 15px; }
+
+.tx-uismall-12-reg { font-weight: 400; }
+
+.radio-button:checked + span::after { opacity: 1; }
+
+.custom-radio-button::after { background: var(--icon-contrast,#fff); border=
+-radius: var(--Default,6px); content: ""; flex-shrink: 0; height: 6px; opac=
+ity: 0; transition: opacity 0.1s ease-out 0s; width: 6px; }
+
+.rdt { position: relative; user-select: none; }
+
+.rdtPicker { background: rgb(255, 255, 255); box-shadow: rgba(0, 0, 0, 0.1)=
+ 0px 1px 3px; display: none; margin-top: 1px; position: absolute; width: 10=
+0%; }
+
+.rdtOpen .rdtPicker { display: block; }
+
+.rdtStatic .rdtPicker { box-shadow: none; position: static; }
+
+.rdtPicker .rdtTimeToggle { text-align: center; }
+
+.rdtPicker table { margin: 0px; width: 100%; }
+
+.rdtPicker td, .rdtPicker th { height: 28px; text-align: center; }
+
+.rdtPicker .rdtTimeToggle:hover, .rdtPicker td.rdtDay:hover, .rdtPicker td.=
+rdtHour:hover, .rdtPicker td.rdtMinute:hover, .rdtPicker td.rdtSecond:hover=
+, .rdtPicker td.rdtToday:hover { background: rgb(238, 238, 238); cursor: po=
+inter; }
+
+.rdtPicker td.rdtNew, .rdtPicker td.rdtOld { color: rgb(153, 153, 153); }
+
+.rdtPicker td.rdtToday { position: relative; }
+
+.rdtPicker td.rdtToday::before { border-bottom: 7px solid rgb(66, 139, 202)=
+; border-left: 7px solid transparent; border-top-color: rgba(0, 0, 0, 0.2);=
+ bottom: 4px; content: ""; display: inline-block; position: absolute; right=
+: 4px; }
+
+.rdtPicker td.rdtActive, .rdtPicker td.rdtActive:hover { background-color: =
+rgb(66, 139, 202); color: rgb(255, 255, 255); text-shadow: rgba(0, 0, 0, 0.=
+25) 0px -1px 0px; }
+
+.rdtPicker td.rdtActive.rdtToday::before { border-bottom-color: rgb(255, 25=
+5, 255); }
+
+.rdtPicker td.rdtDisabled, .rdtPicker td.rdtDisabled:hover { background: no=
+ne; color: rgb(153, 153, 153); cursor: not-allowed; }
+
+.rdtPicker td span.rdtOld { color: rgb(153, 153, 153); }
+
+.rdtPicker td span.rdtDisabled, .rdtPicker td span.rdtDisabled:hover { back=
+ground: none; color: rgb(153, 153, 153); cursor: not-allowed; }
+
+.rdtPicker .dow { border-bottom: none; width: 14.2857%; }
+
+.rdtPicker th.rdtSwitch { width: 100px; }
+
+.rdtPicker th.rdtNext, .rdtPicker th.rdtPrev { font-size: 21px; vertical-al=
+ign: top; }
+
+.rdtPicker th.rdtDisabled, .rdtPicker th.rdtDisabled:hover { background: no=
+ne; color: rgb(153, 153, 153); cursor: not-allowed; }
+
+.rdtPicker thead tr:first-child th { cursor: pointer; }
+
+.rdtPicker thead tr:first-child th:hover { background: rgb(238, 238, 238); =
+}
+
+.rdtPicker tfoot { border-top: 1px solid rgb(249, 249, 249); }
+
+.rdtPicker button { background: none; border: none; cursor: pointer; }
+
+.rdtPicker button:hover { background-color: rgb(238, 238, 238); }
+
+.rdtPicker thead button { height: 100%; width: 100%; }
+
+td.rdtMonth, td.rdtYear { cursor: pointer; height: 50px; width: 25%; }
+
+td.rdtMonth:hover, td.rdtYear:hover { background: rgb(238, 238, 238); }
+
+.rdtCounters { display: inline-block; }
+
+.rdtCounters > div { float: left; }
+
+.rdtCounter { height: 100px; width: 40px; }
+
+.rdtCounterSeparator { line-height: 100px; }
+
+.rdtCounter .rdtBtn { cursor: pointer; height: 40%; line-height: 40px; }
+
+.rdtCounter .rdtBtn:hover { background: rgb(238, 238, 238); }
+
+.rdtCounter .rdtCount { font-size: 1.2em; height: 20%; }
+
+.rdtMilli { padding-left: 8px; vertical-align: middle; width: 48px; }
+
+.rdtMilli input { font-size: 1.2em; margin-top: 37px; width: 100%; }
+
+*, :focus { outline: 0px; }
+
+* { box-sizing: border-box; }
+
+table > tr { vertical-align: top; }
+
+::-webkit-input-placeholder { color: inherit; opacity: 0.375; }
+
+::-webkit-contacts-auto-fill-button { pointer-events: none; position: absol=
+ute; right: 0px; visibility: hidden; display: none !important; }
+
+::selection { background: rgba(35, 131, 226, 0.28); }
+
+.notion-selectable::selection { background: transparent; }
+
+#notion-app b { font-weight: 600; }
+
+[contenteditable] { -webkit-tap-highlight-color: transparent; }
+
+@keyframes pulse-ring {=20
+  0% { transform: scale(0.33); }
+  80%, 100% { opacity: 0; }
+}
+
+@keyframes pulse-dot {=20
+  0% { transform: scale(0.8); }
+  50% { transform: scale(1); }
+  100% { transform: scale(0.8); }
+}
+
+@keyframes bounce-left {=20
+  0% { transform: translateX(-200%); }
+  25% { transform: translateX(-199%); }
+  100% { transform: translateX(0px); }
+}
+
+@keyframes pulsing-button-border {=20
+  0% { border-color: rgb(35, 131, 226); }
+  50% { border-color: rgba(35, 131, 226, 0); }
+  100% { border-color: rgb(35, 131, 226); }
+}
+
+@keyframes pulsing-button {=20
+  0% { filter: brightness(1); }
+  50% { filter: brightness(1.15); }
+  100% { filter: brightness(1); }
+}
+
+@keyframes shake {=20
+  0% { margin-left: 0px; }
+  25% { margin-left: 0.2rem; }
+  75% { margin-left: -0.2rem; }
+  100% { margin-left: 0px; }
+}
+
+@keyframes fadeIn {=20
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@keyframes home-tile-slide-up {=20
+  0% { transform: translatey(calc((var(--depth) + 1)*24px)); }
+  100% { transform: translateY(0px); }
+}
+
+.home-tile-fade-up-in { animation-delay: calc(.25s*var(--depth) + .5s); ani=
+mation-duration: 1.5s; animation-fill-mode: both; animation-name: home-tile=
+-slide-up, fadeIn; animation-timing-function: ease-in-out; }
+
+.front-fadein-slow { animation: 0.5s ease-in 0s 1 normal none running fadei=
+n; }
+
+.front-fadein-fast { animation: 0.15s ease-in 0s 1 normal none running fade=
+in; }
+
+.hide-scrollbar { scrollbar-width: none; }
+
+.hide-scrollbar::-webkit-scrollbar { height: 0px !important; width: 0px !im=
+portant; }
+
+.notion-light-theme code[class*=3D"language-"], .notion-light-theme pre[cla=
+ss*=3D"language-"] { overflow-wrap: normal; background: none; color: rgb(0,=
+ 0, 0); font-family: Consolas, Monaco, "Andale Mono", "Ubuntu Mono", monosp=
+ace; font-size: 1em; hyphens: none; line-height: 1.5; tab-size: 4; text-ali=
+gn: left; text-shadow: rgb(255, 255, 255) 0px 1px; white-space: pre; word-b=
+reak: normal; word-spacing: normal; }
+
+.notion-light-theme code[class*=3D"language-"] ::selection, .notion-light-t=
+heme code[class*=3D"language-"]::selection, .notion-light-theme pre[class*=
+=3D"language-"] ::selection, .notion-light-theme pre[class*=3D"language-"]:=
+:selection { background: rgb(179, 212, 252); text-shadow: none; }
+
+@media print {
+  .notion-light-theme code[class*=3D"language-"], .notion-light-theme pre[c=
+lass*=3D"language-"] { text-shadow: none; }
+}
+
+.notion-light-theme pre[class*=3D"language-"] { margin: 0.5em 0px; overflow=
+: auto; padding: 1em; }
+
+.notion-light-theme :not(pre) > code[class*=3D"language-"], .notion-light-t=
+heme pre[class*=3D"language-"] { background: rgb(245, 242, 240); }
+
+.notion-light-theme :not(pre) > code[class*=3D"language-"] { border-radius:=
+ 0.3em; padding: 0.1em; white-space: normal; }
+
+.notion-light-theme .token.cdata, .notion-light-theme .token.comment, .noti=
+on-light-theme .token.doctype, .notion-light-theme .token.prolog { color: r=
+gb(112, 128, 144); }
+
+.notion-light-theme .token.punctuation { color: rgb(153, 153, 153); }
+
+.notion-light-theme .token.namespace { opacity: 0.7; }
+
+.notion-light-theme .token.boolean, .notion-light-theme .token.constant, .n=
+otion-light-theme .token.deleted, .notion-light-theme .token.number, .notio=
+n-light-theme .token.property, .notion-light-theme .token.symbol, .notion-l=
+ight-theme .token.tag { color: rgb(153, 0, 85); }
+
+.notion-light-theme .token.attr-name, .notion-light-theme .token.builtin, .=
+notion-light-theme .token.char, .notion-light-theme .token.inserted, .notio=
+n-light-theme .token.selector, .notion-light-theme .token.string { color: r=
+gb(102, 153, 0); }
+
+.notion-light-theme .language-css .token.string, .notion-light-theme .style=
+ .token.string, .notion-light-theme .token.entity, .notion-light-theme .tok=
+en.operator, .notion-light-theme .token.url { background: rgba(255, 255, 25=
+5, 0.5); color: rgb(154, 110, 58); }
+
+.notion-light-theme .token.atrule, .notion-light-theme .token.attr-value, .=
+notion-light-theme .token.keyword { color: rgb(0, 119, 170); }
+
+.notion-light-theme .token.class-name, .notion-light-theme .token.function =
+{ color: rgb(221, 74, 104); }
+
+.notion-light-theme .token.important, .notion-light-theme .token.regex, .no=
+tion-light-theme .token.variable { color: rgb(238, 153, 0); }
+
+.notion-light-theme .token.bold, .notion-light-theme .token.important { fon=
+t-weight: 700; }
+
+.notion-light-theme .token.italic { font-style: italic; }
+
+.notion-light-theme .token.entity { cursor: help; }
+
+.notion-dark-theme code[class*=3D"language-"], .notion-dark-theme pre[class=
+*=3D"language-"] { overflow-wrap: normal; background: none; color: rgb(255,=
+ 255, 255); font-family: Consolas, Monaco, "Andale Mono", "Ubuntu Mono", mo=
+nospace; font-size: 1em; hyphens: none; line-height: 1.5; tab-size: 4; text=
+-align: left; text-shadow: rgb(0, 0, 0) 0px -0.1em 0.2em; white-space: pre;=
+ word-break: normal; word-spacing: normal; }
+
+@media print {
+  .notion-dark-theme code[class*=3D"language-"], .notion-dark-theme pre[cla=
+ss*=3D"language-"] { text-shadow: none; }
+}
+
+.notion-dark-theme :not(pre) > code[class*=3D"language-"], .notion-dark-the=
+me pre[class*=3D"language-"] { background: rgb(77, 64, 51); }
+
+.notion-dark-theme pre[class*=3D"language-"] { border: 0.3em solid rgb(122,=
+ 102, 82); border-radius: 0.5em; box-shadow: rgb(0, 0, 0) 1px 1px 0.5em ins=
+et; margin: 0.5em 0px; overflow: auto; padding: 1em; }
+
+.notion-dark-theme :not(pre) > code[class*=3D"language-"] { border: 0.13em =
+solid rgb(122, 102, 82); border-radius: 0.3em; box-shadow: rgb(0, 0, 0) 1px=
+ 1px 0.3em -0.1em inset; padding: 0.15em 0.2em 0.05em; white-space: normal;=
+ }
+
+.notion-dark-theme .token.cdata, .notion-dark-theme .token.comment, .notion=
+-dark-theme .token.doctype, .notion-dark-theme .token.prolog { color: rgb(1=
+53, 128, 102); }
+
+.notion-dark-theme .token.namespace, .notion-dark-theme .token.punctuation =
+{ opacity: 0.7; }
+
+.notion-dark-theme .token.boolean, .notion-dark-theme .token.constant, .not=
+ion-dark-theme .token.number, .notion-dark-theme .token.property, .notion-d=
+ark-theme .token.symbol, .notion-dark-theme .token.tag { color: rgb(209, 14=
+8, 158); }
+
+.notion-dark-theme .token.attr-name, .notion-dark-theme .token.builtin, .no=
+tion-dark-theme .token.char, .notion-dark-theme .token.inserted, .notion-da=
+rk-theme .token.selector, .notion-dark-theme .token.string { color: rgb(189=
+, 224, 82); }
+
+.notion-dark-theme .language-css .token.string, .notion-dark-theme .style .=
+token.string, .notion-dark-theme .token.entity, .notion-dark-theme .token.o=
+perator, .notion-dark-theme .token.url, .notion-dark-theme .token.variable =
+{ color: rgb(245, 184, 61); }
+
+.notion-dark-theme .token.atrule, .notion-dark-theme .token.attr-value, .no=
+tion-dark-theme .token.keyword { color: rgb(209, 148, 158); }
+
+.notion-dark-theme .token.important, .notion-dark-theme .token.regex { colo=
+r: rgb(238, 153, 0); }
+
+.notion-dark-theme .token.bold, .notion-dark-theme .token.important { font-=
+weight: 700; }
+
+.notion-dark-theme .token.italic { font-style: italic; }
+
+.notion-dark-theme .token.entity { cursor: help; }
+
+.notion-dark-theme .token.deleted { color: red; }
+
+.notion-gist-block .gist-data { display: flex; }
+
+.notion-gist-block .gist, .notion-gist-block .gist-data div, .notion-gist-b=
+lock .gist-file { display: flex; flex-direction: column; }
+------MultipartBoundary--fKRHyLgkn62Ntfm8KcBrydqEALbV0AKkpAyGGVqM1Z----
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: chrome-extension://difoiogjjojoaoomphldepapgpbgkhkb/assets/logo-OYJ34ERC.png
+
+iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAMAAAD04JH5AAAC/VBMVEUAAACZUeRbaPWySuGEWexk
+YvOPVOj2pBt4XO5ga/NfY/RtX/GBWOzJQNnEQtVgZPNabvXsP71vX/DdOdJ5W+56XO3DQ9qbUea3
+R91vX/B6W+1oYPKlTeOPVemtS+DRPtVfZPRjYvN5XO88qfxeZvPWPNNYa/Q/oPngONGNVeqeUOXU
+PdVdZfX1oSFRcvfWPNM+o/zxoh9Offj1oR+NVenMP9daZvWgTuNKhfrMP9eYUuc+pPuSVOeWUudT
+bfY7qvzqOcfzjUD1mS3CQ9pBn/uQVOmKV+vwZYF+Wu3vYYbqOsfvYoPvW418W+5ElvvtQ7ahT+Tu
+TqVHjPpZavWVUujjOdD0mC7oO8e9RtzsP7/vnxbvYIdElfvtUaLtSK6LV+vrNc/iONF4XO/mNtBQ
+dff2oh7tUp3weV9/WuzIQdm1R96gT+S3RdrfONLuT6PxdWbvXJC3R9zvYIjwZIPvY4J0Xe9wXvCC
+Wex4XO5rYPFtX/F9W+2LVupcZPRmYfK2R96JV+urS+GxSd+gT+S8RdyGWOvMQNiHWOvARNvDQ9pf
+Y/SAWu3HQdmmTeKvSuCkTuN+Wu2oTOJiY/PiONFYZfWEWexoYfJ2XO96W+6OVem6Rt3lN9BkYvNy
+XvBZZfXPP9eTVOjaO9TnNtBOevh7W+7fOdJJiPlGj/qWUuebUebUPdXdOtNNf/jXPNSQVenrNc6d
+UOXSPtZKhflWZvaZUuZRc/dpYPLJQdlFkvpVafZLg/lNfPjFQtpScPdElvtUa/aVU+ieUOVBnftC
+mvtQdfdTbvezSN9HjPpIivq4R94+pvxPd/juTqU/ovy+Rdy0SN/tRrKiT+TwYoVMgfmtS+HsO8RA
+oPzvXY5FlPo8qf3vVpnwZYDwaXrzhU7uU57vWpLyfVrzgVTuSqz0iEj0jELydmTtQ7fxbnHyel/x
+cW31lzBaZPXwX4r1myrsN8vxbHbydGn0jzz2nyPvWJXuTKn0kjmFWOzvUaD1lDU7rf3sOMjtQrnt
+P73tPr+YUufq6wTTAAAAdXRSTlMAHyAfv7/+/sAQ36AfHxBgL/6/o4BAwL+/UKB/wb+/gI/v35hw
+Rz8fgC/vv5+af19eJ+Xj39/HpJ+ff3ZgRei9omNIPz3PpYJwQh8fEO/p5t/Pw7CPj31vaS8Q4494
+V+/v39DFv7+fmpCPf3Aw7+/X786/v68WmiLDAAAPEElEQVR42u2ad1yWVRTHH95A5YV4KSQDFzKD
+CA0ZgqhlamVq7pHtvbeAIY6UnCWaoFkpmQrmKFcYlqYNTTOzabb3Xla2+3TXuefe+9z3jRf60/tf
+vE9+z++cc8+95zyPc3QdXUdXY9Z5vU8fecpVI0/vfU5jno5KGX1NQcG1o8+I+p/oI6/49qtffvzk
+43c/+OLTm676Dxuu75hbP2fOkzNnzHhp2uJbRh/TbPypVxw+zPjvvvvhF5/+8Pn379wWwIQzTr7r
+LsKfyfkvTNr/fP4xzVN/SsuWnP8x43/5/Ttvf/PmlX5MiCpYqvMnPX/nPfdc2xz5XVselvwPOP+V
+N386NGSMVX4u4Qv/T5P8KVMGhzSZ3xL1I//9Q7+++NEo99Od16v6kT/v7ozrm8w/7If/8p8uCzpa
++Hcy/t1zp/b4P/W/R/if/fX6hfrTKett/n+N8Q9MzUhvSvwD8r+7uL/69LG5S5cq/MWTJu0nfKF/
+6o7HBgdfE04JzH902WXq0yeD/pnof4W/atPwoB0QgH8c5S+7v7OSgJRfL/QD/zXkr6qrCzYNrtD5
+nxv8R5fdf/8l+HQu6HfxDzD9dXU17YPj91b4X5j6/2D8e+/tLB2g+n+xm7+p7umadT2CywDC/w34
+mv6/JH/FyfA0KcCy/tMCbMS/jvBb3BdcFnS18DH+nL96dZTYAoxv5t88qh/5910U1BFg5f8s/A/8
+hzpDBOol/wWof2r8KX/ChNjGn79d7Xyx/4gD7l1B+Wuvcdi6Bvxvy79/BH/y5OmhjTOhd1dX/L8B
+vqZ/7VqRBCcI/jRafzh/npZ/VP/k6RUVFfGRjSlACv9TyUf/LxP8h9Y+AgZw/xMHCP0drssn/Klk
+/7P4r2N8YkBVSWJc0/lDTmMrRq6Cgo7CAL7/CZ/rH0z+1o7x/5H6JzN+Scnss5rKv8D2OBjA9x/E
+P5/8rXAq838N6j/C+LMrA1ow0sb/ifDPvdAJYIAR/3bkb0V6/EF/ZWVZWWzg+mfn93cCGSD4ZANO
+oRuQGtCD81tw/1P9VYK/PDHcf/nxwx8ygP465iRYHcXqLAww8j+D/C2E8PX4Vwn+otIIf/zTKf8X
+yf8e+FeyX0ep+f/I+qXkADzBYetEfgHG/UcvgRmUz+JPA8DjX8b4pQtj/TkA+Lp+nn4j3Px6MECe
+P1MIf+7UHUXkj8MJvwXEX+QfwRN+6cJWfjLApf/mCwY4Y85mN+7LZP1B/hwwgMYf+AdIAcqnSQD6
+Mf/LmAELx40bF27fgiZ/rLz/97/EpZ/Wf2kAxp8dgBn0lGrP858YoMa/lBnQ1h4Bg/+m3HopF3P9
+Kyh/reTPBANUPtv/hTQNL2L8igrIfx5/yn/weOslzOT/BL+MEfV3BeiHCzgYAPFn9fexVW2uY5eP
+9Iuo/1kAUD/jFxeH21IA+LQBpPwhMgA2/bT+gwHAp/7PKJQX4PQcyH+TX+yxbUKD/96NAyACpn44
+/0/kv3dQ9PdV+7DIfjz+s03+HXE2Awz+rz9DDsSo/PWSP2MaGID6841/NPLqRL7/dP4dPpsBJv8j
+UYBHWfQ/yc5fMIDXH8IvZP8dUtg3p2+/WAhEUfzAMoM/3mqAyj9E+C//eW7nMVEpI0gCoH7IP9YA
+gAHzVP3hw8X+7ydvH7HIf5DwiQFxtl2g6mcN6N/sAib0r1X0wwUMDID9H0Ll92X1jxUgeQEy+eNt
+xXgA579t8N36sQESBrQT/FVRhJ8j6u90tv9Di6gNcbr/xz/+uLUU3gT8Qwpf3X96A07qLxgg+Jva
+pKf3Xcf1Q/0vq7w0Pn6gzh9f7XVs66rG86fx868DGMD49Pyt4fcf2/5H/uPV9gP5bDvf9D8OoO4E
+A4BPD2Dt/K2kB7Aef8qf6OdqqvJFA6rXP/T/Ynb+gQHI5w0Arf+Cv2iRhe917OvMVwLohwEEv3+z
+AQQY0Eb4H/jTzfq3UPN/9USfYw/BrTof9Zv5v1ic/2CA1C/8X1FCluSXsvijfj8OGHD7NzCAMv3v
+3n+iAW4nDOAN4DqRgOh/EgDMv2LOJwHwWOWPfcXGX23hYwMMBjA+wVMHkPOX3z8ql5v+5/o7RTtk
+JXuM8GsDIGgA/fkfBkBgAMZ/stTPLoBG/iE/epY32s3/FfmB4o8NOBog9OP9sxL3/zg33+MtL+/k
+axQf899swOfNnQsGyAaA8qkDEuNi4+ECRvRj/ud5gF/+dc9oGX+dvwziD/WHHUCw/9UBRBuHrfay
+AYf8j6VHYCs9/uOrqzvxy2h4HuEvWbIAsnHAWPsARq+/OIDBASgYwP2PDaBo/yLjB/L8F/kXQYCg
+n/AXbMwTAQjIX4oDuGm8AcEBDBiADbCI/6VwDsdFXMod0CksWZyA0ZL/xHaWBudg/pv8R7T6D/UP
+ByBggNqA8/tXotKER8bGRuOmS541S/K39wynDkD96v5/CPxfbx8A0gYADID6w/n8Apjos41jUsMo
+/+slSwj/ie3PPUVdMNbk3xBzUswlcAGifMx/YwAkDUA+c4DY/xGxNjzhc/2Ev/lysgXMAVxMFB39
+xeAFDOuvOQBsLwxQ80/wqQHFxYkRPqw3Cd5ZZAk+MYDwNz/rcS4wBrCXwfST8G0D0Cnc/zsIHwwI
+ZXytAaL1B/afNywsgebj/PlM/xLwP+XvTXauNAZgKfAG6lhcx2grBBcYQPEwAFDqfzHUH2pAAuGL
+/EP+w92cIcYA1Al+hRL9WP/N848W4GTyVBj3/9cLFixg/Kcof+tQ50ZjABvVFANKqkA/9T/UP8l/
+wEcNYPnHHQD6t67JdswB5BkYAqv3cUVGhgsDIP/KFmH9B/0TCZ8Z4IX8V/lrGhxzAA0z+Nx6cwCO
++3/TP3wACkmI/EWoXxxAlM89wPRz/nPM/w+vWfPqBsc1gC04lr0E5fUXB4A4gKAbkA+ApAGzS3AA
+oZ7/nD9/Pj2EMql+XgBQf8MG51zK1+pvbkzHgjn1Oh8HUDuQPyEUDMD9h/5n5x8NANl+mbQGlxvx
+37rm1YYN2c5pun6oP+B/4OMAZJPkTwYD1AGMfgGmfGKAlx7ClP+EwV851Blh489x8edB/aH64f4J
+BlC8uwFi8gmf7n8PzUKRfzz+nL/7fCfF1gBb438AGiAYQKMBRL70P+pHfjmpRB7hf8y/DStX7urj
+RF3sZwAzw4y/1F8D5z8YAPHXGmARf1H/MhO8G3V+A+UPIv87G0CsDqD/HmUAB/pZAwYGtML8lxuw
+GgLA+OVi/20H/zP9u3fVdqMjKGyA3fpxACz3X00LOQAGA7AAa/7nfCiAbP9vFvyGBsrfVZvGZlBu
+vn3/g37ZAIMBrvzT/I/17zkt/3bXEgfQ1f8Gy/7jBdBSf8D/hC8NwAYY9j/yof4DH/XX1g5K4//A
+KH0ACvz9Ch8bcNSPBlj1P4B8ff/x/Cf8Ld0dsUYoF3DUz/JvCuQf4/P6IxsgMCCA/3kAgP8s+J/x
+z1de/+MAEvVL/gFjAMP41IBWwgB/+VfO+Rh/yd9N+EMdXFEx+gDIzif6xQDkCB9AgAH6/q9G/+MF
+XOPTBNjSTZ+UdTT44P+7Zf6hfmhAysAAfQCh8eH8N/ngf1wpuTCAhReQqN+V/5yPBuABrOvX999W
+9P+gPra3b6jf8ga8BeoH/nJhwPGK/mqIv7n/nlXjP9Q6qMw1voBS9h91AAxgkb9IGgD8BE+y1I8N
+CPDR/4Ns/CjUr/HNAViV5JeCAZD/YeQ/2s7/7/w7eDDN9ikY1H8LH+vPEYUvDQD/UwPCvRo/L8EX
+7fF4klX+loPboi0GpID/Mf8zCkOc9HzUr/lfMUDG38Paf8nvmSVj3U3jP9PFYsBoPoDaj3zxGVwR
+SUAYQOkNIBog6k8YG0Bk8vh7GR4MIPwNu4FvN8D1BVSR+KUfH8BR/cDn5x8YgPtPzGBSfb44j9YX
+ryH8lZK/02ZAiuBj/YNfeugDOGyAjxcGMP1kiQu4Rs66PJtewFX/79z5hq0MXG9+ATYYfgnhfGzA
+4fwHA9T6k+lR8Zdv3rtX4ddy/W/ssyVhlPkFTAa0iekTcACM+tGAML3+ZqbCP5klGhDwf63Qv2+f
+Y1snmvVPfnwVlzP9yBFsAEvhAggGqPWXFeA8H5tIkPqzV56/dP9z/W/s62U14FrgwxcwOSFyzpRT
+gfsPB7BggNCP9c/rYfqZ/7e+2tCA/mcO2JNk/yZX8T//AiaHvHKKjOTvQIkDgA8DCDTAPH+z6G7E
+BlCLP+HvSXOsq4PKr5MHIJ+4teb+X4760QDK1wYw1AGZ2IBq+Uf4GAHDBeQCiPprCJ/Xv9bs17NQ
+PwygwQCNT87fYdQBwMf9v03of8tWBeANJMRfvQBUhbIwpLdWVlu6fGAAxp8NYHy09AEf/Q98dIC5
+jskQfPIFEvAr2BdYAb8BC9MbgO3baQSyRf6D/1H/W2n+/6nrGN/8Aonc/wbGBTaA4HEA1pNOhOn5
+Cw3YFo3fPZCY4TsYv0b5AqiE53/rQAZw/8MAjk6AsyD/kL+T85OcgCtf8FtA/OELlOWt4tmKUFay
+MAD4G8UAalhqVjbqr5X8fcAPtArrDP9XifoHA1BlABMGBoD/jQGM4G/jfPR/4FWUI/Tj+aO9AVVe
+wAkDhoEBMIBk9c8W/z1dnEaskH4q39BfrPAnJogpNPTf2ACo9Qf1J1ny325CX37/0PnuBkxsDR+v
+fxv96H9GxN/oBQInAtOPLwCWwwAe+Pz8E1eucJr/5gDGnX9JTuNXOjSgxgBeHwANg8fz9AbIxYf6
+E8QK1fig3xgAyuKUukAfwOD+O4j8Xk4wK1bj2wcQXnw8T/of9e/i9R/4v3cJcgTP4m/RjwMIpTqn
+Il8MYHaD/4HfywluRQ7k9Y/y7QOwTPXxYTgAp/yVwGcXAMr/Pc0Jcp1l9T/q178CCO/J+WT/Qf3n
+F1Dgd3eCXldbB9DVQn8nxscV3VMZwDEDtqn8JKcJKx71uwbw9C28YUE28A3/70F+0D6gBdCmH/iG
+BXABhwLYVP24Wru/AGD3zzyP7WlPNjYAzYw/7oXEceYAishv6+/xLDEA3KLmf68+TnOWL1HVT/id
+oPmzrbRusgGFC2gXp7krNiIR/Q9fAfg3ocvQg9gAJDVPPeZXXNuEiIi2yamB6FgT+nTvnpR0fvcu
+ac7RdXQdXY1Y/wIujfZsvCS7WQAAAABJRU5ErkJggg==
+
+------MultipartBoundary--fKRHyLgkn62Ntfm8KcBrydqEALbV0AKkpAyGGVqM1Z----
+Content-Type: text/html
+Content-ID: <frame-DA91EC3E459954E9EBCE75C474BA3037@mhtml.blink>
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://aif.notion.so/aif-production.html
+
+<!DOCTYPE html><html lang=3D"en"><head><meta http-equiv=3D"Content-Type" co=
+ntent=3D"text/html; charset=3DUTF-8"></head><body data-new-gr-c-s-check-loa=
+ded=3D"14.1173.0" data-gr-ext-installed=3D""><iframe id=3D"_hjSafeContext_3=
+9384431" title=3D"_hjSafeContext" tabindex=3D"-1" aria-hidden=3D"true" src=
+=3D"cid:frame-8D8CD205466F62F9FF97FB36902ED919@mhtml.blink" style=3D"displa=
+y: none !important; width: 1px !important; height: 1px !important; opacity:=
+ 0 !important; pointer-events: none !important;"></iframe><img src=3D"https=
+://t.co/1/i/adsct?bci=3D4&amp;eci=3D3&amp;event=3D%7B%7D&amp;event_id=3D1f6=
+4add9-185f-4ec1-9d92-334b2786052c&amp;integration=3Dgtm&amp;p_id=3DTwitter&=
+amp;p_user_id=3D0&amp;pl_id=3Db49e02f4-5c0c-4def-a104-63530fd6515b&amp;tw_d=
+ocument_href=3Dhttps%3A%2F%2Faif.notion.so%2Faif-production.html&amp;tw_ifr=
+ame_status=3D1&amp;txn_id=3Dofilm&amp;type=3Djavascript&amp;version=3D2.3.3=
+0" height=3D"1" width=3D"1" style=3D"display: none;"><img src=3D"https://an=
+alytics.twitter.com/1/i/adsct?bci=3D4&amp;eci=3D3&amp;event=3D%7B%7D&amp;ev=
+ent_id=3D1f64add9-185f-4ec1-9d92-334b2786052c&amp;integration=3Dgtm&amp;p_i=
+d=3DTwitter&amp;p_user_id=3D0&amp;pl_id=3Db49e02f4-5c0c-4def-a104-63530fd65=
+15b&amp;tw_document_href=3Dhttps%3A%2F%2Faif.notion.so%2Faif-production.htm=
+l&amp;tw_iframe_status=3D1&amp;txn_id=3Dofilm&amp;type=3Djavascript&amp;ver=
+sion=3D2.3.30" height=3D"1" width=3D"1" style=3D"display: none;"></body><gr=
+ammarly-desktop-integration data-grammarly-shadow-root=3D"true"><template s=
+hadowmode=3D"open"><div aria-label=3D"grammarly-integration" role=3D"group"=
+ tabindex=3D"-1" class=3D"grammarly-desktop-integration" data-content=3D"{&=
+quot;mode&quot;:&quot;limited&quot;,&quot;isActive&quot;:false,&quot;isUser=
+Disabled&quot;:false}"></div></template></grammarly-desktop-integration></h=
+tml>
+------MultipartBoundary--fKRHyLgkn62Ntfm8KcBrydqEALbV0AKkpAyGGVqM1Z----
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: https://t.co/1/i/adsct?bci=4&eci=3&event=%7B%7D&event_id=1f64add9-185f-4ec1-9d92-334b2786052c&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=b49e02f4-5c0c-4def-a104-63530fd6515b&tw_document_href=https%3A%2F%2Faif.notion.so%2Faif-production.html&tw_iframe_status=1&txn_id=ofilm&type=javascript&version=2.3.30
+
+R0lGODlhAQABAIAAAP///wAAACH5BAkAAAEALAAAAAABAAEAAAICTAEAOw==
+
+------MultipartBoundary--fKRHyLgkn62Ntfm8KcBrydqEALbV0AKkpAyGGVqM1Z----
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: https://analytics.twitter.com/1/i/adsct?bci=4&eci=3&event=%7B%7D&event_id=1f64add9-185f-4ec1-9d92-334b2786052c&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=b49e02f4-5c0c-4def-a104-63530fd6515b&tw_document_href=https%3A%2F%2Faif.notion.so%2Faif-production.html&tw_iframe_status=1&txn_id=ofilm&type=javascript&version=2.3.30
+
+R0lGODlhAQABAIAAAP///wAAACH5BAkAAAEALAAAAAABAAEAAAICTAEAOw==
+
+------MultipartBoundary--fKRHyLgkn62Ntfm8KcBrydqEALbV0AKkpAyGGVqM1Z----
+Content-Type: text/html
+Content-ID: <frame-8D8CD205466F62F9FF97FB36902ED919@mhtml.blink>
+Content-Transfer-Encoding: quoted-printable
+
+<html><head><meta http-equiv=3D"Content-Type" content=3D"text/html; charset=
+=3DUTF-8"></head><body data-new-gr-c-s-check-loaded=3D"14.1173.0" data-gr-e=
+xt-installed=3D""></body><grammarly-desktop-integration data-grammarly-shad=
+ow-root=3D"true"><template shadowmode=3D"open"><div aria-label=3D"grammarly=
+-integration" role=3D"group" tabindex=3D"-1" class=3D"grammarly-desktop-int=
+egration" data-content=3D"{&quot;mode&quot;:&quot;limited&quot;,&quot;isAct=
+ive&quot;:false,&quot;isUserDisabled&quot;:false}"></div></template></gramm=
+arly-desktop-integration></html>
+------MultipartBoundary--fKRHyLgkn62Ntfm8KcBrydqEALbV0AKkpAyGGVqM1Z------

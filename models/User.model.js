@@ -3,19 +3,14 @@ const Schema = mongoose.Schema;
 
 const mathongoSchema = new Schema(
   {
-    name: {
-      type: String,
+    name: { type: String, required: true },
+    email: { type: String, unique: true, required: true },
+    listId: {
+      type: Schema.Types.ObjectId,
+      ref: "Mathongolist",
       required: true,
     },
-    email: {
-      type: String,
-      unique: true,
-      required: true,
-    },
-    city: {
-      type: String,
-      default: "Bengaluru",
-    },
+    customProperties: { type: Map, of: String },
   },
   { timestamps: true }
 );

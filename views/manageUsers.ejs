@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Manage Users in <%= list.title %></title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Manage Users in <%= list.title %></h1>
+      <div class="row">
+        <div class="col-md-6">
+          <h2>Add User</h2>
+          <form action="/lists/<%= list._id %>/users" method="POST">
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input
+                type="text"
+                class="form-control"
+                id="name"
+                name="name"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input
+                type="email"
+                class="form-control"
+                id="email"
+                name="email"
+                required
+              />
+            </div>
+            <% list.customProperties.forEach((property, index) => { %>
+            <div class="form-group">
+              <label for="customProperty<%= index %>"
+                ><%= property.title %></label
+              >
+              <input
+                type="text"
+                class="form-control"
+                id="customProperty<%= index %>"
+                name="customProperties[<%= property.title %>]"
+                placeholder="<%= property.fallback %>"
+              />
+            </div>
+            <% }); %>
+            <button type="submit" class="btn btn-primary">Add User</button>
+          </form>
+        </div>
+        <div class="col-md-6">
+          <h2>Upload Users via CSV</h2>
+          <form
+            action="/lists/<%= list._id %>/users/upload"
+            method="POST"
+            enctype="multipart/form-data"
+          >
+            <div class="form-group">
+              <label for="csvFile">CSV File</label>
+              <input
+                type="file"
+                class="form-control-file"
+                id="csvFile"
+                name="csvFile"
+                accept=".csv"
+                required
+              />
+            </div>
+            <button type="submit" class="btn btn-primary">Upload CSV</button>
+          </form>
+        </div>
+      </div>
+      <hr />
+      <div class="row">
+        <div class="col-12">
+          <h2>Existing Users</h2>
+          <table class="table">
+            <thead>
+              <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <% list.customProperties.forEach((property) => { %>
+                <th><%= property.title %></th>
+                <% }); %>
+              </tr>
+            </thead>
+            <tbody>
+              <% users.forEach((user) => { %>
+              <tr>
+                <td><%= user.name %></td>
+                <td><%= user.email %></td>
+                <% list.customProperties.forEach((property) => { %>
+                <td>
+                  <%= user.customProperties[property.title] || property.fallback
+                  %>
+                </td>
+                <% }); %>
+              </tr>
+              <% }); %>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

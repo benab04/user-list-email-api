@@ -10,9 +10,9 @@ const listSchema = new Schema({
   customProperties: [
     {
       title: { type: String, required: true },
-      fallback: { type: String, required: true }
-    }
-  ]
+      fallback: { type: String, required: true },
+    },
+  ],
 });
 
 const Mathongolist = mongoose.model("Mathongolist", listSchema);

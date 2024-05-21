@@ -6,9 +6,9 @@ router.get("/new", (req, res) => {
   res.render("createList");
 });
 
+router.get("/", listController.getDashboard);
 router.post("/", listController.createList);
 router.get("/:id", listController.getList);
 router.delete("/:id", listController.deleteList);
-// router.get("/", listController.getDashboard);
 
 module.exports = router;

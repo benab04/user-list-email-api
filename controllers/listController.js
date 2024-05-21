@@ -33,11 +33,11 @@ exports.deleteList = async (req, res) => {
   }
 };
 
-// exports.getDashboard = async (req, res) => {
-//   try {
-//     const lists = await List.find({});
-//     res.render("dashboard", { lists });
-//   } catch (error) {
-//     res.status(500).send(error.message);
-//   }
-// };
+exports.getDashboard = async (req, res) => {
+  try {
+    const lists = await List.find({});
+    res.render("dashboard", { lists });
+  } catch (error) {
+    res.status(500).send(error.message);
+  }
+};

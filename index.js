@@ -35,16 +35,16 @@ mongoose
   });
 
 app.get("/", (req, res) => {
-  res.redirect("/dashboard");
+  res.redirect("/lists");
 });
-app.get("/dashboard", async (req, res) => {
-  try {
-    const lists = await List.find({});
-    res.render("dashboard", { lists });
-  } catch (error) {
-    res.status(500).send(error.message);
-  }
-});
+// app.get("/dashboard", async (req, res) => {
+//   try {
+//     const lists = await List.find({});
+//     res.render("dashboard", { lists });
+//   } catch (error) {
+//     res.status(500).send(error.message);
+//   }
+// });
 
 app.use("/lists", listRoutes);
 app.use("/lists", userRoutes);

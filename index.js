@@ -9,6 +9,7 @@ const path = require("path");
 require("dotenv").config();
 const List = require("./models/List.model");
 const User = require("./models/User.model");
+const createCsvWriter = require("csv-writer").createObjectCsvWriter;
 
 const app = express();
 const PORT = process.env.PORT || 3000;
@@ -63,11 +64,19 @@ app.get("/lists/:id", async (req, res) => {
 app.post("/lists/:id/users", async (req, res) => {
   try {
     const list = await List.findById(req.params.id);
+
+    // Check if the email already exists in the list
+    const existingUser = await User.findOne({
+      listId: list._id,
+      email: req.body.email,
+    });
+    if (existingUser) {
+      return res.status(400).send("Email already exists in this list.");
+    }
+
     const customProperties = {};
 
     list.customProperties.forEach((prop) => {
-      console.log(prop.title);
-      console.log(req.body.customProperties[prop.title]);
       customProperties[prop.title] =
         req.body.customProperties[prop.title] || prop.fallback;
     });
@@ -86,55 +95,121 @@ app.post("/lists/:id/users", async (req, res) => {
   }
 });
 
-app.post("/lists/:id/users/upload", upload.single("csvFile"), (req, res) => {
-  const filePath = path.join(__dirname, req.file.path);
-  const results = [];
-  const errors = [];
-  const listId = req.params.id;
+app.post(
+  "/lists/:id/users/upload",
+  upload.single("csvFile"),
+  async (req, res) => {
+    const filePath = path.join(__dirname, req.file.path);
+    const results = [];
+    const errors = [];
+    const listId = req.params.id;
 
-  List.findById(listId)
-    .then((list) => {
+    try {
+      const list = await List.findById(listId);
       const fallbackValues = {};
 
       list.customProperties.forEach((prop) => {
         fallbackValues[prop.title] = prop.fallback;
       });
 
-      fs.createReadStream(filePath)
-        .pipe(csvParser())
-        .on("data", (data) => {
-          results.push(data);
-        })
-        .on("end", async () => {
-          for (let user of results) {
-            try {
-              const customProperties = {};
+      const stream = fs.createReadStream(filePath).pipe(csvParser());
 
-              list.customProperties.forEach((prop) => {
-                customProperties[prop.title] =
-                  user[prop.title] || fallbackValues[prop.title];
-              });
+      let csvHeaders = [];
+      let firstRow = null;
 
-              await User.create({
-                name: user.name,
-                email: user.email,
-                listId: list._id,
-                customProperties,
-              });
-            } catch (error) {
-              errors.push({ user, error: error.message });
-            }
-          }
-          fs.unlinkSync(filePath);
+      stream.on("headers", (headers) => {
+        console.log("CSV Headers:", headers);
+        csvHeaders = headers;
+      });
 
-          const users = await User.find({ listId: req.params.id });
-          res.render("manageUsers", { list, users, errors });
+      stream.on("data", (data) => {
+        if (!firstRow) {
+          firstRow = data;
+        }
+        results.push(data);
+      });
+
+      stream.on("end", async () => {
+        // Determine new custom properties from CSV headers
+        const existingProperties = list.customProperties.map(
+          (prop) => prop.title
+        );
+        const newCustomProperties = csvHeaders.filter(
+          (header) =>
+            header !== "name" &&
+            header !== "email" &&
+            !existingProperties.includes(header)
+        );
+
+        // Update the list with new custom properties
+        for (let newProp of newCustomProperties) {
+          const fallbackValue = firstRow[newProp] || ""; // Use first row's value as fallback or empty string if not present
+          list.customProperties.push({
+            title: newProp,
+            fallback: fallbackValue,
+          });
+          fallbackValues[newProp] = fallbackValue;
+        }
+
+        await list.save();
+
+        // Prepare CSV writer for output file
+        const outputFilePath = path.join(__dirname, "output.csv");
+        const csvWriter = createCsvWriter({
+          path: outputFilePath,
+          header: [
+            ...csvHeaders.map((header) => ({ id: header, title: header })),
+            { id: "Database Status", title: "Database Status" },
+          ],
         });
-    })
-    .catch((error) => {
+
+        const outputData = [];
+
+        // Process users from CSV
+        for (let user of results) {
+          try {
+            const customProperties = {};
+
+            list.customProperties.forEach((prop) => {
+              customProperties[prop.title] =
+                user[prop.title] || fallbackValues[prop.title];
+            });
+
+            await User.create({
+              name: user.name,
+              email: user.email,
+              listId: list._id,
+              customProperties,
+            });
+
+            user["Database Status"] = "Success";
+          } catch (error) {
+            user["Database Status"] = `Error: ${error.message}`;
+            errors.push({ user, error: error.message });
+          }
+
+          outputData.push(user);
+        }
+
+        await csvWriter.writeRecords(outputData);
+
+        fs.unlinkSync(filePath);
+
+        // Send the output file for download
+        res.download(outputFilePath, "output.csv", (err) => {
+          if (err) {
+            res.status(500).send(err.message);
+          } else {
+            // Clean up the output file after sending
+            fs.unlinkSync(outputFilePath);
+          }
+        });
+      });
+    } catch (error) {
       res.status(500).send(error.message);
-    });
-});
+    }
+  }
+);
 app.get("/dashboard", async (req, res) => {
   try {
     const lists = await List.find({});

@@ -4,7 +4,7 @@ const Schema = mongoose.Schema;
 const mathongoSchema = new Schema(
   {
     name: { type: String, required: true },
-    email: { type: String, unique: true, required: true },
+    email: { type: String, required: true },
     listId: {
       type: Schema.Types.ObjectId,
       ref: "Mathongolist",

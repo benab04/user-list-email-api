@@ -93,10 +93,7 @@
                 <td><%= user.name %></td>
                 <td><%= user.email %></td>
                 <% list.customProperties.forEach((property) => { %>
-                <td>
-                  <%= user.customProperties[property.title] || property.fallback
-                  %>
-                </td>
+                <td><%= user.customProperties[0]|| property.fallback %></td>
                 <% }); %>
               </tr>
               <% }); %>

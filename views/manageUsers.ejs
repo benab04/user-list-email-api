@@ -1,4 +1,3 @@
-<!-- views/manageUsers.ejs -->
 <!DOCTYPE html>
 <html>
   <head>
@@ -9,11 +8,81 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
+    <style>
+      .form-group {
+        margin-bottom: 1.5rem;
+      }
+      h1,
+      h2 {
+        margin-bottom: 1rem;
+      }
+      .container {
+        padding-top: 70px !important;
+      }
+      .btn-primary {
+        margin-top: 1rem;
+      }
+      .csv-upload-group {
+        border: 1px solid #dee2e6;
+        padding: 1rem;
+        border-radius: 0.25rem;
+      }
+      .btn-secondary {
+        margin-top: 1.5rem;
+      }
+      @media (max-width: 576px) {
+        h1,
+        h2 {
+          font-size: 1.5rem;
+        }
+        .form-group label {
+          font-size: 1.1rem;
+        }
+        .form-group input {
+          font-size: 1.1rem;
+        }
+        .btn-primary,
+        .btn-secondary {
+          font-size: 1.1rem;
+          padding: 0.75rem 1.25rem;
+        }
+      }
+      @media (min-width: 577px) and (max-width: 768px) {
+        h1,
+        h2 {
+          font-size: 1.75rem;
+        }
+        .form-group label {
+          font-size: 1.15rem;
+        }
+        .form-group input {
+          font-size: 1.15rem;
+        }
+        .btn-primary,
+        .btn-secondary {
+          font-size: 1.15rem;
+          padding: 0.75rem 1.25rem;
+        }
+      }
+    </style>
   </head>
   <body>
     <%- include('partials/navbar') %>
-    <div class="container" style="padding-top: 70px !important">
-      <h1>Manage Users in <%= list.title %></h1>
+    <div class="container mb-5">
+      <div class="d-flex justify-content-between align-items-center">
+        <h1>List: <%= list.title %></h1>
+        <div class="text-center">
+          <button
+            class="btn btn-secondary my-0"
+            onclick="location.href='/lists/<%= list._id %>/users'"
+          >
+            Show Existing Users
+          </button>
+        </div>
+      </div>
+
+      <hr />
+
       <div class="row">
         <div class="col-md-6">
           <h2>Add User</h2>
@@ -56,38 +125,39 @@
           </form>
         </div>
         <div class="col-md-6">
-          <h2>Upload Users via CSV</h2>
-          <form
-            action="/lists/<%= list._id %>/users/upload"
-            method="POST"
-            enctype="multipart/form-data"
-          >
-            <div class="form-group">
-              <label for="csvFile">CSV File</label>
-              <input
-                type="file"
-                class="form-control-file"
-                id="csvFile"
-                name="csvFile"
-                accept=".csv"
-                required
-              />
-            </div>
-            <button type="submit" class="btn btn-primary">Upload CSV</button>
-          </form>
-        </div>
-      </div>
-      <hr />
-      <div class="row">
-        <div class="col-12">
-          <button
-            class="btn btn-secondary"
-            onclick="location.href='/lists/<%= list._id %>/users'"
-          >
-            Show Existing Users
-          </button>
+          <div class="csv-upload-group">
+            <h2>Upload users via CSV</h2>
+            <form
+              action="/lists/<%= list._id %>/users/upload"
+              method="POST"
+              enctype="multipart/form-data"
+            >
+              <div class="form-group">
+                <label for="csvFile"></label>
+                <input
+                  type="file"
+                  class="form-control-file"
+                  id="csvFile"
+                  name="csvFile"
+                  accept=".csv"
+                  required
+                />
+              </div>
+              <button type="submit" class="btn btn-primary">Upload CSV</button>
+            </form>
+          </div>
         </div>
       </div>
     </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+      integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>

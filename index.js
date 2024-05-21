@@ -20,7 +20,7 @@ app.use(cookieParser());
 app.set("view engine", "ejs");
 
 // const CONNECTION_STRING = "mongodb://localhost:27017/";
-const CONNECTION_STRING = `mongodb+srv://${mongoUser}:${mongoPassword}@cluster0.rwqcumw.mongodb.net/`;
+const CONNECTION_STRING = `mongodb+srv://${mongoUser}:${mongoPassword}@cluster0.rwqcumw.mongodb.net/UserListManagement?retryWrites=true&w=majority`;
 
 mongoose
   .connect(CONNECTION_STRING, {

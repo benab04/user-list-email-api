@@ -15,6 +15,6 @@ const mathongoSchema = new Schema(
   { timestamps: true }
 );
 
-const Mathongousers = mongoose.model("Mathongousers", mathongoSchema);
+const Mathongousers = mongoose.model("Users", mathongoSchema);
 
 module.exports = Mathongousers;

@@ -6,17 +6,41 @@
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
     />
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+      integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <%- include('partials/navbar') %>
     <div class="container">
-      <h1 class="my-4">Dashboard</h1>
+      <div class="d-flex justify-content-between align-items-center">
+        <h1 class="my-4">Dashboard</h1>
+        <a href="/lists/new" class="btn btn-success">Create New List</a>
+      </div>
+
       <div class="row">
-        <% lists.forEach((list) => { %>
+        <% lists?.forEach((list) => { %>
         <div class="col-md-4">
           <div class="card mb-4 shadow-sm">
             <div class="card-body">
-              <h5 class="card-title"><%= list.title %></h5>
+              <div class="d-flex justify-content-between align-items-center">
+                <h5 class="card-title"><%= list.title %></h5>
+                <form
+                  action="/lists/<%= list._id %>?_method=DELETE"
+                  method="POST"
+                  style="display: inline"
+                  onsubmit="return confirm('Are you sure you want to delete this list?');"
+                >
+                  <button type="submit" class="btn btn-danger">Delete</button>
+                </form>
+              </div>
               <div
                 class="d-flex justify-content-between align-items-center text-center"
               >

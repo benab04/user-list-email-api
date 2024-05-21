@@ -10,6 +10,7 @@ require("dotenv").config();
 const List = require("./models/List.model");
 const User = require("./models/User.model");
 const createCsvWriter = require("csv-writer").createObjectCsvWriter;
+const cookieParser = require("cookie-parser");
 
 const app = express();
 const PORT = process.env.PORT || 3000;
@@ -19,7 +20,8 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(methodOverride("_method"));
 app.set("view engine", "ejs");
-const CONNECTION_STRING = `mongodb+srv://${mongoUser}:${mongoPassword}@cluster0.rwqcumw.mongodb.net/`;
+// const CONNECTION_STRING = `mongodb+srv://${mongoUser}:${mongoPassword}@cluster0.rwqcumw.mongodb.net/`;
+const CONNECTION_STRING = "mongodb://localhost:27017/";
 mongoose
   .connect(CONNECTION_STRING, {
     useNewUrlParser: true,
@@ -49,6 +51,7 @@ app.post("/lists", async (req, res) => {
     res.redirect(`/lists/${list._id}`);
   } catch (error) {
     res.status(500).send(error.message);
+    m;
   }
 });
 
@@ -56,7 +59,22 @@ app.get("/lists/:id", async (req, res) => {
   try {
     const list = await List.findById(req.params.id);
     const users = await User.find({ listId: req.params.id });
-    res.render("manageUsers", { list, users });
+    res.render("manageUsers", { list, users, cookies: req.cookies });
+  } catch (error) {
+    res.status(500).send(error.message);
+  }
+});
+app.delete("/lists/:id", async (req, res) => {
+  try {
+    const listId = new mongoose.Types.ObjectId(req.params.id);
+    await User.deleteMany({ listId: listId });
+    console.log("Deleted all users in list");
+    await List.findByIdAndDelete(req.params.id);
+    console.log("Deleted list");
+    const lists = await List.findById(req.params.id);
+    console.log("here3");
+
+    res.render("dashboard", { lists });
   } catch (error) {
     res.status(500).send(error.message);
   }
@@ -181,12 +199,11 @@ app.post(
           console.log(count++);
           try {
             const customProperties = {};
-
             list.customProperties.forEach((prop) => {
+              const propValue = user[prop.title] || fallbackValues[prop.title];
               customProperties[prop.title] =
                 user[prop.title] || fallbackValues[prop.title];
             });
-
             await User.create({
               name: user.name,
               email: user.email,
@@ -207,7 +224,7 @@ app.post(
 
         fs.unlinkSync(filePath);
 
-        res.cookie("fileDownload", "true", { httpOnly: true });
+        res.cookie("fileDownload", "true", { maxAge: 10000, httpOnly: true });
         // Send the output file for download
         res.download(outputFilePath, "output.csv", (err) => {
           if (err) {

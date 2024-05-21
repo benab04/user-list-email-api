@@ -36,7 +36,7 @@ const upload = multer({ dest: "uploads/" });
 
 // Routes
 app.get("/", (req, res) => {
-  res.redirect("/lists/new");
+  res.redirect("/dashboard");
 });
 
 app.get("/lists/new", (req, res) => {
@@ -57,6 +57,15 @@ app.get("/lists/:id", async (req, res) => {
     const list = await List.findById(req.params.id);
     const users = await User.find({ listId: req.params.id });
     res.render("manageUsers", { list, users });
+  } catch (error) {
+    res.status(500).send(error.message);
+  }
+});
+app.get("/lists/:id/users", async (req, res) => {
+  try {
+    const list = await List.findById(req.params.id);
+    const users = await User.find({ listId: req.params.id });
+    res.render("showUsers", { list, users });
   } catch (error) {
     res.status(500).send(error.message);
   }
@@ -205,8 +214,6 @@ app.post(
             fs.unlinkSync(outputFilePath);
           }
         });
-        const users = await User.find({ listId: req.params.id });
-        res.render("manageUsers", { list, users });
       });
     } catch (error) {
       res.status(500).send(error.message);

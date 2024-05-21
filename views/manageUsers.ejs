@@ -1,3 +1,4 @@
+<!-- views/manageUsers.ejs -->
 <!DOCTYPE html>
 <html>
   <head>
@@ -76,29 +77,12 @@
       <hr />
       <div class="row">
         <div class="col-12">
-          <h2>Existing Users</h2>
-          <table class="table">
-            <thead>
-              <tr>
-                <th>Name</th>
-                <th>Email</th>
-                <% list.customProperties.forEach((property) => { %>
-                <th><%= property.title %></th>
-                <% }); %>
-              </tr>
-            </thead>
-            <tbody>
-              <% users.forEach((user) => { %>
-              <tr>
-                <td><%= user.name %></td>
-                <td><%= user.email %></td>
-                <% list.customProperties.forEach((property) => { %>
-                <td><%= user.customProperties[0]|| property.fallback %></td>
-                <% }); %>
-              </tr>
-              <% }); %>
-            </tbody>
-          </table>
+          <button
+            class="btn btn-secondary"
+            onclick="location.href='/lists/<%= list._id %>/users'"
+          >
+            Show Existing Users
+          </button>
         </div>
       </div>
     </div>

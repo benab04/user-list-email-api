@@ -13,15 +13,15 @@ const createCsvWriter = require("csv-writer").createObjectCsvWriter;
 const cookieParser = require("cookie-parser");
 
 const app = express();
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 5000;
 const mongoUser = process.env.mongoUser;
 const mongoPassword = process.env.mongoPassword;
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(methodOverride("_method"));
 app.set("view engine", "ejs");
-// const CONNECTION_STRING = `mongodb+srv://${mongoUser}:${mongoPassword}@cluster0.rwqcumw.mongodb.net/`;
-const CONNECTION_STRING = "mongodb://localhost:27017/";
+const CONNECTION_STRING = `mongodb+srv://${mongoUser}:${mongoPassword}@cluster0.rwqcumw.mongodb.net/`;
+// const CONNECTION_STRING = "mongodb://localhost:27017/";
 mongoose
   .connect(CONNECTION_STRING, {
     useNewUrlParser: true,

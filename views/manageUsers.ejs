@@ -9,7 +9,8 @@
     />
   </head>
   <body>
-    <div class="container">
+    <%- include('partials/navbar') %>
+    <div class="container" style="padding-top: 70px !important">
       <h1>Manage Users in <%= list.title %></h1>
       <div class="row">
         <div class="col-md-6">
@@ -86,5 +87,29 @@
         </div>
       </div>
     </div>
+    <script>
+      // Check if the file download has completed
+      const checkDownloadComplete = () => {
+        // Polling interval in milliseconds
+        const interval = 1000;
+
+        const checkInterval = setInterval(() => {
+          // Check if the file download cookie exists
+          const downloadComplete =
+            document.cookie.includes("fileDownload=true");
+
+          if (downloadComplete) {
+            // Clear the polling interval
+            clearInterval(checkInterval);
+
+            // Reload the page
+            location.reload();
+          }
+        }, interval);
+      };
+
+      // Call the function to start checking for download completion
+      checkDownloadComplete();
+    </script>
   </body>
 </html>

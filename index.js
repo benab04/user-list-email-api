@@ -175,8 +175,10 @@ app.post(
 
         const outputData = [];
 
+        let count = 1;
         // Process users from CSV
         for (let user of results) {
+          console.log(count++);
           try {
             const customProperties = {};
 
@@ -205,6 +207,7 @@ app.post(
 
         fs.unlinkSync(filePath);
 
+        res.cookie("fileDownload", "true", { httpOnly: true });
         // Send the output file for download
         res.download(outputFilePath, "output.csv", (err) => {
           if (err) {

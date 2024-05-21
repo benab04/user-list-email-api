@@ -13,14 +13,15 @@ const createCsvWriter = require("csv-writer").createObjectCsvWriter;
 
 const app = express();
 const PORT = process.env.PORT || 3000;
-
+const mongoUser = process.env.mongoUser;
+const mongoPassword = process.env.mongoPassword;
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(methodOverride("_method"));
 app.set("view engine", "ejs");
-
+const CONNECTION_STRING = `mongodb+srv://${mongoUser}:${mongoPassword}@cluster0.rwqcumw.mongodb.net/`;
 mongoose
-  .connect("mongodb://localhost:27017/mydatabase", {
+  .connect(CONNECTION_STRING, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
   })
@@ -204,6 +205,8 @@ app.post(
             fs.unlinkSync(outputFilePath);
           }
         });
+        const users = await User.find({ listId: req.params.id });
+        res.render("manageUsers", { list, users });
       });
     } catch (error) {
       res.status(500).send(error.message);

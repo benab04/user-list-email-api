@@ -1,0 +1,56 @@
+<!-- views/showUsers.ejs -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Existing Users in <%= list.title %></title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+  </head>
+  <body>
+    <%- include('partials/navbar') %>
+    <div class="container">
+      <h1>Existing Users in <%= list.title %></h1>
+      <div class="row">
+        <div class="col-12">
+          <button
+            class="btn btn-primary"
+            onclick="location.href='/lists/<%= list._id %>'"
+          >
+            Back to Manage Users
+          </button>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <table class="table">
+            <thead>
+              <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <% list.customProperties.forEach((property) => { %>
+                <th><%= property.title %></th>
+                <% }); %>
+              </tr>
+            </thead>
+            <tbody>
+              <% users.forEach((user) => { %>
+              <tr>
+                <td><%= user.name %></td>
+                <td><%= user.email %></td>
+                <% list.customProperties.forEach((property) => { %>
+                <td>
+                  <%= user.customProperties[property.title] || property.fallback
+                  %>
+                </td>
+                <% }); %>
+              </tr>
+              <% }); %>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -22,7 +22,8 @@
       .btn-primary {
         margin-top: 1rem;
       }
-      .csv-upload-group {
+      .csv-upload-group,
+      .add-user-group {
         border: 1px solid #dee2e6;
         padding: 1rem;
         border-radius: 0.25rem;
@@ -84,7 +85,7 @@
       <hr />
 
       <div class="row">
-        <div class="col-md-6">
+        <div class="col-md-6 add-user-group">
           <h2>Add User</h2>
           <form action="/lists/<%= list._id %>/users" method="POST">
             <div class="form-group">
@@ -145,6 +146,29 @@
                 />
               </div>
               <button type="submit" class="btn btn-primary">Upload CSV</button>
+            </form>
+          </div>
+          <div class="csv-upload-group mt-4">
+            <h2>Change Fallback Values</h2>
+            <form action="/lists/<%= list._id %>/fallbacks" method="POST">
+              <% list.customProperties.forEach((property, index) => { %>
+              <div class="form-group">
+                <label for="fallback<%= index %>"
+                  ><%= property.title %> Fallback</label
+                >
+                <input
+                  type="text"
+                  class="form-control"
+                  id="fallback<%= index %>"
+                  name="fallbacks[<%= property.title %>]"
+                  placeholder="<%= property.fallback %>"
+                  value="<%= property.fallback %>"
+                />
+              </div>
+              <% }); %>
+              <button type="submit" class="btn btn-primary">
+                Update Fallbacks
+              </button>
             </form>
           </div>
         </div>

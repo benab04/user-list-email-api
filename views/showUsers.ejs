@@ -1,4 +1,3 @@
-<!-- views/showUsers.ejs -->
 <!DOCTYPE html>
 <html>
   <head>
@@ -9,13 +8,29 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
+    <style>
+      .container {
+        padding-top: 70px !important;
+      }
+      .header-button {
+        margin-bottom: 20px;
+      }
+      table {
+        margin-top: 20px;
+      }
+      th,
+      td {
+        text-align: center;
+        vertical-align: middle;
+      }
+    </style>
   </head>
   <body>
     <%- include('partials/navbar') %>
     <div class="container">
-      <h1>Existing Users in <%= list.title %></h1>
+      <h1 class="my-4">Existing Users in <%= list.title %></h1>
       <div class="row">
-        <div class="col-12">
+        <div class="col-12 header-button">
           <button
             class="btn btn-primary"
             onclick="location.href='/lists/<%= list._id %>'"
@@ -26,8 +41,8 @@
       </div>
       <div class="row">
         <div class="col-12">
-          <table class="table">
-            <thead>
+          <table class="table table-bordered table-hover">
+            <thead class="table-dark">
               <tr>
                 <th>Name</th>
                 <th>Email</th>
@@ -54,5 +69,15 @@
         </div>
       </div>
     </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+      integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>

@@ -127,6 +127,7 @@
         <div class="col-md-6">
           <div class="csv-upload-group">
             <h2>Upload users via CSV</h2>
+            <p>The CSV file should have a 'name' and 'email' column</p>
             <form
               action="/lists/<%= list._id %>/users/upload"
               method="POST"

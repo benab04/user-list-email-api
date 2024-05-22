@@ -27,7 +27,7 @@ exports.deleteList = async (req, res) => {
     await User.deleteMany({ listId: listId });
     await List.findByIdAndDelete(req.params.id);
     const lists = await List.find({});
-    res.render("dashboard", { lists });
+    res.redirect("/lists");
   } catch (error) {
     res.status(500).send(error.message);
   }
@@ -36,6 +36,7 @@ exports.deleteList = async (req, res) => {
 exports.getDashboard = async (req, res) => {
   try {
     const lists = await List.find({});
+
     res.render("dashboard", { lists });
   } catch (error) {
     res.status(500).send(error.message);
@@ -48,7 +49,7 @@ exports.updateFallbacks = async (req, res) => {
   try {
     const list = await List.findById(listId);
     if (!list) {
-      return res.status(404).send("List not found");
+      res.render("error");
     }
 
     list.customProperties.forEach((property) => {

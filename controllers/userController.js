@@ -13,6 +13,9 @@ exports.getUsers = async (req, res) => {
   try {
     const list = await List.findById(req.params.id);
     const users = await User.find({ listId: req.params.id });
+    if (!list) {
+      res.render("error");
+    }
     res.render("showUsers", { list, users });
   } catch (error) {
     res.status(500).send(error.message);

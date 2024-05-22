@@ -89,7 +89,9 @@ exports.uploadUsers = [
           firstRow = Object.fromEntries(
             Object.entries(sanitizedData).map(([key, value]) => [
               key,
-              "NAdefault",
+              value === null || value.trim() === ""
+                ? "NAdefault"
+                : value.trim(),
             ])
           );
         }
@@ -159,7 +161,14 @@ exports.uploadUsers = [
             user["Database Status"] = `Error: ${error.message}`;
             errors.push({ user, error: error.message });
           }
-          outputData.push(user);
+          // Ensure output data contains fallback values where necessary
+          const outputUser = { ...user };
+          csvHeaders.forEach((header) => {
+            if (!user[header]) {
+              outputUser[header] = fallbackValues[header];
+            }
+          });
+          outputData.push(outputUser);
         }
 
         await csvWriter.writeRecords(outputData);
@@ -180,7 +189,6 @@ exports.uploadUsers = [
     }
   },
 ];
-
 exports.deleteUser = async (req, res) => {
   const { id1: listId, id2: userId } = req.params;
   if (

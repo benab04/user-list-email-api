@@ -49,9 +49,10 @@ exports.updateFallbacks = async (req, res) => {
   try {
     const list = await List.findById(listId);
     if (!list) {
-      res.render("error");
+      return res.render("error");
     }
 
+    // Update fallback values for custom properties
     list.customProperties.forEach((property) => {
       if (fallbacks[property.title]) {
         property.fallback = fallbacks[property.title];
@@ -59,6 +60,25 @@ exports.updateFallbacks = async (req, res) => {
     });
 
     await list.save();
+
+    // Update existing users' properties with latest fallback values
+    const users = await User.find({ listId: listId });
+    users.forEach(async (user) => {
+      let updatedUser = user;
+      let updated = false;
+      list.customProperties.forEach((property) => {
+        if (
+          updatedUser.customProperties.has(property.title) &&
+          updatedUser.customProperties.get(property.title) === "NAdefault"
+        ) {
+          updatedUser.customProperties.set(property.title, property.fallback);
+          updated = true;
+        }
+      });
+      if (updated) {
+        await updatedUser.save();
+      }
+    });
 
     res.redirect(`/lists/${listId}`);
   } catch (error) {

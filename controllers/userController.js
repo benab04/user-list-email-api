@@ -89,9 +89,7 @@ exports.uploadUsers = [
           firstRow = Object.fromEntries(
             Object.entries(sanitizedData).map(([key, value]) => [
               key,
-              value === null || value.trim() === ""
-                ? "NAdefault"
-                : value.trim(),
+              "NAdefault",
             ])
           );
         }

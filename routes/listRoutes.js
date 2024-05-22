@@ -11,5 +11,4 @@ router.post("/", listController.createList);
 router.get("/:id", listController.getList);
 router.delete("/:id", listController.deleteList);
 router.post("/:id/fallbacks", listController.updateFallbacks);
-
 module.exports = router;

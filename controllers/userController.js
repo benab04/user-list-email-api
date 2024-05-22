@@ -77,14 +77,23 @@ exports.uploadUsers = [
       let firstRow = null;
 
       stream.on("headers", (headers) => {
-        csvHeaders = headers;
+        csvHeaders = headers.map((header) => header.replace(/\./g, "_"));
       });
 
       stream.on("data", (data) => {
-        if (!firstRow) {
-          firstRow = data;
+        const sanitizedData = {};
+        for (let key in data) {
+          sanitizedData[key.replace(/\./g, "_")] = data[key];
         }
-        results.push(data);
+        if (!firstRow) {
+          firstRow = Object.fromEntries(
+            Object.entries(sanitizedData).map(([key, value]) => [
+              key,
+              "NAdefault",
+            ])
+          );
+        }
+        results.push(sanitizedData);
       });
 
       stream.on("end", async () => {
@@ -99,14 +108,15 @@ exports.uploadUsers = [
         );
 
         for (let newProp of newCustomProperties) {
-          const fallbackValue = firstRow[newProp] || "";
+          const fallbackValue =
+            list.customProperties[newProp.title] || firstRow[newProp];
+
           list.customProperties.push({
             title: newProp,
             fallback: fallbackValue,
           });
           fallbackValues[newProp] = fallbackValue;
         }
-
         await list.save();
 
         const outputFilePath = path.join(__dirname, "../output.csv");
@@ -119,27 +129,36 @@ exports.uploadUsers = [
         });
 
         const outputData = [];
-
         for (let user of results) {
           try {
             const customProperties = {};
+
             list.customProperties.forEach((prop) => {
               customProperties[prop.title] =
                 user[prop.title] || fallbackValues[prop.title];
             });
+
+            // Ensure all values are strings
+            const customPropertiesMap = new Map(
+              Object.entries(customProperties).map(([key, value]) => [
+                key,
+                value.toString(),
+              ])
+            );
+
             await User.create({
               name: user.name,
               email: user.email,
               listId: list._id,
-              customProperties,
+              customProperties: customPropertiesMap,
             });
 
             user["Database Status"] = "Success";
           } catch (error) {
+            console.error("Error creating user:", error);
             user["Database Status"] = `Error: ${error.message}`;
             errors.push({ user, error: error.message });
           }
-
           outputData.push(user);
         }
 

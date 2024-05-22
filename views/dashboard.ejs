@@ -57,24 +57,37 @@
             <div class="card-body">
               <div class="d-flex justify-content-between align-items-center">
                 <h5 class="card-title"><%= list.title %></h5>
-                <form
-                  action="/lists/<%= list._id %>?_method=DELETE"
-                  method="POST"
-                  style="display: inline"
-                  onsubmit="return confirm('Are you sure you want to delete this list?');"
-                >
-                  <button type="submit" class="btn btn-danger btn-sm">
-                    Delete
-                  </button>
-                </form>
+                <div>
+                  <!-- <form
+                    action="/lists/<%= list._id %>/edit"
+                    method="GET"
+                    style="display: inline"
+                  >
+                    <button type="submit" class="btn btn-secondary btn-sm">
+                      Edit
+                    </button>
+                  </form> -->
+                  <form
+                    action="/lists/<%= list._id %>?_method=DELETE"
+                    method="POST"
+                    style="display: inline"
+                    onsubmit="return confirm('Are you sure you want to delete this list?');"
+                  >
+                    <button type="submit" class="btn btn-danger btn-sm">
+                      Delete
+                    </button>
+                  </form>
+                </div>
               </div>
               <div class="card-buttons d-flex justify-content-between">
-                <a href="/lists/<%= list._id %>" class="btn btn-primary btn-sm"
+                <a
+                  href="/lists/<%= list._id %>"
+                  class="btn btn-secondary btn-sm"
                   >Manage Users</a
                 >
                 <a
                   href="/lists/<%= list._id %>/users"
-                  class="btn btn-primary btn-sm"
+                  class="btn btn-secondary btn-sm"
                   >Existing Users</a
                 >
               </div>

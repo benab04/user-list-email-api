@@ -49,6 +49,7 @@
                 <% list.customProperties.forEach((property) => { %>
                 <th><%= property.title %></th>
                 <% }); %>
+                <th>Action</th>
               </tr>
             </thead>
             <tbody>
@@ -62,7 +63,20 @@
                   property.fallback %>
                 </td>
                 <% }); %>
+                <td>
+                  <form
+                    action="/lists/<%= list._id %>/users/<%= user._id %>?_method=DELETE"
+                    method="POST"
+                    style="display: inline"
+                    onsubmit="return confirm('Are you sure you want to delete this user?');"
+                  >
+                    <button type="submit" class="btn btn-danger btn-sm">
+                      Delete
+                    </button>
+                  </form>
+                </td>
               </tr>
+
               <% }); %>
             </tbody>
           </table>

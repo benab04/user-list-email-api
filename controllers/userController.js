@@ -1,5 +1,6 @@
 const User = require("../models/User.model");
 const List = require("../models/List.model");
+const mongoose = require("mongoose");
 const csvParser = require("csv-parser");
 const createCsvWriter = require("csv-writer").createObjectCsvWriter;
 const multer = require("multer");
@@ -157,3 +158,32 @@ exports.uploadUsers = [
     }
   },
 ];
+
+exports.deleteUser = async (req, res) => {
+  const { id1: listId, id2: userId } = req.params;
+  if (
+    !mongoose.Types.ObjectId.isValid(listId) ||
+    !mongoose.Types.ObjectId.isValid(userId)
+  ) {
+    return res.status(400).send("Invalid ID format");
+  }
+
+  try {
+    const list = await List.findById(listId);
+    if (!list) {
+      return res.status(404).send("List not found");
+    }
+
+    const user = await User.findOneAndDelete({
+      _id: userId,
+      listId: new mongoose.Types.ObjectId(listId),
+    });
+
+    res.redirect(`/lists/${listId}/users`);
+  } catch (error) {
+    console.error(error);
+    const list = await List.findById(req.params.id1);
+    const users = await User.find({ listId: req.params.id1 });
+    res.status(500).render("showUsers", { list, users });
+  }
+};

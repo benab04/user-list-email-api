@@ -73,6 +73,19 @@
       <div class="d-flex justify-content-between align-items-center">
         <h1>List: <%= list.title %></h1>
         <div class="text-center">
+          <!-- <form
+            action="/lists/<%= list._id %>/edit"
+            method="GET"
+            style="display: inline"
+          >
+            <button type="submit" class="btn btn-secondary btn-sm">Edit</button>
+          </form> -->
+          <button
+            class="btn btn-secondary my-0"
+            onclick="location.href='/lists/<%= list._id %>/edit'"
+          >
+            Edit List
+          </button>
           <button
             class="btn btn-secondary my-0"
             onclick="location.href='/lists/<%= list._id %>/users'"

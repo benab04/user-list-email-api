@@ -1,7 +1,7 @@
 const List = require("../models/List.model");
 const User = require("../models/User.model");
 const mongoose = require("mongoose");
-
+const axios = require("axios");
 exports.createList = async (req, res) => {
   try {
     const list = await List.create(req.body);
@@ -45,7 +45,6 @@ exports.getDashboard = async (req, res) => {
 exports.updateFallbacks = async (req, res) => {
   const listId = req.params.id;
   const { fallbacks } = req.body;
-
   try {
     const list = await List.findById(listId);
     if (!list) {
@@ -85,4 +84,45 @@ exports.updateFallbacks = async (req, res) => {
     console.error(error);
     res.status(500).send("Internal Server Error");
   }
+};
+exports.editList = async (req, res) => {
+  const listId = req.params.id;
+  const list = await List.findById(listId);
+  res.render("editList", { list });
+};
+exports.updateList = async (req, res) => {
+  const listId = req.params.id;
+  await List.findByIdAndUpdate(listId, req.body);
+  const list = await List.findById(listId);
+  let propertiesToBeUpdated = {};
+  list.customProperties.forEach((property) => {
+    propertiesToBeUpdated[property.title] = property.fallback;
+  });
+  const users = await User.find({ listId: listId });
+  users.forEach(async (user) => {
+    let updatedUser = user;
+    let updated = false;
+    list.customProperties.forEach((property) => {
+      if (updatedUser.customProperties.has(property.title)) {
+        let tempFallback =
+          updatedUser.customProperties.get(property.title) || "NAdefault";
+        updatedUser.customProperties.set(property.title, tempFallback);
+        updated = true;
+      } else {
+        updatedUser.customProperties.set(property.title, "NAdefault");
+        updated = true;
+      }
+    });
+    updatedUser.customProperties.forEach((value, key) => {
+      if (!list.customProperties.some((property) => property.title === key)) {
+        updatedUser.customProperties.delete(key);
+        updated = true;
+      }
+    });
+    if (updated) {
+      await updatedUser.save();
+    }
+  });
+  res.redirect(`/lists/${listId}`);
+  //   res.redirect(`/lists/${listId}/edit`);
 };

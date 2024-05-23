@@ -25,7 +25,7 @@ exports.getUsers = async (req, res) => {
 exports.createUser = async (req, res) => {
   try {
     const list = await List.findById(req.params.id);
-
+    console.log(req.body);
     const existingUser = await User.findOne({
       listId: list._id,
       email: req.body.email,
@@ -210,12 +210,12 @@ exports.deleteUser = async (req, res) => {
       return res.status(404).send("List not found");
     }
 
-    const user = await User.findOneAndDelete({
+    const response = await User.findOneAndDelete({
       _id: userId,
       listId: new mongoose.Types.ObjectId(listId),
     });
-
-    res.redirect(`/lists/${listId}/users`);
+    if (response) res.redirect(`/lists/${listId}/users`);
+    else res.render("error");
   } catch (error) {
     console.error(error);
     const list = await List.findById(req.params.id1);

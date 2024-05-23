@@ -8,7 +8,6 @@ router.get("/:id", apiController.getList);
 router.put("/:id", apiController.updateList);
 router.delete("/:id", apiController.deleteList);
 router.post("/:id/fallbacks", apiController.updateFallbacks);
-router.get("/:id/users", apiController.getUsers);
 router.post("/:id/users", apiController.createUser);
 router.post("/:id/users/upload", apiController.uploadUsers);
 router.delete("/:id1/users/:id2", apiController.deleteUser);

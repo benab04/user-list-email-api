@@ -9,19 +9,6 @@ const path = require("path");
 
 const upload = multer({ dest: "uploads/" });
 
-exports.getUsers = async (req, res) => {
-  try {
-    const list = await List.findById(req.params.id);
-    const users = await User.find({ listId: req.params.id });
-    if (!list) {
-      res.json({ error: "Something went wrong!" });
-    }
-    res.json({ list, users });
-  } catch (error) {
-    res.status(500).json({ error: error.message });
-  }
-};
-
 exports.createUser = async (req, res) => {
   try {
     const list = await List.findById(req.params.id);
@@ -209,12 +196,13 @@ exports.deleteUser = async (req, res) => {
       return res.status(404).send("List not found");
     }
 
-    const user = await User.findOneAndDelete({
+    const response = await User.findOneAndDelete({
       _id: userId,
       listId: new mongoose.Types.ObjectId(listId),
     });
-
-    res.status(200).json({ message: "User deleted successfully" });
+    if (response)
+      res.status(200).json({ message: "User deleted successfully" });
+    else res.status(404).json({ message: "User not found in list" });
   } catch (error) {
     console.error(error);
     const list = await List.findById(req.params.id1);
@@ -223,10 +211,6 @@ exports.deleteUser = async (req, res) => {
   }
 };
 
-// {
-//     title: 'new',
-//     customProperties: [ { title: 'country', fallback: 'india' } ]
-//   }
 exports.createList = async (req, res) => {
   try {
     const list = await List.create(req.body);

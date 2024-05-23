@@ -347,7 +347,7 @@ exports.updateList = async (req, res) => {
         await updatedUser.save();
       }
     });
-    res.json(200).json({ message: "List updated successfully" });
+    res.status(200).json({ message: "List updated successfully" });
   } catch (error) {
     res.status(500).json({ error: error.message });
   }

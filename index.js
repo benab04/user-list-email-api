@@ -20,7 +20,6 @@ app.use(methodOverride("_method"));
 app.use(cookieParser());
 app.set("view engine", "ejs");
 
-// const CONNECTION_STRING = "mongodb://localhost:27017/";
 const CONNECTION_STRING = `mongodb+srv://${mongoUser}:${mongoPassword}@cluster0.rwqcumw.mongodb.net/UserListManagement?retryWrites=true&w=majority`;
 
 mongoose
@@ -38,14 +37,6 @@ mongoose
 app.get("/", (req, res) => {
   res.redirect("/lists");
 });
-// app.get("/dashboard", async (req, res) => {
-//   try {
-//     const lists = await List.find({});
-//     res.render("dashboard", { lists });
-//   } catch (error) {
-//     res.status(500).send(error.message);
-//   }
-// });
 
 app.use("/lists", listRoutes);
 app.use("/lists", userRoutes);

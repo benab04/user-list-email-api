@@ -15,5 +15,5 @@ const listSchema = new Schema({
   ],
 });
 
-const Mathongolist = mongoose.model("Lists", listSchema);
-module.exports = Mathongolist;
+const Lists = mongoose.model("Lists", listSchema);
+module.exports = Lists;

@@ -7,7 +7,7 @@ const mathongoSchema = new Schema(
     email: { type: String, required: true },
     listId: {
       type: Schema.Types.ObjectId,
-      ref: "Mathongolist",
+      ref: "Users",
       required: true,
     },
     customProperties: { type: Map, of: String },
@@ -15,6 +15,6 @@ const mathongoSchema = new Schema(
   { timestamps: true }
 );
 
-const Mathongousers = mongoose.model("Users", mathongoSchema);
+const Users = mongoose.model("Users", mathongoSchema);
 
-module.exports = Mathongousers;
+module.exports = Users;

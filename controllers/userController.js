@@ -146,14 +146,22 @@ exports.uploadUsers = [
               ])
             );
 
-            await User.create({
-              name: user.name,
+            const existingUser = await User.findOne({
+              listId: listId,
               email: user.email,
-              listId: list._id,
-              customProperties: customPropertiesMap,
             });
+            if (!existingUser) {
+              await User.create({
+                name: user.name,
+                email: user.email,
+                listId: list._id,
+                customProperties: customPropertiesMap,
+              });
 
-            user["Database Status"] = "Success";
+              user["Database Status"] = "Success";
+            } else {
+              user["Database Status"] = "Error: Email already exists in list";
+            }
           } catch (error) {
             console.error("Error creating user:", error);
             user["Database Status"] = `Error: ${error.message}`;

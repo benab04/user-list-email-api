@@ -5,6 +5,8 @@ const axios = require("axios");
 exports.createList = async (req, res) => {
   try {
     const list = await List.create(req.body);
+    console.log(req.body);
+
     res.redirect(`/lists/${list._id}`);
   } catch (error) {
     res.status(500).send(error.message);

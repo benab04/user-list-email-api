@@ -6,6 +6,7 @@ const cookieParser = require("cookie-parser");
 require("dotenv").config();
 const listRoutes = require("./routes/listRoutes");
 const userRoutes = require("./routes/userRoutes");
+const apiRoutes = require("./routes/apiRoutes");
 const List = require("./models/List.model");
 
 const app = express();
@@ -48,7 +49,7 @@ app.get("/", (req, res) => {
 
 app.use("/lists", listRoutes);
 app.use("/lists", userRoutes);
-
+app.use("/api/lists", apiRoutes);
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
 });
